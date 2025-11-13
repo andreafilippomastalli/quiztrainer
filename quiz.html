@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QuizTrainer - Quiz</title>
+    <link rel="icon" type="image/svg+xml" href="favicon.svg">
+    <link rel="stylesheet" href="css/style.css?v=2.3">
+</head>
+<body>
+    <div class="container">
+        <!-- SETUP SCREEN -->
+        <div id="setupScreen" class="screen active">
+            <header>
+                <h1>🎯 QuizTrainer</h1>
+                <p class="subtitle" id="subjectName">Informatica - Patente ECDL</p>
+            </header>
+
+            <div class="setup-panel">
+                <section class="setup-section">
+                    <h2>📚 Seleziona Argomenti</h2>
+                    <div id="topicsCheckboxes" class="topics-grid">
+                        <!-- Generato dinamicamente -->
+                    </div>
+                    <p class="topics-count">Domande disponibili: <strong id="availableQuestionsCount">0</strong></p>
+                </section>
+
+                <section class="setup-section">
+                    <h2>🔢 Numero di Domande</h2>
+                    <div class="radio-group">
+                        <label><input type="radio" name="numQuestions" value="10"> 10 domande</label>
+                        <label><input type="radio" name="numQuestions" value="20" checked> 20 domande</label>
+                        <label><input type="radio" name="numQuestions" value="30"> 30 domande</label>
+                        <label><input type="radio" name="numQuestions" value="40"> 40 domande</label>
+                        <label><input type="radio" name="numQuestions" value="50"> 50 domande</label>
+                        <label><input type="radio" name="numQuestions" value="all"> Tutte</label>
+                    </div>
+                </section>
+
+                <section class="setup-section">
+                    <h2>🎯 Livello di Difficoltà</h2>
+                    <div class="radio-group">
+                        <label><input type="radio" name="difficulty" value="base" checked> Base - Domande dirette</label>
+                        <label><input type="radio" name="difficulty" value="intermedio"> Intermedio - Mix bilanciato</label>
+                        <label><input type="radio" name="difficulty" value="avanzato"> Avanzato - Domande complesse</label>
+                        <label><input type="radio" name="difficulty" value="bastardo"> Bastardo - Trabocchetti e casini 😈</label>
+                    </div>
+                </section>
+
+                <section class="setup-section">
+                    <h2>🎲 Numero di Risposte</h2>
+                    <div class="radio-group">
+                        <label><input type="radio" name="numAnswers" value="3"> 3 risposte</label>
+                        <label><input type="radio" name="numAnswers" value="4" checked> 4 risposte</label>
+                        <label><input type="radio" name="numAnswers" value="5"> 5 risposte</label>
+                    </div>
+                </section>
+
+                <section class="setup-section">
+                    <h2>⏱️ Timer</h2>
+                    <div class="checkbox-group">
+                        <label>
+                            <input type="checkbox" id="enableTimer"> Abilita timer
+                        </label>
+                    </div>
+                    <div id="timerOptions" class="radio-group" style="display: none; margin-top: 10px;">
+                        <label><input type="radio" name="timerDuration" value="30"> 30 secondi</label>
+                        <label><input type="radio" name="timerDuration" value="60" checked> 60 secondi</label>
+                        <label><input type="radio" name="timerDuration" value="90"> 90 secondi</label>
+                        <label><input type="radio" name="timerDuration" value="120"> 120 secondi</label>
+                    </div>
+                </section>
+
+                <section class="setup-section">
+                    <h2>📖 Modalità Recupero</h2>
+                    <div class="checkbox-group">
+                        <label>
+                            <input type="checkbox" id="enableRecovery"> Domande extra su errori
+                        </label>
+                    </div>
+                    <p class="help-text">Se attivo, riceverai nuove domande sugli argomenti dove hai sbagliato</p>
+                </section>
+
+                <div class="button-group">
+                    <button id="startQuizBtn" class="btn btn-primary btn-large">Inizia Quiz 🚀</button>
+                    <a href="index.html" class="btn btn-secondary">Cambia Materia</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- QUIZ SCREEN -->
+        <div id="quizScreen" class="screen">
+            <header class="quiz-header">
+                <div class="progress-info">
+                    <span id="questionNumber">1 / 20</span>
+                </div>
+                <div class="progress-bar">
+                    <div id="progressFill" class="progress-fill"></div>
+                </div>
+                <div id="timerDisplay" class="timer" style="display: none;">
+                    ⏱️ <span id="timeRemaining">60</span>s
+                </div>
+            </header>
+
+            <main class="quiz-content">
+                <div class="question-card">
+                    <p class="question-topic" id="questionTopic">Argomento</p>
+                    <h2 class="question-text" id="questionText">Testo della domanda</h2>
+                    
+                    <div class="answers-grid" id="answersGrid">
+                        <!-- Generato dinamicamente -->
+                    </div>
+
+                    <div class="quiz-actions">
+                        <button id="dontKnowBtn" class="btn btn-secondary">Non so</button>
+                    </div>
+                </div>
+            </main>
+        </div>
+
+        <!-- REPORT SCREEN -->
+        <div id="reportScreen" class="screen">
+            <header>
+                <h1>📊 Resoconto Finale</h1>
+            </header>
+
+            <div class="report-panel">
+                <div class="score-summary">
+                    <div class="score-main">
+                        <h2 id="finalScore">24/30</h2>
+                        <p id="finalPercentage">80%</p>
+                    </div>
+                    <div class="score-details">
+                        <p>⏱️ Tempo: <strong id="totalTime">18m 35s</strong></p>
+                        <p>🎯 Livello: <strong id="quizDifficulty">Avanzato</strong></p>
+                        <p>❓ Non so: <strong id="dontKnowCount">3</strong></p>
+                    </div>
+                </div>
+
+                <div class="topics-breakdown">
+                    <h3>Risultati per Argomento</h3>
+                    <div id="topicsBreakdown">
+                        <!-- Generato dinamicamente -->
+                    </div>
+                </div>
+
+                <div class="recovery-section" id="recoverySection" style="display: none;">
+                    <h3>🔄 Modalità Recupero</h3>
+                    <p>Hai sbagliato <strong id="wrongCount">8</strong> domande.</p>
+                    <p>Ti proponiamo nuove domande sugli argomenti dove hai avuto difficoltà.</p>
+                    <button id="startRecoveryBtn" class="btn btn-primary">Inizia Recupero</button>
+                </div>
+
+                <div class="recovery-results" id="recoveryResults" style="display: none;">
+                    <h3>📈 Risultati Recupero</h3>
+                    <p>Punteggio recupero: <strong id="recoveryScore">6/8 (75%)</strong></p>
+                </div>
+
+                <div class="button-group">
+                    <button id="reviewMistakesBtn" class="btn btn-primary">Rivedi Errori</button>
+                    <button id="newQuizBtn" class="btn btn-secondary">Nuovo Quiz</button>
+                    <a href="index.html" class="btn btn-secondary">Cambia Materia</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- REVIEW SCREEN -->
+        <div id="reviewScreen" class="screen">
+            <header>
+                <h1>🔍 Revisione Errori</h1>
+            </header>
+
+            <div class="review-panel" id="reviewPanel">
+                <!-- Generato dinamicamente -->
+            </div>
+
+            <div class="button-group">
+                <button id="backToReportBtn" class="btn btn-primary">Torna al Resoconto</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/quiz-engine.js"></script>
+</body>
+</html>

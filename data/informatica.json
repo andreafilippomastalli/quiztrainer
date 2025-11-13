@@ -1,0 +1,571 @@
+{
+  "materia": "Informatica - Patente ECDL",
+  "versione": "1.0",
+  "descrizione": "Domande per la preparazione alla Patente Europea del Computer",
+  "argomenti": [
+    {
+      "id": "hardware",
+      "nome": "Hardware e Componenti",
+      "domande": [
+        {
+          "id": 1,
+          "testo": "Cos'è la RAM?",
+          "livello": "base",
+          "risposte": [
+            {
+              "testo": "Memoria volatile ad accesso casuale che contiene i dati temporanei",
+              "corretta": true
+            },
+            {
+              "testo": "Un tipo di hard disk esterno",
+              "corretta": false
+            },
+            {
+              "testo": "La scheda grafica del computer",
+              "corretta": false
+            },
+            {
+              "testo": "Il processore principale del computer",
+              "corretta": false
+            },
+            {
+              "testo": "Un cavo per collegare periferiche",
+              "corretta": false
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "testo": "Quale tra questi NON è un dispositivo di input?",
+          "livello": "base",
+          "risposte": [
+            {
+              "testo": "Monitor",
+              "corretta": true
+            },
+            {
+              "testo": "Mouse",
+              "corretta": false
+            },
+            {
+              "testo": "Tastiera",
+              "corretta": false
+            },
+            {
+              "testo": "Scanner",
+              "corretta": false
+            },
+            {
+              "testo": "Microfono",
+              "corretta": false
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "testo": "Qual è la funzione principale della CPU?",
+          "livello": "intermedio",
+          "risposte": [
+            {
+              "testo": "Eseguire istruzioni ed elaborare dati",
+              "corretta": true
+            },
+            {
+              "testo": "Memorizzare file permanentemente",
+              "corretta": false
+            },
+            {
+              "testo": "Gestire la connessione a Internet",
+              "corretta": false
+            },
+            {
+              "testo": "Raffreddare il sistema",
+              "corretta": false
+            },
+            {
+              "testo": "Alimentare elettricamente il PC",
+              "corretta": false
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "testo": "Cosa significa SSD?",
+          "livello": "intermedio",
+          "risposte": [
+            {
+              "testo": "Solid State Drive - unità di archiviazione senza parti meccaniche",
+              "corretta": true
+            },
+            {
+              "testo": "Super Speed Device - dispositivo ad alta velocità",
+              "corretta": false
+            },
+            {
+              "testo": "System Storage Disk - disco di archiviazione di sistema",
+              "corretta": false
+            },
+            {
+              "testo": "Secure Storage Data - dati di archiviazione sicuri",
+              "corretta": false
+            },
+            {
+              "testo": "Standard System Disk - disco di sistema standard",
+              "corretta": false
+            }
+          ]
+        },
+        {
+          "id": 5,
+          "testo": "Quale tecnologia permette la comunicazione wireless a corto raggio tra dispositivi?",
+          "livello": "avanzato",
+          "risposte": [
+            {
+              "testo": "Bluetooth",
+              "corretta": true
+            },
+            {
+              "testo": "Fibra ottica",
+              "corretta": false
+            },
+            {
+              "testo": "Cavo Ethernet",
+              "corretta": false
+            },
+            {
+              "testo": "Modem ADSL",
+              "corretta": false
+            },
+            {
+              "testo": "Router 5G",
+              "corretta": false
+            }
+          ]
+        },
+        {
+          "id": 6,
+          "testo": "In un sistema a 64 bit, quanti byte può indirizzare teoricamente il processore nella RAM?",
+          "livello": "bastardo",
+          "risposte": [
+            {
+              "testo": "16 exabyte (2^64 byte)",
+              "corretta": true
+            },
+            {
+              "testo": "64 gigabyte",
+              "corretta": false
+            },
+            {
+              "testo": "4 terabyte",
+              "corretta": false
+            },
+            {
+              "testo": "128 petabyte",
+              "corretta": false
+            },
+            {
+              "testo": "8 zettabyte",
+              "corretta": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "software",
+      "nome": "Software e Sistemi Operativi",
+      "domande": [
+        {
+          "id": 7,
+          "testo": "Cos'è un sistema operativo?",
+          "livello": "base",
+          "risposte": [
+            {
+              "testo": "Software che gestisce l'hardware e fornisce servizi ai programmi",
+              "corretta": true
+            },
+            {
+              "testo": "Un programma per navigare su Internet",
+              "corretta": false
+            },
+            {
+              "testo": "Un antivirus per proteggere il computer",
+              "corretta": false
+            },
+            {
+              "testo": "Un'applicazione per scrivere documenti",
+              "corretta": false
+            },
+            {
+              "testo": "Un tipo di memoria del computer",
+              "corretta": false
+            }
+          ]
+        },
+        {
+          "id": 8,
+          "testo": "Quale tra questi è un sistema operativo?",
+          "livello": "base",
+          "risposte": [
+            {
+              "testo": "Linux",
+              "corretta": true
+            },
+            {
+              "testo": "Microsoft Word",
+              "corretta": false
+            },
+            {
+              "testo": "Google Chrome",
+              "corretta": false
+            },
+            {
+              "testo": "Adobe Photoshop",
+              "corretta": false
+            },
+            {
+              "testo": "Mozilla Firefox",
+              "corretta": false
+            }
+          ]
+        },
+        {
+          "id": 9,
+          "testo": "Cosa si intende per 'open source'?",
+          "livello": "intermedio",
+          "risposte": [
+            {
+              "testo": "Software il cui codice sorgente è liberamente accessibile e modificabile",
+              "corretta": true
+            },
+            {
+              "testo": "Software gratuito ma non modificabile",
+              "corretta": false
+            },
+            {
+              "testo": "Un tipo di licenza commerciale",
+              "corretta": false
+            },
+            {
+              "testo": "Software che funziona solo online",
+              "corretta": false
+            },
+            {
+              "testo": "Un metodo di protezione da virus",
+              "corretta": false
+            }
+          ]
+        },
+        {
+          "id": 10,
+          "testo": "Qual è la differenza principale tra software di sistema e software applicativo?",
+          "livello": "avanzato",
+          "risposte": [
+            {
+              "testo": "Il software di sistema gestisce le risorse hardware, quello applicativo svolge compiti specifici per l'utente",
+              "corretta": true
+            },
+            {
+              "testo": "Il software di sistema è sempre gratuito, quello applicativo è a pagamento",
+              "corretta": false
+            },
+            {
+              "testo": "Il software di sistema funziona solo su Windows, quello applicativo è multipiattaforma",
+              "corretta": false
+            },
+            {
+              "testo": "Il software di sistema richiede internet, quello applicativo funziona offline",
+              "corretta": false
+            },
+            {
+              "testo": "Non c'è differenza sostanziale tra i due",
+              "corretta": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "reti",
+      "nome": "Reti e Internet",
+      "domande": [
+        {
+          "id": 11,
+          "testo": "Cosa significa WWW?",
+          "livello": "base",
+          "risposte": [
+            {
+              "testo": "World Wide Web",
+              "corretta": true
+            },
+            {
+              "testo": "Wide World Web",
+              "corretta": false
+            },
+            {
+              "testo": "World Web Wide",
+              "corretta": false
+            },
+            {
+              "testo": "Web World Wide",
+              "corretta": false
+            },
+            {
+              "testo": "Wireless Web World",
+              "corretta": false
+            }
+          ]
+        },
+        {
+          "id": 12,
+          "testo": "Cos'è un indirizzo IP?",
+          "livello": "base",
+          "risposte": [
+            {
+              "testo": "Un identificativo numerico univoco assegnato a ogni dispositivo in rete",
+              "corretta": true
+            },
+            {
+              "testo": "Un tipo di cavo di rete",
+              "corretta": false
+            },
+            {
+              "testo": "Un protocollo di sicurezza",
+              "corretta": false
+            },
+            {
+              "testo": "Un software per navigare",
+              "corretta": false
+            },
+            {
+              "testo": "Un metodo di crittografia",
+              "corretta": false
+            }
+          ]
+        },
+        {
+          "id": 13,
+          "testo": "Qual è la differenza tra HTTP e HTTPS?",
+          "livello": "intermedio",
+          "risposte": [
+            {
+              "testo": "HTTPS utilizza crittografia SSL/TLS per comunicazioni sicure",
+              "corretta": true
+            },
+            {
+              "testo": "HTTPS è più lento ma gratuito",
+              "corretta": false
+            },
+            {
+              "testo": "HTTP funziona solo su Windows",
+              "corretta": false
+            },
+            {
+              "testo": "HTTPS è utilizzato solo per email",
+              "corretta": false
+            },
+            {
+              "testo": "Non c'è differenza sostanziale",
+              "corretta": false
+            }
+          ]
+        },
+        {
+          "id": 14,
+          "testo": "Cosa rappresenta la subnet mask in una rete?",
+          "livello": "avanzato",
+          "risposte": [
+            {
+              "testo": "Definisce quali bit dell'indirizzo IP identificano la rete e quali l'host",
+              "corretta": true
+            },
+            {
+              "testo": "È un sistema di sicurezza per bloccare virus",
+              "corretta": false
+            },
+            {
+              "testo": "Indica la velocità massima della connessione",
+              "corretta": false
+            },
+            {
+              "testo": "Rappresenta il numero massimo di dispositivi collegabili",
+              "corretta": false
+            },
+            {
+              "testo": "È il nome del provider Internet",
+              "corretta": false
+            }
+          ]
+        },
+        {
+          "id": 15,
+          "testo": "Nel protocollo TCP, cosa rappresenta il 'three-way handshake'?",
+          "livello": "bastardo",
+          "risposte": [
+            {
+              "testo": "La sequenza SYN, SYN-ACK, ACK per stabilire una connessione",
+              "corretta": true
+            },
+            {
+              "testo": "Un metodo di crittografia a tre livelli",
+              "corretta": false
+            },
+            {
+              "testo": "Il processo di autenticazione con tre password",
+              "corretta": false
+            },
+            {
+              "testo": "La divisione dei pacchetti in tre parti",
+              "corretta": false
+            },
+            {
+              "testo": "Un protocollo di backup su tre server",
+              "corretta": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sicurezza",
+      "nome": "Sicurezza Informatica",
+      "domande": [
+        {
+          "id": 16,
+          "testo": "Cos'è un virus informatico?",
+          "livello": "base",
+          "risposte": [
+            {
+              "testo": "Un programma malevolo che si replica e danneggia il sistema",
+              "corretta": true
+            },
+            {
+              "testo": "Un errore nel sistema operativo",
+              "corretta": false
+            },
+            {
+              "testo": "Un tipo di spam via email",
+              "corretta": false
+            },
+            {
+              "testo": "Un problema hardware",
+              "corretta": false
+            },
+            {
+              "testo": "Un aggiornamento automatico",
+              "corretta": false
+            }
+          ]
+        },
+        {
+          "id": 17,
+          "testo": "Cosa significa 'phishing'?",
+          "livello": "intermedio",
+          "risposte": [
+            {
+              "testo": "Tentativo fraudolento di ottenere informazioni sensibili fingendosi un'entità affidabile",
+              "corretta": true
+            },
+            {
+              "testo": "Un metodo per velocizzare la connessione Internet",
+              "corretta": false
+            },
+            {
+              "testo": "Un tipo di firewall avanzato",
+              "corretta": false
+            },
+            {
+              "testo": "Un sistema di backup automatico",
+              "corretta": false
+            },
+            {
+              "testo": "Una tecnica di programmazione",
+              "corretta": false
+            }
+          ]
+        },
+        {
+          "id": 18,
+          "testo": "Qual è lo scopo principale di un firewall?",
+          "livello": "intermedio",
+          "risposte": [
+            {
+              "testo": "Monitorare e controllare il traffico di rete in entrata e uscita",
+              "corretta": true
+            },
+            {
+              "testo": "Accelerare la connessione Internet",
+              "corretta": false
+            },
+            {
+              "testo": "Comprimere i file per risparmiare spazio",
+              "corretta": false
+            },
+            {
+              "testo": "Raffreddare il processore",
+              "corretta": false
+            },
+            {
+              "testo": "Aggiornare automaticamente il sistema operativo",
+              "corretta": false
+            }
+          ]
+        },
+        {
+          "id": 19,
+          "testo": "Cos'è la crittografia end-to-end?",
+          "livello": "avanzato",
+          "risposte": [
+            {
+              "testo": "Cifratura dei dati dove solo mittente e destinatario possono decodificare il messaggio",
+              "corretta": true
+            },
+            {
+              "testo": "Un tipo di connessione Internet più veloce",
+              "corretta": false
+            },
+            {
+              "testo": "Un metodo per comprimere file di grandi dimensioni",
+              "corretta": false
+            },
+            {
+              "testo": "Una tecnologia per aumentare la durata della batteria",
+              "corretta": false
+            },
+            {
+              "testo": "Un sistema di backup su cloud",
+              "corretta": false
+            }
+          ]
+        },
+        {
+          "id": 20,
+          "testo": "In un attacco man-in-the-middle, qual è il rischio principale?",
+          "livello": "bastardo",
+          "risposte": [
+            {
+              "testo": "Un attaccante intercetta e potenzialmente modifica la comunicazione tra due parti",
+              "corretta": true
+            },
+            {
+              "testo": "Il computer viene rallentato da troppi processi",
+              "corretta": false
+            },
+            {
+              "testo": "I file vengono duplicati occupando spazio",
+              "corretta": false
+            },
+            {
+              "testo": "La batteria si scarica più velocemente",
+              "corretta": false
+            },
+            {
+              "testo": "Il sistema operativo si corrompe",
+              "corretta": false
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

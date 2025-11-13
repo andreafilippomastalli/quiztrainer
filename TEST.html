@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QuizTrainer - Test Rapido</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🧪 QuizTrainer - Test Chimica</h1>
+            <p class="subtitle">Versione di test rapida (senza server)</p>
+        </header>
+
+        <main class="subject-selection">
+            <h2>Come Usare QuizTrainer</h2>
+            
+            <div style="background: white; padding: 30px; border-radius: 15px; margin: 20px 0;">
+                <h3 style="color: #667eea; margin-bottom: 20px;">⚠️ Importante: Serve un Server Locale</h3>
+                
+                <p style="margin-bottom: 15px;">
+                    Per motivi di sicurezza del browser (CORS), QuizTrainer non può caricare file JSON 
+                    se apri direttamente <code>index.html</code> con doppio click.
+                </p>
+
+                <h4 style="color: #667eea; margin: 20px 0 10px 0;">✅ Soluzione: Usa un Server Locale</h4>
+
+                <div style="background: #f8f9fa; padding: 20px; border-radius: 10px; margin: 15px 0;">
+                    <h5 style="margin-bottom: 10px;">Metodo 1: Python (più semplice)</h5>
+                    <p>Apri il terminale nella cartella <code>quiztrainer</code> e digita:</p>
+                    <pre style="background: #2d3748; color: #48bb78; padding: 15px; border-radius: 5px; overflow-x: auto; margin: 10px 0;">python -m http.server 8000</pre>
+                    <p>Poi apri il browser e vai su: <a href="http://localhost:8000" target="_blank">http://localhost:8000</a></p>
+                </div>
+
+                <div style="background: #f8f9fa; padding: 20px; border-radius: 10px; margin: 15px 0;">
+                    <h5 style="margin-bottom: 10px;">Metodo 2: Python 2</h5>
+                    <pre style="background: #2d3748; color: #48bb78; padding: 15px; border-radius: 5px; overflow-x: auto; margin: 10px 0;">python -m SimpleHTTPServer 8000</pre>
+                </div>
+
+                <div style="background: #f8f9fa; padding: 20px; border-radius: 10px; margin: 15px 0;">
+                    <h5 style="margin-bottom: 10px;">Metodo 3: Node.js</h5>
+                    <pre style="background: #2d3748; color: #48bb78; padding: 15px; border-radius: 5px; overflow-x: auto; margin: 10px 0;">npx http-server -p 8000</pre>
+                </div>
+
+                <div style="background: #f8f9fa; padding: 20px; border-radius: 10px; margin: 15px 0;">
+                    <h5 style="margin-bottom: 10px;">Metodo 4: VS Code Live Server</h5>
+                    <p>1. Apri la cartella in VS Code</p>
+                    <p>2. Installa l'estensione "Live Server"</p>
+                    <p>3. Right-click su <code>index.html</code> → "Open with Live Server"</p>
+                </div>
+
+                <h4 style="color: #667eea; margin: 20px 0 10px 0;">🚀 Oppure Pubblica su GitHub Pages</h4>
+                <p>Segui le istruzioni nel file <code>ISTRUZIONI_GITHUB.md</code> per pubblicare online!</p>
+
+                <div style="margin-top: 30px; padding: 20px; background: #e8f5e9; border-radius: 10px; border-left: 4px solid #4caf50;">
+                    <strong>✅ Una volta avviato il server locale:</strong>
+                    <ol style="margin: 10px 0; padding-left: 20px;">
+                        <li>Vai su <code>http://localhost:8000</code></li>
+                        <li>Click su Chimica 🧪</li>
+                        <li>Configura il quiz</li>
+                        <li>Divertiti! 🎉</li>
+                    </ol>
+                </div>
+            </div>
+        </main>
+
+        <footer>
+            <p>Leggi <strong>TEST_LOCALE.md</strong> per maggiori dettagli</p>
+        </footer>
+    </div>
+</body>
+</html>

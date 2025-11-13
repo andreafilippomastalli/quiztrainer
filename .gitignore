@@ -1,0 +1,19 @@
+# OS
+.DS_Store
+Thumbs.db
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Node (se aggiungerai build tools in futuro)
+node_modules/
+npm-debug.log
+package-lock.json
+
+# Test files
+*.test.js
+coverage/

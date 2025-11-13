@@ -1,0 +1,45 @@
+{
+  "materia": "Nome Materia",
+  "versione": "1.0",
+  "descrizione": "Descrizione della materia",
+  "argomenti": [
+    {
+      "id": "argomento-1",
+      "nome": "Nome Argomento 1",
+      "domande": [
+        {
+          "id": 1,
+          "testo": "Testo della domanda?",
+          "livello": "base",
+          "risposte": [
+            {
+              "testo": "Risposta corretta",
+              "corretta": true
+            },
+            {
+              "testo": "Risposta sbagliata 1",
+              "corretta": false
+            },
+            {
+              "testo": "Risposta sbagliata 2",
+              "corretta": false
+            },
+            {
+              "testo": "Risposta sbagliata 3",
+              "corretta": false
+            },
+            {
+              "testo": "Risposta sbagliata 4 (opzionale)",
+              "corretta": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "argomento-2",
+      "nome": "Nome Argomento 2",
+      "domande": []
+    }
+  ]
+}

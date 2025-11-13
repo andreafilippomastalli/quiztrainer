@@ -1,0 +1,1036 @@
+{
+  "materia": "Chimica",
+  "versione": "1.0",
+  "descrizione": "Quiz di chimica generale per studenti universitari",
+  "argomenti": [
+    {
+      "id": "tavola-periodica",
+      "nome": "Tavola Periodica",
+      "domande": [
+        {
+          "id": 1,
+          "testo": "Qual è il simbolo chimico del sodio?",
+          "livello": "base",
+          "risposte": [
+            {"testo": "Na", "corretta": true},
+            {"testo": "So", "corretta": false},
+            {"testo": "Sd", "corretta": false},
+            {"testo": "N", "corretta": false},
+            {"testo": "S", "corretta": false}
+          ]
+        },
+        {
+          "id": 2,
+          "testo": "Quanti elettroni può contenere al massimo il primo livello energetico (n=1)?",
+          "livello": "base",
+          "risposte": [
+            {"testo": "2 elettroni", "corretta": true},
+            {"testo": "8 elettroni", "corretta": false},
+            {"testo": "18 elettroni", "corretta": false},
+            {"testo": "32 elettroni", "corretta": false},
+            {"testo": "1 elettrone", "corretta": false}
+          ]
+        },
+        {
+          "id": 3,
+          "testo": "Quale elemento ha numero atomico 6?",
+          "livello": "base",
+          "risposte": [
+            {"testo": "Carbonio", "corretta": true},
+            {"testo": "Ossigeno", "corretta": false},
+            {"testo": "Azoto", "corretta": false},
+            {"testo": "Boro", "corretta": false},
+            {"testo": "Litio", "corretta": false}
+          ]
+        },
+        {
+          "id": 4,
+          "testo": "Cosa indica il numero atomico di un elemento?",
+          "livello": "base",
+          "risposte": [
+            {"testo": "Il numero di protoni nel nucleo", "corretta": true},
+            {"testo": "Il numero di neutroni", "corretta": false},
+            {"testo": "La massa atomica", "corretta": false},
+            {"testo": "Il numero di elettroni di valenza", "corretta": false},
+            {"testo": "Il numero di livelli energetici", "corretta": false}
+          ]
+        },
+        {
+          "id": 5,
+          "testo": "Qual è il simbolo chimico del ferro?",
+          "livello": "base",
+          "risposte": [
+            {"testo": "Fe", "corretta": true},
+            {"testo": "Fr", "corretta": false},
+            {"testo": "F", "corretta": false},
+            {"testo": "Fe2", "corretta": false},
+            {"testo": "Fo", "corretta": false}
+          ]
+        },
+        {
+          "id": 6,
+          "testo": "Quanti gruppi (colonne) ha la tavola periodica moderna?",
+          "livello": "base",
+          "risposte": [
+            {"testo": "18 gruppi", "corretta": true},
+            {"testo": "8 gruppi", "corretta": false},
+            {"testo": "7 gruppi", "corretta": false},
+            {"testo": "16 gruppi", "corretta": false},
+            {"testo": "10 gruppi", "corretta": false}
+          ]
+        },
+        {
+          "id": 7,
+          "testo": "Quale elemento è il più leggero?",
+          "livello": "base",
+          "risposte": [
+            {"testo": "Idrogeno", "corretta": true},
+            {"testo": "Elio", "corretta": false},
+            {"testo": "Litio", "corretta": false},
+            {"testo": "Carbonio", "corretta": false},
+            {"testo": "Ossigeno", "corretta": false}
+          ]
+        },
+        {
+          "id": 8,
+          "testo": "Cos'è un isotopo?",
+          "livello": "base",
+          "risposte": [
+            {"testo": "Atomi dello stesso elemento con diverso numero di neutroni", "corretta": true},
+            {"testo": "Atomi con lo stesso numero di elettroni", "corretta": false},
+            {"testo": "Elementi dello stesso gruppo", "corretta": false},
+            {"testo": "Molecole identiche", "corretta": false},
+            {"testo": "Ioni con carica opposta", "corretta": false}
+          ]
+        },
+        {
+          "id": 9,
+          "testo": "Qual è il simbolo del calcio?",
+          "livello": "base",
+          "risposte": [
+            {"testo": "Ca", "corretta": true},
+            {"testo": "C", "corretta": false},
+            {"testo": "Cl", "corretta": false},
+            {"testo": "Cd", "corretta": false},
+            {"testo": "Co", "corretta": false}
+          ]
+        },
+        {
+          "id": 10,
+          "testo": "Quanti elettroni può contenere al massimo il secondo livello energetico (n=2)?",
+          "livello": "base",
+          "risposte": [
+            {"testo": "8 elettroni", "corretta": true},
+            {"testo": "2 elettroni", "corretta": false},
+            {"testo": "18 elettroni", "corretta": false},
+            {"testo": "6 elettroni", "corretta": false},
+            {"testo": "10 elettroni", "corretta": false}
+          ]
+        },
+        {
+          "id": 11,
+          "testo": "Quale gas nobile si trova nel secondo periodo?",
+          "livello": "base",
+          "risposte": [
+            {"testo": "Neon", "corretta": true},
+            {"testo": "Elio", "corretta": false},
+            {"testo": "Argon", "corretta": false},
+            {"testo": "Kripton", "corretta": false},
+            {"testo": "Xeno", "corretta": false}
+          ]
+        },
+        {
+          "id": 12,
+          "testo": "Cosa rappresenta la massa atomica?",
+          "livello": "base",
+          "risposte": [
+            {"testo": "La somma approssimata di protoni e neutroni", "corretta": true},
+            {"testo": "Il numero di elettroni", "corretta": false},
+            {"testo": "Solo il numero di protoni", "corretta": false},
+            {"testo": "Il peso dell'atomo in grammi", "corretta": false},
+            {"testo": "Il numero di livelli energetici", "corretta": false}
+          ]
+        },
+        {
+          "id": 13,
+          "testo": "Quale elemento ha simbolo O?",
+          "livello": "base",
+          "risposte": [
+            {"testo": "Ossigeno", "corretta": true},
+            {"testo": "Oro", "corretta": false},
+            {"testo": "Osmio", "corretta": false},
+            {"testo": "Olmio", "corretta": false},
+            {"testo": "Oganesson", "corretta": false}
+          ]
+        },
+        {
+          "id": 14,
+          "testo": "Quale gruppo della tavola periodica contiene i gas nobili?",
+          "livello": "intermedio",
+          "risposte": [
+            {"testo": "Gruppo 18 (VIII A)", "corretta": true},
+            {"testo": "Gruppo 1 (I A)", "corretta": false},
+            {"testo": "Gruppo 17 (VII A)", "corretta": false},
+            {"testo": "Gruppo 2 (II A)", "corretta": false},
+            {"testo": "Gruppo 16 (VI A)", "corretta": false}
+          ]
+        },
+        {
+          "id": 15,
+          "testo": "Come varia il raggio atomico scendendo in un gruppo?",
+          "livello": "intermedio",
+          "risposte": [
+            {"testo": "Aumenta progressivamente", "corretta": true},
+            {"testo": "Diminuisce progressivamente", "corretta": false},
+            {"testo": "Rimane costante", "corretta": false},
+            {"testo": "Prima aumenta poi diminuisce", "corretta": false},
+            {"testo": "Varia in modo casuale", "corretta": false}
+          ]
+        },
+        {
+          "id": 16,
+          "testo": "Quale configurazione elettronica è più stabile?",
+          "livello": "intermedio",
+          "risposte": [
+            {"testo": "Ottetto completo (8 elettroni nell'ultimo livello)", "corretta": true},
+            {"testo": "Sestetto (6 elettroni)", "corretta": false},
+            {"testo": "Quartetto (4 elettroni)", "corretta": false},
+            {"testo": "Duetto per tutti gli elementi", "corretta": false},
+            {"testo": "Livelli parzialmente riempiti", "corretta": false}
+          ]
+        },
+        {
+          "id": 17,
+          "testo": "Quali elementi sono chiamati metalli alcalini?",
+          "livello": "intermedio",
+          "risposte": [
+            {"testo": "Elementi del gruppo 1 (escluso idrogeno)", "corretta": true},
+            {"testo": "Tutti i metalli", "corretta": false},
+            {"testo": "Elementi del gruppo 2", "corretta": false},
+            {"testo": "Gas nobili", "corretta": false},
+            {"testo": "Metalli di transizione", "corretta": false}
+          ]
+        },
+        {
+          "id": 18,
+          "testo": "Cosa sono i metalli di transizione?",
+          "livello": "intermedio",
+          "risposte": [
+            {"testo": "Elementi dei gruppi 3-12 con elettroni negli orbitali d", "corretta": true},
+            {"testo": "Elementi che cambiano stato facilmente", "corretta": false},
+            {"testo": "Metalli leggeri del gruppo 1", "corretta": false},
+            {"testo": "Non metalli", "corretta": false},
+            {"testo": "Gas nobili metallici", "corretta": false}
+          ]
+        },
+        {
+          "id": 19,
+          "testo": "Quale tendenza segue l'elettronegatività nella tavola periodica?",
+          "livello": "intermedio",
+          "risposte": [
+            {"testo": "Aumenta verso destra e verso l'alto", "corretta": true},
+            {"testo": "Diminuisce verso destra", "corretta": false},
+            {"testo": "Aumenta scendendo nei gruppi", "corretta": false},
+            {"testo": "È uguale per tutti gli elementi", "corretta": false},
+            {"testo": "Diminuisce verso l'alto", "corretta": false}
+          ]
+        },
+        {
+          "id": 20,
+          "testo": "Cosa rappresenta il numero quantico principale n?",
+          "livello": "intermedio",
+          "risposte": [
+            {"testo": "Il livello energetico dell'elettrone", "corretta": true},
+            {"testo": "Il numero di protoni", "corretta": false},
+            {"testo": "Lo spin dell'elettrone", "corretta": false},
+            {"testo": "La forma dell'orbitale", "corretta": false},
+            {"testo": "Il numero di neutroni", "corretta": false}
+          ]
+        },
+        {
+          "id": 21,
+          "testo": "Quale elemento ha la più alta elettronegatività?",
+          "livello": "intermedio",
+          "risposte": [
+            {"testo": "Fluoro", "corretta": true},
+            {"testo": "Ossigeno", "corretta": false},
+            {"testo": "Azoto", "corretta": false},
+            {"testo": "Cloro", "corretta": false},
+            {"testo": "Carbonio", "corretta": false}
+          ]
+        },
+        {
+          "id": 22,
+          "testo": "Come si chiamano gli elementi del gruppo 17?",
+          "livello": "intermedio",
+          "risposte": [
+            {"testo": "Alogeni", "corretta": true},
+            {"testo": "Metalli alcalini", "corretta": false},
+            {"testo": "Gas nobili", "corretta": false},
+            {"testo": "Metalli alcalino-terrosi", "corretta": false},
+            {"testo": "Lantanidi", "corretta": false}
+          ]
+        },
+        {
+          "id": 23,
+          "testo": "Quale proprietà aumenta scendendo in un gruppo?",
+          "livello": "intermedio",
+          "risposte": [
+            {"testo": "Raggio atomico", "corretta": true},
+            {"testo": "Elettronegatività", "corretta": false},
+            {"testo": "Energia di ionizzazione", "corretta": false},
+            {"testo": "Affinità elettronica", "corretta": false},
+            {"testo": "Densità di carica nucleare", "corretta": false}
+          ]
+        },
+        {
+          "id": 24,
+          "testo": "Quanti elettroni di valenza ha un elemento del gruppo 14?",
+          "livello": "intermedio",
+          "risposte": [
+            {"testo": "4 elettroni", "corretta": true},
+            {"testo": "14 elettroni", "corretta": false},
+            {"testo": "8 elettroni", "corretta": false},
+            {"testo": "2 elettroni", "corretta": false},
+            {"testo": "6 elettroni", "corretta": false}
+          ]
+        },
+        {
+          "id": 25,
+          "testo": "Cosa indica il periodo in cui si trova un elemento?",
+          "livello": "intermedio",
+          "risposte": [
+            {"testo": "Il numero di livelli energetici occupati", "corretta": true},
+            {"testo": "Il numero di protoni", "corretta": false},
+            {"testo": "Il numero di elettroni di valenza", "corretta": false},
+            {"testo": "La massa atomica", "corretta": false},
+            {"testo": "Il numero di isotopi", "corretta": false}
+          ]
+        },
+        {
+          "id": 26,
+          "testo": "Quale affermazione è vera per i lantanidi?",
+          "livello": "intermedio",
+          "risposte": [
+            {"testo": "Sono elementi con orbitali f parzialmente riempiti", "corretta": true},
+            {"testo": "Sono tutti gas nobili", "corretta": false},
+            {"testo": "Si trovano nel gruppo 1", "corretta": false},
+            {"testo": "Hanno solo 2 elettroni di valenza", "corretta": false},
+            {"testo": "Sono non metalli", "corretta": false}
+          ]
+        },
+        {
+          "id": 27,
+          "testo": "Come varia l'elettronegatività muovendosi da sinistra a destra in un periodo?",
+          "livello": "avanzato",
+          "risposte": [
+            {"testo": "Aumenta progressivamente (escludendo i gas nobili)", "corretta": true},
+            {"testo": "Diminuisce progressivamente", "corretta": false},
+            {"testo": "Rimane costante", "corretta": false},
+            {"testo": "Prima aumenta poi diminuisce", "corretta": false},
+            {"testo": "Varia in modo casuale", "corretta": false}
+          ]
+        },
+        {
+          "id": 28,
+          "testo": "Quale configurazione elettronica rappresenta un'eccezione alla regola dell'aufbau?",
+          "livello": "avanzato",
+          "risposte": [
+            {"testo": "Cromo: [Ar] 3d⁵ 4s¹ invece di [Ar] 3d⁴ 4s²", "corretta": true},
+            {"testo": "Ossigeno: 1s² 2s² 2p⁴", "corretta": false},
+            {"testo": "Sodio: [Ne] 3s¹", "corretta": false},
+            {"testo": "Cloro: [Ne] 3s² 3p⁵", "corretta": false},
+            {"testo": "Carbonio: 1s² 2s² 2p²", "corretta": false}
+          ]
+        },
+        {
+          "id": 29,
+          "testo": "Come si spiega l'effetto di schermatura nucleare?",
+          "livello": "avanzato",
+          "risposte": [
+            {"testo": "Gli elettroni interni riducono l'attrazione nucleare sugli elettroni esterni", "corretta": true},
+            {"testo": "Il nucleo perde protoni nel tempo", "corretta": false},
+            {"testo": "Gli elettroni esterni proteggono il nucleo", "corretta": false},
+            {"testo": "I neutroni bloccano la forza nucleare", "corretta": false},
+            {"testo": "È un effetto quantistico senza spiegazione classica", "corretta": false}
+          ]
+        },
+        {
+          "id": 30,
+          "testo": "Perché il rame ha configurazione [Ar] 3d¹⁰ 4s¹ invece di [Ar] 3d⁹ 4s²?",
+          "livello": "avanzato",
+          "risposte": [
+            {"testo": "Un orbitale d completamente riempito è più stabile", "corretta": true},
+            {"testo": "È un errore della teoria quantistica", "corretta": false},
+            {"testo": "Il rame segue sempre la regola dell'aufbau", "corretta": false},
+            {"testo": "Gli elettroni s hanno più energia", "corretta": false},
+            {"testo": "Il rame è un'eccezione senza spiegazione", "corretta": false}
+          ]
+        },
+        {
+          "id": 31,
+          "testo": "Cosa rappresenta l'affinità elettronica negativa?",
+          "livello": "avanzato",
+          "risposte": [
+            {"testo": "L'energia rilasciata quando un atomo acquista un elettrone", "corretta": true},
+            {"testo": "L'energia necessaria per rimuovere un elettrone", "corretta": false},
+            {"testo": "La tendenza a perdere elettroni", "corretta": false},
+            {"testo": "L'impossibilità di accettare elettroni", "corretta": false},
+            {"testo": "La carica negativa del nucleo", "corretta": false}
+          ]
+        },
+        {
+          "id": 32,
+          "testo": "Quale principio stabilisce che due elettroni nello stesso orbitale devono avere spin opposti?",
+          "livello": "avanzato",
+          "risposte": [
+            {"testo": "Principio di esclusione di Pauli", "corretta": true},
+            {"testo": "Regola di Hund", "corretta": false},
+            {"testo": "Principio dell'aufbau", "corretta": false},
+            {"testo": "Principio di indeterminazione", "corretta": false},
+            {"testo": "Legge di Avogadro", "corretta": false}
+          ]
+        },
+        {
+          "id": 33,
+          "testo": "Quale serie di elementi ha proprietà chimiche simili ai metalli alcalino-terrosi?",
+          "livello": "avanzato",
+          "risposte": [
+            {"testo": "Elementi del gruppo 2", "corretta": true},
+            {"testo": "Elementi del gruppo 1", "corretta": false},
+            {"testo": "Gas nobili", "corretta": false},
+            {"testo": "Alogeni", "corretta": false},
+            {"testo": "Metalli di transizione", "corretta": false}
+          ]
+        },
+        {
+          "id": 34,
+          "testo": "Come varia l'energia di ionizzazione attraverso un periodo?",
+          "livello": "avanzato",
+          "risposte": [
+            {"testo": "Aumenta generalmente da sinistra a destra", "corretta": true},
+            {"testo": "Diminuisce da sinistra a destra", "corretta": false},
+            {"testo": "Rimane costante", "corretta": false},
+            {"testo": "Diminuisce verso i gas nobili", "corretta": false},
+            {"testo": "È massima per i metalli alcalini", "corretta": false}
+          ]
+        },
+        {
+          "id": 35,
+          "testo": "Cosa causa la contrazione lantanidica?",
+          "livello": "avanzato",
+          "risposte": [
+            {"testo": "Il riempimento degli orbitali 4f causa uno scarso effetto di schermatura", "corretta": true},
+            {"testo": "I lantanidi perdono massa nel tempo", "corretta": false},
+            {"testo": "È un effetto della radioattività", "corretta": false},
+            {"testo": "I lantanidi hanno meno protoni del previsto", "corretta": false},
+            {"testo": "È causata dalla pressione atmosferica", "corretta": false}
+          ]
+        },
+        {
+          "id": 36,
+          "testo": "Quale regola determina come riempire gli orbitali di uguale energia?",
+          "livello": "avanzato",
+          "risposte": [
+            {"testo": "Regola di Hund (massima molteplicità di spin)", "corretta": true},
+            {"testo": "Regola dell'aufbau", "corretta": false},
+            {"testo": "Principio di Pauli", "corretta": false},
+            {"testo": "Legge di Boyle", "corretta": false},
+            {"testo": "Legge periodica", "corretta": false}
+          ]
+        },
+        {
+          "id": 37,
+          "testo": "Quale proprietà NON mostra periodicità nella tavola?",
+          "livello": "avanzato",
+          "risposte": [
+            {"testo": "Numero di neutroni", "corretta": true},
+            {"testo": "Raggio atomico", "corretta": false},
+            {"testo": "Elettronegatività", "corretta": false},
+            {"testo": "Energia di ionizzazione", "corretta": false},
+            {"testo": "Affinità elettronica", "corretta": false}
+          ]
+        },
+        {
+          "id": 38,
+          "testo": "Cosa rappresenta la carica nucleare effettiva?",
+          "livello": "avanzato",
+          "risposte": [
+            {"testo": "La carica netta percepita dagli elettroni di valenza dopo lo schermaggio", "corretta": true},
+            {"testo": "Il numero totale di protoni", "corretta": false},
+            {"testo": "La carica degli elettroni", "corretta": false},
+            {"testo": "La differenza tra protoni e neutroni", "corretta": false},
+            {"testo": "L'energia del nucleo", "corretta": false}
+          ]
+        },
+        {
+          "id": 39,
+          "testo": "Perché l'energia di prima ionizzazione dell'ossigeno è inferiore a quella dell'azoto?",
+          "livello": "bastardo",
+          "risposte": [
+            {"testo": "L'ossigeno ha repulsione elettronica nel sottolivello 2p semi-riempito", "corretta": true},
+            {"testo": "L'ossigeno ha un raggio atomico maggiore", "corretta": false},
+            {"testo": "L'azoto ha configurazione instabile", "corretta": false},
+            {"testo": "È un'eccezione senza spiegazione teorica", "corretta": false},
+            {"testo": "L'ossigeno ha meno protoni", "corretta": false}
+          ]
+        },
+        {
+          "id": 40,
+          "testo": "Quale fenomeno spiega perché il gallio ha punto di fusione inferiore all'alluminio nonostante sia più pesante?",
+          "livello": "bastardo",
+          "risposte": [
+            {"testo": "Il gallio ha una struttura cristallina più aperta e legami metallici più deboli", "corretta": true},
+            {"testo": "Il gallio è radioattivo", "corretta": false},
+            {"testo": "L'alluminio ha più elettroni di valenza", "corretta": false},
+            {"testo": "È un errore sperimentale", "corretta": false},
+            {"testo": "Il gallio è un semimetallo", "corretta": false}
+          ]
+        },
+        {
+          "id": 41,
+          "testo": "Perché l'elio non segue la regola dell'ottetto ma quella del duetto?",
+          "livello": "bastardo",
+          "risposte": [
+            {"testo": "Il primo livello energetico può contenere solo 2 elettroni", "corretta": true},
+            {"testo": "L'elio è un'eccezione quantistica", "corretta": false},
+            {"testo": "L'elio ha spin nucleare anomalo", "corretta": false},
+            {"testo": "Per effetto della relatività", "corretta": false},
+            {"testo": "L'elio ha elettroni virtuali", "corretta": false}
+          ]
+        },
+        {
+          "id": 42,
+          "testo": "Quale elemento del quarto periodo viola l'ordine di riempimento previsto dall'aufbau?",
+          "livello": "bastardo",
+          "risposte": [
+            {"testo": "Il cromo riempie 3d⁵ 4s¹ per stabilità del semiriempimento", "corretta": true},
+            {"testo": "Il ferro segue perfettamente l'aufbau", "corretta": false},
+            {"testo": "Il calcio ha anomalie negli orbitali d", "corretta": false},
+            {"testo": "Il potassio viola l'aufbau", "corretta": false},
+            {"testo": "Nessun elemento viola l'aufbau", "corretta": false}
+          ]
+        },
+        {
+          "id": 43,
+          "testo": "Perché l'oro è giallo mentre la maggior parte dei metalli è grigia?",
+          "livello": "bastardo",
+          "risposte": [
+            {"testo": "Effetti relativistici modificano gli orbitali d causando assorbimento selettivo della luce", "corretta": true},
+            {"testo": "L'oro contiene impurità gialle", "corretta": false},
+            {"testo": "È un'illusione ottica dovuta alla rifrazione", "corretta": false},
+            {"testo": "L'oro reagisce con l'ossigeno formando uno strato giallo", "corretta": false},
+            {"testo": "Il colore dipende dalla temperatura ambiente", "corretta": false}
+          ]
+        },
+        {
+          "id": 44,
+          "testo": "Cosa causa il paradosso del lantanide nell'affinità elettronica?",
+          "livello": "bastardo",
+          "risposte": [
+            {"testo": "Il riempimento degli orbitali f causa una variazione non monotona delle proprietà", "corretta": true},
+            {"testo": "I lantanidi non hanno affinità elettronica", "corretta": false},
+            {"testo": "È causato da errori di misurazione", "corretta": false},
+            {"testo": "Gli orbitali f sono instabili", "corretta": false},
+            {"testo": "Non esiste tale paradosso", "corretta": false}
+          ]
+        },
+        {
+          "id": 45,
+          "testo": "Perché il mercurio è liquido a temperatura ambiente?",
+          "livello": "bastardo",
+          "risposte": [
+            {"testo": "Effetti relativistici riducono il legame metallico tra gli atomi", "corretta": true},
+            {"testo": "Ha punto di fusione naturalmente basso", "corretta": false},
+            {"testo": "È sempre stato liquido dall'origine dell'universo", "corretta": false},
+            {"testo": "La pressione atmosferica lo mantiene liquido", "corretta": false},
+            {"testo": "Reagisce con l'aria formando uno stato liquido", "corretta": false}
+          ]
+        },
+        {
+          "id": 46,
+          "testo": "Quale fenomeno quantistico spiega perché l'argento è il miglior conduttore elettrico?",
+          "livello": "bastardo",
+          "risposte": [
+            {"testo": "Ha la struttura elettronica più favorevole per la mobilità degli elettroni nel reticolo", "corretta": true},
+            {"testo": "Ha più elettroni liberi del rame", "corretta": false},
+            {"testo": "Gli ioni argento si muovono liberamente", "corretta": false},
+            {"testo": "È dovuto alla sua lucentezza", "corretta": false},
+            {"testo": "L'argento ha superconduttività a temperatura ambiente", "corretta": false}
+          ]
+        },
+        {
+          "id": 47,
+          "testo": "Perché l'azoto ha affinità elettronica quasi nulla nonostante sia molto elettronegativo?",
+          "livello": "bastardo",
+          "risposte": [
+            {"testo": "Il sottolivello 2p semi-riempito è stabile, aggiungere elettroni causa repulsione", "corretta": true},
+            {"testo": "L'azoto non può accettare elettroni", "corretta": false},
+            {"testo": "È un errore nella scala di elettronegatività", "corretta": false},
+            {"testo": "L'azoto ha carica nucleare insufficiente", "corretta": false},
+            {"testo": "Gli elettroni dell'azoto sono troppo veloci", "corretta": false}
+          ]
+        },
+        {
+          "id": 48,
+          "testo": "Quale effetto causa la differenza tra il raggio ionico di Fe²⁺ e Fe³⁺?",
+          "livello": "bastardo",
+          "risposte": [
+            {"testo": "Fe³⁺ ha maggiore carica nucleare effettiva attirando più gli elettroni", "corretta": true},
+            {"testo": "Fe²⁺ ha più neutroni", "corretta": false},
+            {"testo": "Fe³⁺ ha più livelli energetici", "corretta": false},
+            {"testo": "Non c'è differenza di raggio", "corretta": false},
+            {"testo": "È causato dalla temperatura", "corretta": false}
+          ]
+        },
+        {
+          "id": 49,
+          "testo": "Perché la seconda energia di ionizzazione è sempre maggiore della prima?",
+          "livello": "bastardo",
+          "risposte": [
+            {"testo": "Dopo la prima ionizzazione aumenta il rapporto carica/raggio rendendo più difficile rimuovere altri elettroni", "corretta": true},
+            {"testo": "Gli elettroni diventano più pesanti", "corretta": false},
+            {"testo": "Il nucleo acquista più protoni", "corretta": false},
+            {"testo": "È solo una convenzione", "corretta": false},
+            {"testo": "Non è sempre maggiore", "corretta": false}
+          ]
+        },
+        {
+          "id": 50,
+          "testo": "Quale fenomeno relativístico influenza maggiormente gli elementi superpesanti?",
+          "livello": "bastardo",
+          "risposte": [
+            {"testo": "La contrazione relativistica degli orbitali s dovuta all'alta velocità degli elettroni", "corretta": true},
+            {"testo": "L'espansione del nucleo", "corretta": false},
+            {"testo": "Il decadimento radioattivo", "corretta": false},
+            {"testo": "La fusione nucleare spontanea", "corretta": false},
+            {"testo": "Non subiscono effetti relativistici", "corretta": false}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "legami-chimici",
+      "nome": "Legami Chimici",
+      "domande": [
+        {
+          "id": 6,
+          "testo": "Cos'è un legame covalente?",
+          "livello": "base",
+          "risposte": [
+            {
+              "testo": "Condivisione di una o più coppie di elettroni tra due atomi",
+              "corretta": true
+            },
+            {
+              "testo": "Trasferimento completo di elettroni da un atomo all'altro",
+              "corretta": false
+            },
+            {
+              "testo": "Attrazione tra ioni di carica opposta",
+              "corretta": false
+            },
+            {
+              "testo": "Interazione tra dipoli molecolari",
+              "corretta": false
+            },
+            {
+              "testo": "Legame formato solo da atomi metallici",
+              "corretta": false
+            }
+          ]
+        },
+        {
+          "id": 7,
+          "testo": "Quale tipo di legame si forma tra sodio e cloro in NaCl?",
+          "livello": "base",
+          "risposte": [
+            {
+              "testo": "Legame ionico",
+              "corretta": true
+            },
+            {
+              "testo": "Legame covalente puro",
+              "corretta": false
+            },
+            {
+              "testo": "Legame metallico",
+              "corretta": false
+            },
+            {
+              "testo": "Legame a idrogeno",
+              "corretta": false
+            },
+            {
+              "testo": "Forze di van der Waals",
+              "corretta": false
+            }
+          ]
+        },
+        {
+          "id": 8,
+          "testo": "Qual è la geometria molecolare del metano (CH4) secondo la teoria VSEPR?",
+          "livello": "intermedio",
+          "risposte": [
+            {
+              "testo": "Tetraedrica",
+              "corretta": true
+            },
+            {
+              "testo": "Planare trigonale",
+              "corretta": false
+            },
+            {
+              "testo": "Lineare",
+              "corretta": false
+            },
+            {
+              "testo": "Piramidale trigonale",
+              "corretta": false
+            },
+            {
+              "testo": "Angolare",
+              "corretta": false
+            }
+          ]
+        },
+        {
+          "id": 9,
+          "testo": "Quale molecola presenta legami a idrogeno più forti?",
+          "livello": "avanzato",
+          "risposte": [
+            {
+              "testo": "HF (acido fluoridrico)",
+              "corretta": true
+            },
+            {
+              "testo": "H2O (acqua)",
+              "corretta": false
+            },
+            {
+              "testo": "NH3 (ammoniaca)",
+              "corretta": false
+            },
+            {
+              "testo": "CH4 (metano)",
+              "corretta": false
+            },
+            {
+              "testo": "HCl (acido cloridrico)",
+              "corretta": false
+            }
+          ]
+        },
+        {
+          "id": 10,
+          "testo": "Perché il carbonio nel benzene (C6H6) presenta un ordine di legame di 1.5 invece di legami semplici e doppi alternati?",
+          "livello": "bastardo",
+          "risposte": [
+            {
+              "testo": "La delocalizzazione degli elettroni π crea una risonanza che distribuisce uniformemente la densità elettronica",
+              "corretta": true
+            },
+            {
+              "testo": "I legami oscillano rapidamente tra singoli e doppi",
+              "corretta": false
+            },
+            {
+              "testo": "Il benzene ha una struttura instabile che varia continuamente",
+              "corretta": false
+            },
+            {
+              "testo": "È un effetto quantistico che viola le regole classiche del legame",
+              "corretta": false
+            },
+            {
+              "testo": "I legami sono tutti tripli ma parzialmente saturati",
+              "corretta": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "reazioni",
+      "nome": "Reazioni Chimiche",
+      "domande": [
+        {
+          "id": 11,
+          "testo": "Cos'è una reazione di ossidoriduzione (redox)?",
+          "livello": "base",
+          "risposte": [
+            {
+              "testo": "Reazione in cui avviene trasferimento di elettroni tra specie chimiche",
+              "corretta": true
+            },
+            {
+              "testo": "Reazione che produce sempre ossigeno",
+              "corretta": false
+            },
+            {
+              "testo": "Reazione che avviene solo in presenza di acqua",
+              "corretta": false
+            },
+            {
+              "testo": "Reazione reversibile ad alta temperatura",
+              "corretta": false
+            },
+            {
+              "testo": "Reazione che consuma sempre idrogeno",
+              "corretta": false
+            }
+          ]
+        },
+        {
+          "id": 12,
+          "testo": "Cosa rappresenta il pH di una soluzione?",
+          "livello": "base",
+          "risposte": [
+            {
+              "testo": "Il logaritmo negativo della concentrazione di ioni H+",
+              "corretta": true
+            },
+            {
+              "testo": "La concentrazione di basi nella soluzione",
+              "corretta": false
+            },
+            {
+              "testo": "La temperatura della soluzione",
+              "corretta": false
+            },
+            {
+              "testo": "La pressione idrostatica",
+              "corretta": false
+            },
+            {
+              "testo": "Il potenziale elettrico della soluzione",
+              "corretta": false
+            }
+          ]
+        },
+        {
+          "id": 13,
+          "testo": "In una reazione esotermica, come varia l'entalpia del sistema?",
+          "livello": "intermedio",
+          "risposte": [
+            {
+              "testo": "Diminuisce (ΔH < 0)",
+              "corretta": true
+            },
+            {
+              "testo": "Aumenta (ΔH > 0)",
+              "corretta": false
+            },
+            {
+              "testo": "Rimane costante (ΔH = 0)",
+              "corretta": false
+            },
+            {
+              "testo": "Prima aumenta poi diminuisce",
+              "corretta": false
+            },
+            {
+              "testo": "Dipende dalla temperatura ambiente",
+              "corretta": false
+            }
+          ]
+        },
+        {
+          "id": 14,
+          "testo": "Quale fattore NON influenza la velocità di una reazione chimica secondo la teoria cinetica?",
+          "livello": "avanzato",
+          "risposte": [
+            {
+              "testo": "La variazione di entalpia (ΔH) della reazione",
+              "corretta": true
+            },
+            {
+              "testo": "La temperatura del sistema",
+              "corretta": false
+            },
+            {
+              "testo": "La concentrazione dei reagenti",
+              "corretta": false
+            },
+            {
+              "testo": "La presenza di un catalizzatore",
+              "corretta": false
+            },
+            {
+              "testo": "La superficie di contatto tra reagenti",
+              "corretta": false
+            }
+          ]
+        },
+        {
+          "id": 15,
+          "testo": "Nel principio di Le Chatelier, perché aggiungere un gas inerte a volume costante NON sposta l'equilibrio, mentre aggiungerlo a pressione costante sì?",
+          "livello": "bastardo",
+          "risposte": [
+            {
+              "testo": "A volume costante le pressioni parziali dei reagenti non cambiano, a pressione costante il volume aumenta diminuendo le concentrazioni",
+              "corretta": true
+            },
+            {
+              "testo": "I gas inerti catalizzano la reazione solo a pressione costante",
+              "corretta": false
+            },
+            {
+              "testo": "Il gas inerte reagisce solo quando la pressione è costante",
+              "corretta": false
+            },
+            {
+              "testo": "È un paradosso termodinamico ancora inspiegato",
+              "corretta": false
+            },
+            {
+              "testo": "L'energia cinetica media cambia solo a pressione costante",
+              "corretta": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "stechiometria",
+      "nome": "Stechiometria",
+      "domande": [
+        {
+          "id": 16,
+          "testo": "Cos'è una mole in chimica?",
+          "livello": "base",
+          "risposte": [
+            {
+              "testo": "La quantità di sostanza che contiene 6.022 × 10²³ entità elementari (numero di Avogadro)",
+              "corretta": true
+            },
+            {
+              "testo": "L'unità di misura della massa atomica",
+              "corretta": false
+            },
+            {
+              "testo": "Il volume occupato da un gas a STP",
+              "corretta": false
+            },
+            {
+              "testo": "La concentrazione di una soluzione",
+              "corretta": false
+            },
+            {
+              "testo": "Un'unità di misura della temperatura",
+              "corretta": false
+            }
+          ]
+        },
+        {
+          "id": 17,
+          "testo": "Quale relazione matematica esprime la legge dei gas ideali?",
+          "livello": "base",
+          "risposte": [
+            {
+              "testo": "PV = nRT",
+              "corretta": true
+            },
+            {
+              "testo": "E = mc²",
+              "corretta": false
+            },
+            {
+              "testo": "ΔG = ΔH - TΔS",
+              "corretta": false
+            },
+            {
+              "testo": "pH = -log[H+]",
+              "corretta": false
+            },
+            {
+              "testo": "F = ma",
+              "corretta": false
+            }
+          ]
+        },
+        {
+          "id": 18,
+          "testo": "Quanti grammi di acqua (H2O) si formano dalla combustione completa di 2 moli di idrogeno (H2) con ossigeno in eccesso? (PM H2O = 18 g/mol)",
+          "livello": "intermedio",
+          "risposte": [
+            {
+              "testo": "36 grammi",
+              "corretta": true
+            },
+            {
+              "testo": "18 grammi",
+              "corretta": false
+            },
+            {
+              "testo": "54 grammi",
+              "corretta": false
+            },
+            {
+              "testo": "72 grammi",
+              "corretta": false
+            },
+            {
+              "testo": "9 grammi",
+              "corretta": false
+            }
+          ]
+        },
+        {
+          "id": 19,
+          "testo": "Qual è la molarità di una soluzione ottenuta sciogliendo 40 g di NaOH (PM = 40 g/mol) in acqua fino a 500 mL di soluzione totale?",
+          "livello": "avanzato",
+          "risposte": [
+            {
+              "testo": "2 M (molare)",
+              "corretta": true
+            },
+            {
+              "testo": "1 M",
+              "corretta": false
+            },
+            {
+              "testo": "4 M",
+              "corretta": false
+            },
+            {
+              "testo": "0.5 M",
+              "corretta": false
+            },
+            {
+              "testo": "8 M",
+              "corretta": false
+            }
+          ]
+        },
+        {
+          "id": 20,
+          "testo": "In una reazione di precipitazione, perché il prodotto di solubilità (Kps) dipende dalla temperatura ma non dalla presenza di ioni comuni, mentre l'effetto dello ione comune sposta l'equilibrio?",
+          "livello": "bastardo",
+          "risposte": [
+            {
+              "testo": "Kps è una costante termodinamica che descrive l'equilibrio intrinseco, lo ione comune sposta le concentrazioni ma non modifica Kps",
+              "corretta": true
+            },
+            {
+              "testo": "Kps cambia con gli ioni comuni ma troppo lentamente per essere misurato",
+              "corretta": false
+            },
+            {
+              "testo": "Gli ioni comuni modificano la struttura cristallina del precipitato",
+              "corretta": false
+            },
+            {
+              "testo": "È un paradosso della termodinamica chimica classica",
+              "corretta": false
+            },
+            {
+              "testo": "Kps è sensibile solo a variazioni di pressione, non di concentrazione",
+              "corretta": false
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
