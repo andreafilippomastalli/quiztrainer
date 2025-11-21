@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <title>QuizTrainer - DEBUG</title>
+    <style>
+        body { font-family: monospace; background: #000; color: #0f0; padding: 20px; }
+        .debug { background: #111; border: 1px solid #0f0; padding: 10px; margin: 10px 0; }
+        .error { color: #f00; }
+        .success { color: #0f0; }
+        button { background: #0f0; color: #000; padding: 10px; cursor: pointer; }
+    </style>
+</head>
+<body>
+    <h1>🔧 QuizTrainer DEBUG</h1>
+    
+    <div class="debug">
+        <h2>1. Test Caricamento Database</h2>
+        <button onclick="testDatabase()">Test Database</button>
+        <div id="db-result"></div>
+    </div>
+    
+    <div class="debug">
+        <h2>2. Test Conteggio Domande</h2>
+        <button onclick="testConteggio()">Test Conteggio</button>
+        <div id="count-result"></div>
+    </div>
+    
+    <div class="debug">
+        <h2>3. Test Selezione Argomenti</h2>
+        <div id="argomenti-list"></div>
+        <button onclick="testSelezione()">Test Selezione</button>
+        <div id="sel-result"></div>
+    </div>
+    
+    <div class="debug">
+        <h2>4. Test Quiz Engine</h2>
+        <button onclick="testEngine()">Test Engine</button>
+        <div id="engine-result"></div>
+    </div>
+
+    <script>
+        let database = null;
+        
+        async function testDatabase() {
+            const result = document.getElementById('db-result');
+            result.innerHTML = 'Caricamento...';
+            
+            try {
+                const response = await fetch('data/chimica.json');
+                database = await response.json();
+                
+                let html = '<div class="success">✅ Database caricato!</div>';
+                html += `<div>Argomenti: ${database.argomenti.length}</div>`;
+                
+                let totale = 0;
+                database.argomenti.forEach(arg => {
+                    const n = arg.domande ? arg.domande.length : 0;
+                    totale += n;
+                });
+                
+                html += `<div>Totale domande: ${totale}</div>`;
+                
+                // Verifica struttura
+                if (database.argomenti[0]) {
+                    const prima = database.argomenti[0];
+                    html += `<div>Primo argomento: ${prima.nome}</div>`;
+                    if (prima.domande && prima.domande[0]) {
+                        const domanda = prima.domande[0];
+                        html += `<div>Prima domanda ha: ${domanda.risposte ? domanda.risposte.length : 0} risposte</div>`;
+                        html += `<div>Struttura: id=${domanda.id}, livello=${domanda.livello}</div>`;
+                    }
+                }
+                
+                result.innerHTML = html;
+                
+                // Popola lista argomenti
+                populaArgomenti();
+                
+            } catch (error) {
+                result.innerHTML = `<div class="error">❌ Errore: ${error.message}</div>`;
+            }
+        }
+        
+        function populaArgomenti() {
+            if (!database) return;
+            
+            const list = document.getElementById('argomenti-list');
+            let html = '<h3>Seleziona Argomenti:</h3>';
+            
+            database.argomenti.forEach((arg, i) => {
+                html += `<label style="display: block; margin: 5px;">
+                    <input type="checkbox" class="arg-check" data-index="${i}" data-nome="${arg.nome}">
+                    ${arg.nome} (${arg.domande ? arg.domande.length : 0})
+                </label>`;
+            });
+            
+            list.innerHTML = html;
+        }
+        
+        function testConteggio() {
+            if (!database) {
+                document.getElementById('count-result').innerHTML = '<div class="error">Prima carica il database!</div>';
+                return;
+            }
+            
+            const result = document.getElementById('count-result');
+            let html = '<div class="success">📊 Conteggio per argomento:</div>';
+            
+            let totale = 0;
+            let conProblemi = [];
+            
+            database.argomenti.forEach(arg => {
+                const n = arg.domande ? arg.domande.length : 0;
+                totale += n;
+                
+                // Verifica problemi
+                let problemi = [];
+                if (!arg.domande) problemi.push('no array domande');
+                if (!arg.nome) problemi.push('no nome');
+                
+                if (n > 0) {
+                    arg.domande.forEach((d, i) => {
+                        if (!d.id) problemi.push(`domanda ${i} senza id`);
+                        if (!d.risposte) problemi.push(`domanda ${i} senza risposte`);
+                        if (d.risposte && d.risposte.length !== 5) {
+                            problemi.push(`domanda ${i} ha ${d.risposte.length} risposte invece di 5`);
+                        }
+                    });
+                }
+                
+                const status = problemi.length > 0 ? '⚠️' : '✅';
+                html += `<div>${status} ${arg.nome}: ${n} domande`;
+                if (problemi.length > 0) {
+                    html += ` <span class="error">[${problemi.join(', ')}]</span>`;
+                    conProblemi.push(arg.nome);
+                }
+                html += '</div>';
+            });
+            
+            html += `<div style="margin-top: 10px; font-weight: bold;">TOTALE: ${totale} domande</div>`;
+            
+            if (conProblemi.length > 0) {
+                html += `<div class="error">⚠️ Argomenti con problemi: ${conProblemi.join(', ')}</div>`;
+            }
+            
+            result.innerHTML = html;
+        }
+        
+        function testSelezione() {
+            if (!database) {
+                document.getElementById('sel-result').innerHTML = '<div class="error">Prima carica il database!</div>';
+                return;
+            }
+            
+            const checkboxes = document.querySelectorAll('.arg-check:checked');
+            const result = document.getElementById('sel-result');
+            
+            if (checkboxes.length === 0) {
+                result.innerHTML = '<div class="error">Seleziona almeno un argomento!</div>';
+                return;
+            }
+            
+            let domandeTotali = 0;
+            let html = '<div class="success">✅ Argomenti selezionati:</div>';
+            
+            checkboxes.forEach(cb => {
+                const index = parseInt(cb.dataset.index);
+                const arg = database.argomenti[index];
+                const n = arg.domande ? arg.domande.length : 0;
+                domandeTotali += n;
+                html += `<div>- ${arg.nome}: ${n} domande</div>`;
+            });
+            
+            html += `<div style="margin-top: 10px; font-weight: bold; color: yellow;">`;
+            html += `DOMANDE DISPONIBILI: ${domandeTotali}</div>`;
+            
+            result.innerHTML = html;
+        }
+        
+        async function testEngine() {
+            const result = document.getElementById('engine-result');
+            
+            try {
+                // Verifica se il quiz-engine.js esiste
+                const response = await fetch('js/quiz-engine.js');
+                const code = await response.text();
+                
+                html = '<div class="success">✅ quiz-engine.js caricato</div>';
+                html += `<div>Dimensione: ${code.length} caratteri</div>`;
+                
+                // Analizza il codice
+                const hasContatore = code.includes('contatore') || code.includes('disponibili');
+                const hasCheckbox = code.includes('checkbox');
+                const hasArgomenti = code.includes('argomenti');
+                
+                html += '<div>Analisi codice:</div>';
+                html += `<div>- Gestione contatore: ${hasContatore ? '✅' : '❌'}</div>`;
+                html += `<div>- Gestione checkbox: ${hasCheckbox ? '✅' : '❌'}</div>`;
+                html += `<div>- Gestione argomenti: ${hasArgomenti ? '✅' : '❌'}</div>`;
+                
+                // Cerca pattern specifici
+                if (code.includes('DISPONIBILI')) {
+                    html += '<div class="success">✓ Trovato riferimento a DISPONIBILI</div>';
+                }
+                
+                const lengthCount = (code.match(/\.length/g) || []).length;
+                html += `<div>- Usi di .length: ${lengthCount}</div>`;
+                
+                result.innerHTML = html;
+                
+            } catch (error) {
+                result.innerHTML = `<div class="error">❌ Errore: ${error.message}</div>`;
+            }
+        }
+        
+        // Auto-test al caricamento
+        window.onload = () => {
+            console.log('Debug page loaded');
+        };
+    </script>
+</body>
+</html>
