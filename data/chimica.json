@@ -4,6 +4,7 @@
       "nome": "Tavola Periodica",
       "domande": [
         {
+          "id": 1,
           "testo": "Qual è il simbolo chimico dell'oro?",
           "livello": "base",
           "risposte": [
@@ -22,11 +23,15 @@
             {
               "testo": "Go",
               "corretta": false
+            },
+            {
+              "testo": "Nessuna delle precedenti",
+              "corretta": false
             }
-          ],
-          "id": 1
+          ]
         },
         {
+          "id": 2,
           "testo": "Quanti protoni ha l'idrogeno?",
           "livello": "base",
           "risposte": [
@@ -45,11 +50,15 @@
             {
               "testo": "3",
               "corretta": false
+            },
+            {
+              "testo": "Nessuna delle precedenti",
+              "corretta": false
             }
-          ],
-          "id": 2
+          ]
         },
         {
+          "id": 3,
           "testo": "I gas nobili si trovano nel gruppo:",
           "livello": "base",
           "risposte": [
@@ -68,11 +77,15 @@
             {
               "testo": "2",
               "corretta": false
+            },
+            {
+              "testo": "Nessuna delle precedenti",
+              "corretta": false
             }
-          ],
-          "id": 3
+          ]
         },
         {
+          "id": 4,
           "testo": "L'elemento più elettronegativo è:",
           "livello": "intermedio",
           "risposte": [
@@ -91,11 +104,15 @@
             {
               "testo": "Azoto",
               "corretta": false
+            },
+            {
+              "testo": "Nessuna delle precedenti",
+              "corretta": false
             }
-          ],
-          "id": 4
+          ]
         },
         {
+          "id": 5,
           "testo": "La configurazione elettronica del neon è:",
           "livello": "intermedio",
           "risposte": [
@@ -114,11 +131,15 @@
             {
               "testo": "1s² 2s² 2p⁵",
               "corretta": false
+            },
+            {
+              "testo": "Nessuna delle precedenti",
+              "corretta": false
             }
-          ],
-          "id": 5
+          ]
         },
         {
+          "id": 6,
           "testo": "Gli elementi del gruppo 17 sono chiamati:",
           "livello": "intermedio",
           "risposte": [
@@ -137,11 +158,15 @@
             {
               "testo": "Lantanidi",
               "corretta": false
+            },
+            {
+              "testo": "Nessuna delle precedenti",
+              "corretta": false
             }
-          ],
-          "id": 6
+          ]
         },
         {
+          "id": 7,
           "testo": "Quale lantanide è usato nei magneti permanenti?",
           "livello": "avanzato",
           "risposte": [
@@ -160,11 +185,15 @@
             {
               "testo": "Cerio",
               "corretta": false
+            },
+            {
+              "testo": "Nessuna delle precedenti",
+              "corretta": false
             }
-          ],
-          "id": 7
+          ]
         },
         {
+          "id": 8,
           "testo": "Il tecnezio (Tc) è notevole perché:",
           "livello": "avanzato",
           "risposte": [
@@ -183,11 +212,15 @@
             {
               "testo": "Non è radioattivo",
               "corretta": false
+            },
+            {
+              "testo": "Nessuna delle precedenti",
+              "corretta": false
             }
-          ],
-          "id": 8
+          ]
         },
         {
+          "id": 9,
           "testo": "L'effetto relativistico influenza maggiormente:",
           "livello": "bastardo",
           "risposte": [
@@ -206,11 +239,15 @@
             {
               "testo": "Gli orbitali 1s dell'idrogeno",
               "corretta": false
+            },
+            {
+              "testo": "Nessuna delle precedenti",
+              "corretta": false
             }
-          ],
-          "id": 9
+          ]
         },
         {
+          "id": 10,
           "testo": "L'anomalia del raggio atomico del gallio è dovuta a:",
           "livello": "bastardo",
           "risposte": [
@@ -229,9 +266,12 @@
             {
               "testo": "Legame metallico",
               "corretta": false
+            },
+            {
+              "testo": "Nessuna delle precedenti",
+              "corretta": false
             }
-          ],
-          "id": 10
+          ]
         }
       ]
     },
@@ -239,6 +279,7 @@
       "nome": "Legami Chimici",
       "domande": [
         {
+          "id": 11,
           "testo": "Che tipo di legame si forma tra Na e Cl?",
           "livello": "base",
           "risposte": [
@@ -257,11 +298,15 @@
             {
               "testo": "Idrogeno",
               "corretta": false
+            },
+            {
+              "testo": "Nessuna delle precedenti",
+              "corretta": false
             }
-          ],
-          "id": 11
+          ]
         },
         {
+          "id": 12,
           "testo": "Quanti elettroni condivide un legame doppio?",
           "livello": "base",
           "risposte": [
@@ -280,11 +325,15 @@
             {
               "testo": "8",
               "corretta": false
+            },
+            {
+              "testo": "Nessuna delle precedenti",
+              "corretta": false
             }
-          ],
-          "id": 12
+          ]
         },
         {
+          "id": 13,
           "testo": "La geometria del metano (CH₄) è:",
           "livello": "base",
           "risposte": [
@@ -303,11 +352,15 @@
             {
               "testo": "Piramidale",
               "corretta": false
+            },
+            {
+              "testo": "Nessuna delle precedenti",
+              "corretta": false
             }
-          ],
-          "id": 13
+          ]
         },
         {
+          "id": 14,
           "testo": "L'ibridazione del carbonio nel benzene è:",
           "livello": "intermedio",
           "risposte": [
@@ -326,11 +379,15 @@
             {
               "testo": "sp³d",
               "corretta": false
+            },
+            {
+              "testo": "Nessuna delle precedenti",
+              "corretta": false
             }
-          ],
-          "id": 14
+          ]
         },
         {
+          "id": 15,
           "testo": "Quale molecola ha momento dipolare zero?",
           "livello": "intermedio",
           "risposte": [
@@ -349,11 +406,15 @@
             {
               "testo": "HCl",
               "corretta": false
+            },
+            {
+              "testo": "Nessuna delle precedenti",
+              "corretta": false
             }
-          ],
-          "id": 15
+          ]
         },
         {
+          "id": 16,
           "testo": "La teoria VSEPR prevede per SF₄ geometria:",
           "livello": "intermedio",
           "risposte": [
@@ -372,11 +433,15 @@
             {
               "testo": "Planare quadrata",
               "corretta": false
+            },
+            {
+              "testo": "Nessuna delle precedenti",
+              "corretta": false
             }
-          ],
-          "id": 16
+          ]
         },
         {
+          "id": 17,
           "testo": "L'ordine di legame in O₂ secondo MO è:",
           "livello": "avanzato",
           "risposte": [
@@ -395,11 +460,15 @@
             {
               "testo": "1.5",
               "corretta": false
+            },
+            {
+              "testo": "Nessuna delle precedenti",
+              "corretta": false
             }
-          ],
-          "id": 17
+          ]
         },
         {
+          "id": 18,
           "testo": "Il legame banana si trova in:",
           "livello": "avanzato",
           "risposte": [
@@ -418,11 +487,15 @@
             {
               "testo": "Cicloesano",
               "corretta": false
+            },
+            {
+              "testo": "Nessuna delle precedenti",
+              "corretta": false
             }
-          ],
-          "id": 18
+          ]
         },
         {
+          "id": 19,
           "testo": "Nel diborano B₂H₆ i legami ponte sono:",
           "livello": "bastardo",
           "risposte": [
@@ -441,11 +514,15 @@
             {
               "testo": "Ionici",
               "corretta": false
+            },
+            {
+              "testo": "Nessuna delle precedenti",
+              "corretta": false
             }
-          ],
-          "id": 19
+          ]
         },
         {
+          "id": 20,
           "testo": "L'interazione agostica M···H-C è importante in:",
           "livello": "bastardo",
           "risposte": [
@@ -464,9 +541,12 @@
             {
               "testo": "Legami peptidici",
               "corretta": false
+            },
+            {
+              "testo": "Nessuna delle precedenti",
+              "corretta": false
             }
-          ],
-          "id": 20
+          ]
         }
       ]
     },
@@ -474,6 +554,7 @@
       "nome": "Stechiometria",
       "domande": [
         {
+          "id": 21,
           "testo": "Il numero di Avogadro è:",
           "livello": "base",
           "risposte": [
@@ -492,11 +573,15 @@
             {
               "testo": "6.022 × 10²⁴",
               "corretta": false
+            },
+            {
+              "testo": "Nessuna delle precedenti",
+              "corretta": false
             }
-          ],
-          "id": 21
+          ]
         },
         {
+          "id": 22,
           "testo": "La massa molare dell'H₂O è:",
           "livello": "base",
           "risposte": [
@@ -515,11 +600,15 @@
             {
               "testo": "17 g/mol",
               "corretta": false
+            },
+            {
+              "testo": "Nessuna delle precedenti",
+              "corretta": false
             }
-          ],
-          "id": 22
+          ]
         },
         {
+          "id": 23,
           "testo": "In 2H₂ + O₂ → 2H₂O, il rapporto H₂:O₂ è:",
           "livello": "base",
           "risposte": [
@@ -538,11 +627,15 @@
             {
               "testo": "4:2",
               "corretta": false
+            },
+            {
+              "testo": "Nessuna delle precedenti",
+              "corretta": false
             }
-          ],
-          "id": 23
+          ]
         },
         {
+          "id": 24,
           "testo": "0.5 moli di CO₂ pesano:",
           "livello": "intermedio",
           "risposte": [
@@ -561,11 +654,15 @@
             {
               "testo": "88 g",
               "corretta": false
+            },
+            {
+              "testo": "Nessuna delle precedenti",
+              "corretta": false
             }
-          ],
-          "id": 24
+          ]
         },
         {
+          "id": 25,
           "testo": "Il reagente limitante determina:",
           "livello": "intermedio",
           "risposte": [
@@ -584,11 +681,15 @@
             {
               "testo": "Il catalizzatore",
               "corretta": false
+            },
+            {
+              "testo": "Nessuna delle precedenti",
+              "corretta": false
             }
-          ],
-          "id": 25
+          ]
         },
         {
+          "id": 26,
           "testo": "Per 500 mL di NaOH 0.1 M servono:",
           "livello": "intermedio",
           "risposte": [
@@ -607,11 +708,15 @@
             {
               "testo": "0.5 g di NaOH",
               "corretta": false
+            },
+            {
+              "testo": "Nessuna delle precedenti",
+              "corretta": false
             }
-          ],
-          "id": 26
+          ]
         },
         {
+          "id": 27,
           "testo": "La resa % = (reale/teorica)×100. Se ottengo 8g invece di 10g:",
           "livello": "avanzato",
           "risposte": [
@@ -630,11 +735,15 @@
             {
               "testo": "90%",
               "corretta": false
+            },
+            {
+              "testo": "Nessuna delle precedenti",
+              "corretta": false
             }
-          ],
-          "id": 27
+          ]
         },
         {
+          "id": 28,
           "testo": "Al punto equivalente di una titolazione:",
           "livello": "avanzato",
           "risposte": [
@@ -653,11 +762,15 @@
             {
               "testo": "[H⁺] = [OH⁻]",
               "corretta": false
+            },
+            {
+              "testo": "Nessuna delle precedenti",
+              "corretta": false
             }
-          ],
-          "id": 28
+          ]
         },
         {
+          "id": 29,
           "testo": "Da 250g CaCO₃ → CaO + CO₂, si ottengono di CaO:",
           "livello": "bastardo",
           "risposte": [
@@ -676,11 +789,15 @@
             {
               "testo": "56 g",
               "corretta": false
+            },
+            {
+              "testo": "Nessuna delle precedenti",
+              "corretta": false
             }
-          ],
-          "id": 29
+          ]
         },
         {
+          "id": 30,
           "testo": "P₄O₁₀ + 6H₂O → 4H₃PO₄. Da 10g P₄O₁₀:",
           "livello": "bastardo",
           "risposte": [
@@ -699,9 +816,12 @@
             {
               "testo": "6.9 g H₃PO₄",
               "corretta": false
+            },
+            {
+              "testo": "Nessuna delle precedenti",
+              "corretta": false
             }
-          ],
-          "id": 30
+          ]
         }
       ]
     },
@@ -709,6 +829,7 @@
       "nome": "Soluzioni",
       "domande": [
         {
+          "id": 31,
           "testo": "La molarità M è definita come:",
           "livello": "base",
           "risposte": [
@@ -727,11 +848,15 @@
             {
               "testo": "% peso/volume",
               "corretta": false
+            },
+            {
+              "testo": "Nessuna delle precedenti",
+              "corretta": false
             }
-          ],
-          "id": 31
+          ]
         },
         {
+          "id": 32,
           "testo": "Una soluzione satura è:",
           "livello": "base",
           "risposte": [
@@ -750,11 +875,15 @@
             {
               "testo": "Al 100%",
               "corretta": false
+            },
+            {
+              "testo": "Nessuna delle precedenti",
+              "corretta": false
             }
-          ],
-          "id": 32
+          ]
         },
         {
+          "id": 33,
           "testo": "La solubilità dei gas aumenta con:",
           "livello": "base",
           "risposte": [
@@ -773,11 +902,15 @@
             {
               "testo": "pH basico",
               "corretta": false
+            },
+            {
+              "testo": "Nessuna delle precedenti",
+              "corretta": false
             }
-          ],
-          "id": 33
+          ]
         },
         {
+          "id": 34,
           "testo": "Le proprietà colligative dipendono da:",
           "livello": "intermedio",
           "risposte": [
@@ -796,11 +929,15 @@
             {
               "testo": "Viscosità",
               "corretta": false
+            },
+            {
+              "testo": "Nessuna delle precedenti",
+              "corretta": false
             }
-          ],
-          "id": 34
+          ]
         },
         {
+          "id": 35,
           "testo": "L'osmosi è il passaggio di solvente:",
           "livello": "intermedio",
           "risposte": [
@@ -819,11 +956,15 @@
             {
               "testo": "Solo a T alta",
               "corretta": false
+            },
+            {
+              "testo": "Nessuna delle precedenti",
+              "corretta": false
             }
-          ],
-          "id": 35
+          ]
         },
         {
+          "id": 36,
           "testo": "Il fattore van't Hoff per NaCl è:",
           "livello": "intermedio",
           "risposte": [
@@ -842,11 +983,15 @@
             {
               "testo": "0.5",
               "corretta": false
+            },
+            {
+              "testo": "Nessuna delle precedenti",
+              "corretta": false
             }
-          ],
-          "id": 36
+          ]
         },
         {
+          "id": 37,
           "testo": "La legge di Raoult: P_tot =",
           "livello": "avanzato",
           "risposte": [
@@ -865,11 +1010,15 @@
             {
               "testo": "P₁°P₂°/(P₁° + P₂°)",
               "corretta": false
+            },
+            {
+              "testo": "Nessuna delle precedenti",
+              "corretta": false
             }
-          ],
-          "id": 37
+          ]
         },
         {
+          "id": 38,
           "testo": "ΔT_eb = Kb·m. Per glucosio 0.1m (Kb=0.512):",
           "livello": "avanzato",
           "risposte": [
@@ -888,11 +1037,15 @@
             {
               "testo": "0.00512°C",
               "corretta": false
+            },
+            {
+              "testo": "Nessuna delle precedenti",
+              "corretta": false
             }
-          ],
-          "id": 38
+          ]
         },
         {
+          "id": 39,
           "testo": "L'attività ionica a concentrazione alta:",
           "livello": "bastardo",
           "risposte": [
@@ -911,11 +1064,15 @@
             {
               "testo": "a = 1",
               "corretta": false
+            },
+            {
+              "testo": "Nessuna delle precedenti",
+              "corretta": false
             }
-          ],
-          "id": 39
+          ]
         },
         {
+          "id": 40,
           "testo": "Deviazioni positive da Raoult indicano:",
           "livello": "bastardo",
           "risposte": [
@@ -934,9 +1091,12 @@
             {
               "testo": "Immiscibilità",
               "corretta": false
+            },
+            {
+              "testo": "Nessuna delle precedenti",
+              "corretta": false
             }
-          ],
-          "id": 40
+          ]
         }
       ]
     },
@@ -944,6 +1104,7 @@
       "nome": "Acidi e Basi",
       "domande": [
         {
+          "id": 41,
           "testo": "Un acido secondo Arrhenius libera:",
           "livello": "base",
           "risposte": [
@@ -962,11 +1123,15 @@
             {
               "testo": "n",
               "corretta": false
+            },
+            {
+              "testo": "Nessuna delle precedenti",
+              "corretta": false
             }
-          ],
-          "id": 41
+          ]
         },
         {
+          "id": 42,
           "testo": "pH neutro a 25°C è:",
           "livello": "base",
           "risposte": [
@@ -985,11 +1150,15 @@
             {
               "testo": "1",
               "corretta": false
+            },
+            {
+              "testo": "Nessuna delle precedenti",
+              "corretta": false
             }
-          ],
-          "id": 42
+          ]
         },
         {
+          "id": 43,
           "testo": "HCl è un acido:",
           "livello": "base",
           "risposte": [
@@ -1008,11 +1177,15 @@
             {
               "testo": "Anfotero",
               "corretta": false
+            },
+            {
+              "testo": "Nessuna delle precedenti",
+              "corretta": false
             }
-          ],
-          "id": 43
+          ]
         },
         {
+          "id": 44,
           "testo": "Base secondo Brønsted è:",
           "livello": "intermedio",
           "risposte": [
@@ -1031,11 +1204,15 @@
             {
               "testo": "Libera OH⁻",
               "corretta": false
+            },
+            {
+              "testo": "Nessuna delle precedenti",
+              "corretta": false
             }
-          ],
-          "id": 44
+          ]
         },
         {
+          "id": 45,
           "testo": "Kw a 25°C vale:",
           "livello": "intermedio",
           "risposte": [
@@ -1054,11 +1231,15 @@
             {
               "testo": "14",
               "corretta": false
+            },
+            {
+              "testo": "Nessuna delle precedenti",
+              "corretta": false
             }
-          ],
-          "id": 45
+          ]
         },
         {
+          "id": 46,
           "testo": "Un tampone contiene:",
           "livello": "intermedio",
           "risposte": [
@@ -1077,11 +1258,15 @@
             {
               "testo": "Solo H₂O",
               "corretta": false
+            },
+            {
+              "testo": "Nessuna delle precedenti",
+              "corretta": false
             }
-          ],
-          "id": 46
+          ]
         },
         {
+          "id": 47,
           "testo": "Henderson-Hasselbalch:",
           "livello": "avanzato",
           "risposte": [
@@ -1100,11 +1285,15 @@
             {
               "testo": "pH=pKa",
               "corretta": false
+            },
+            {
+              "testo": "Nessuna delle precedenti",
+              "corretta": false
             }
-          ],
-          "id": 47
+          ]
         },
         {
+          "id": 48,
           "testo": "Per H₂A diprotico:",
           "livello": "avanzato",
           "risposte": [
@@ -1123,11 +1312,15 @@
             {
               "testo": "Solo una Ka",
               "corretta": false
+            },
+            {
+              "testo": "Nessuna delle precedenti",
+              "corretta": false
             }
-          ],
-          "id": 48
+          ]
         },
         {
+          "id": 49,
           "testo": "pH di HClO₄ 10⁻⁸M:",
           "livello": "bastardo",
           "risposte": [
@@ -1146,11 +1339,15 @@
             {
               "testo": "6.00",
               "corretta": false
+            },
+            {
+              "testo": "Nessuna delle precedenti",
+              "corretta": false
             }
-          ],
-          "id": 49
+          ]
         },
         {
+          "id": 50,
           "testo": "H₃PO₄ a pH 9.5:",
           "livello": "bastardo",
           "risposte": [
@@ -1169,9 +1366,12 @@
             {
               "testo": "PO₄³⁻",
               "corretta": false
+            },
+            {
+              "testo": "Nessuna delle precedenti",
+              "corretta": false
             }
-          ],
-          "id": 50
+          ]
         }
       ]
     },
@@ -1179,6 +1379,7 @@
       "nome": "Termodinamica",
       "domande": [
         {
+          "id": 51,
           "testo": "I principio:",
           "livello": "base",
           "risposte": [
@@ -1197,11 +1398,15 @@
             {
               "testo": "E si crea",
               "corretta": false
+            },
+            {
+              "testo": "Nessuna delle precedenti",
+              "corretta": false
             }
-          ],
-          "id": 51
+          ]
         },
         {
+          "id": 52,
           "testo": "Reazione esotermica:",
           "livello": "base",
           "risposte": [
@@ -1220,11 +1425,15 @@
             {
               "testo": "Sempre spontanea",
               "corretta": false
+            },
+            {
+              "testo": "Nessuna delle precedenti",
+              "corretta": false
             }
-          ],
-          "id": 52
+          ]
         },
         {
+          "id": 53,
           "testo": "L'entropia misura:",
           "livello": "base",
           "risposte": [
@@ -1243,11 +1452,15 @@
             {
               "testo": "Pressione",
               "corretta": false
+            },
+            {
+              "testo": "Nessuna delle precedenti",
+              "corretta": false
             }
-          ],
-          "id": 53
+          ]
         },
         {
+          "id": 54,
           "testo": "Per reazione spontanea ΔG:",
           "livello": "intermedio",
           "risposte": [
@@ -1266,11 +1479,15 @@
             {
               "testo": "∞",
               "corretta": false
+            },
+            {
+              "testo": "Nessuna delle precedenti",
+              "corretta": false
             }
-          ],
-          "id": 54
+          ]
         },
         {
+          "id": 55,
           "testo": "Equazione di Gibbs:",
           "livello": "intermedio",
           "risposte": [
@@ -1289,11 +1506,15 @@
             {
               "testo": "ΔG = ΔS/T",
               "corretta": false
+            },
+            {
+              "testo": "Nessuna delle precedenti",
+              "corretta": false
             }
-          ],
-          "id": 55
+          ]
         },
         {
+          "id": 56,
           "testo": "Cp acqua:",
           "livello": "intermedio",
           "risposte": [
@@ -1312,11 +1533,15 @@
             {
               "testo": "0.418",
               "corretta": false
+            },
+            {
+              "testo": "Nessuna delle precedenti",
+              "corretta": false
             }
-          ],
-          "id": 56
+          ]
         },
         {
+          "id": 57,
           "testo": "ΔH°f elementi:",
           "livello": "avanzato",
           "risposte": [
@@ -1335,11 +1560,15 @@
             {
               "testo": "298 kJ",
               "corretta": false
+            },
+            {
+              "testo": "Nessuna delle precedenti",
+              "corretta": false
             }
-          ],
-          "id": 57
+          ]
         },
         {
+          "id": 58,
           "testo": "Gas ideale isoterma:",
           "livello": "avanzato",
           "risposte": [
@@ -1358,11 +1587,15 @@
             {
               "testo": "ΔH = 0",
               "corretta": false
+            },
+            {
+              "testo": "Nessuna delle precedenti",
+              "corretta": false
             }
-          ],
-          "id": 58
+          ]
         },
         {
+          "id": 59,
           "testo": "Fugacità sostituisce:",
           "livello": "bastardo",
           "risposte": [
@@ -1381,11 +1614,15 @@
             {
               "testo": "Energia",
               "corretta": false
+            },
+            {
+              "testo": "Nessuna delle precedenti",
+              "corretta": false
             }
-          ],
-          "id": 59
+          ]
         },
         {
+          "id": 60,
           "testo": "H₂O(s)→H₂O(l) a 0°C:",
           "livello": "bastardo",
           "risposte": [
@@ -1404,9 +1641,12 @@
             {
               "testo": "ΔG = -6 kJ",
               "corretta": false
+            },
+            {
+              "testo": "Nessuna delle precedenti",
+              "corretta": false
             }
-          ],
-          "id": 60
+          ]
         }
       ]
     },
@@ -1414,6 +1654,7 @@
       "nome": "Cinetica Chimica",
       "domande": [
         {
+          "id": 61,
           "testo": "Velocità si misura in:",
           "livello": "base",
           "risposte": [
@@ -1432,11 +1673,15 @@
             {
               "testo": "L/mol",
               "corretta": false
+            },
+            {
+              "testo": "Nessuna delle precedenti",
+              "corretta": false
             }
-          ],
-          "id": 61
+          ]
         },
         {
+          "id": 62,
           "testo": "Un catalizzatore:",
           "livello": "base",
           "risposte": [
@@ -1455,11 +1700,15 @@
             {
               "testo": "Cambia K",
               "corretta": false
+            },
+            {
+              "testo": "Nessuna delle precedenti",
+              "corretta": false
             }
-          ],
-          "id": 62
+          ]
         },
         {
+          "id": 63,
           "testo": "L'ordine di reazione:",
           "livello": "base",
           "risposte": [
@@ -1478,11 +1727,15 @@
             {
               "testo": "Sempre intero",
               "corretta": false
+            },
+            {
+              "testo": "Nessuna delle precedenti",
+              "corretta": false
             }
-          ],
-          "id": 63
+          ]
         },
         {
+          "id": 64,
           "testo": "Per I ordine, t½:",
           "livello": "intermedio",
           "risposte": [
@@ -1501,11 +1754,15 @@
             {
               "testo": "= 1 s",
               "corretta": false
+            },
+            {
+              "testo": "Nessuna delle precedenti",
+              "corretta": false
             }
-          ],
-          "id": 64
+          ]
         },
         {
+          "id": 65,
           "testo": "Arrhenius:",
           "livello": "intermedio",
           "risposte": [
@@ -1524,11 +1781,15 @@
             {
               "testo": "k = A + Ea",
               "corretta": false
+            },
+            {
+              "testo": "Nessuna delle precedenti",
+              "corretta": false
             }
-          ],
-          "id": 65
+          ]
         },
         {
+          "id": 66,
           "testo": "Molecolarità è:",
           "livello": "intermedio",
           "risposte": [
@@ -1547,11 +1808,15 @@
             {
               "testo": "Sempre 1",
               "corretta": false
+            },
+            {
+              "testo": "Nessuna delle precedenti",
+              "corretta": false
             }
-          ],
-          "id": 66
+          ]
         },
         {
+          "id": 67,
           "testo": "[A] vs t lineare:",
           "livello": "avanzato",
           "risposte": [
@@ -1570,11 +1835,15 @@
             {
               "testo": "III ordine",
               "corretta": false
+            },
+            {
+              "testo": "Nessuna delle precedenti",
+              "corretta": false
             }
-          ],
-          "id": 67
+          ]
         },
         {
+          "id": 68,
           "testo": "Il meccanismo determina:",
           "livello": "avanzato",
           "risposte": [
@@ -1593,11 +1862,15 @@
             {
               "testo": "Equilibrio",
               "corretta": false
+            },
+            {
+              "testo": "Nessuna delle precedenti",
+              "corretta": false
             }
-          ],
-          "id": 68
+          ]
         },
         {
+          "id": 69,
           "testo": "Stato stazionario:",
           "livello": "bastardo",
           "risposte": [
@@ -1616,11 +1889,15 @@
             {
               "testo": "No intermedi",
               "corretta": false
+            },
+            {
+              "testo": "Nessuna delle precedenti",
+              "corretta": false
             }
-          ],
-          "id": 69
+          ]
         },
         {
+          "id": 70,
           "testo": "Autocatalisi:",
           "livello": "bastardo",
           "risposte": [
@@ -1639,9 +1916,12 @@
             {
               "testo": "Ordine zero",
               "corretta": false
+            },
+            {
+              "testo": "Nessuna delle precedenti",
+              "corretta": false
             }
-          ],
-          "id": 70
+          ]
         }
       ]
     },
@@ -1649,6 +1929,7 @@
       "nome": "Equilibrio Chimico",
       "domande": [
         {
+          "id": 71,
           "testo": "All'equilibrio:",
           "livello": "base",
           "risposte": [
@@ -1667,11 +1948,15 @@
             {
               "testo": "v = 0",
               "corretta": false
+            },
+            {
+              "testo": "Nessuna delle precedenti",
+              "corretta": false
             }
-          ],
-          "id": 71
+          ]
         },
         {
+          "id": 72,
           "testo": "K dipende da:",
           "livello": "base",
           "risposte": [
@@ -1690,11 +1975,15 @@
             {
               "testo": "Concentrazioni",
               "corretta": false
+            },
+            {
+              "testo": "Nessuna delle precedenti",
+              "corretta": false
             }
-          ],
-          "id": 72
+          ]
         },
         {
+          "id": 73,
           "testo": "Per N₂+3H₂⇌2NH₃:",
           "livello": "base",
           "risposte": [
@@ -1713,11 +2002,15 @@
             {
               "testo": "Prodotti/Reagenti",
               "corretta": false
+            },
+            {
+              "testo": "Nessuna delle precedenti",
+              "corretta": false
             }
-          ],
-          "id": 73
+          ]
         },
         {
+          "id": 74,
           "testo": "Le Châtelier + P:",
           "livello": "intermedio",
           "risposte": [
@@ -1736,11 +2029,15 @@
             {
               "testo": "K aumenta",
               "corretta": false
+            },
+            {
+              "testo": "Nessuna delle precedenti",
+              "corretta": false
             }
-          ],
-          "id": 74
+          ]
         },
         {
+          "id": 75,
           "testo": "Se Q < K:",
           "livello": "intermedio",
           "risposte": [
@@ -1759,11 +2056,15 @@
             {
               "testo": "Non avviene",
               "corretta": false
+            },
+            {
+              "testo": "Nessuna delle precedenti",
+              "corretta": false
             }
-          ],
-          "id": 75
+          ]
         },
         {
+          "id": 76,
           "testo": "Endotermica + T:",
           "livello": "intermedio",
           "risposte": [
@@ -1782,11 +2083,15 @@
             {
               "testo": "Si ferma",
               "corretta": false
+            },
+            {
+              "testo": "Nessuna delle precedenti",
+              "corretta": false
             }
-          ],
-          "id": 76
+          ]
         },
         {
+          "id": 77,
           "testo": "Kp = Kc(RT)^:",
           "livello": "avanzato",
           "risposte": [
@@ -1805,11 +2110,15 @@
             {
               "testo": "0",
               "corretta": false
+            },
+            {
+              "testo": "Nessuna delle precedenti",
+              "corretta": false
             }
-          ],
-          "id": 77
+          ]
         },
         {
+          "id": 78,
           "testo": "CaCO₃⇌CaO+CO₂, K=:",
           "livello": "avanzato",
           "risposte": [
@@ -1828,11 +2137,15 @@
             {
               "testo": "1",
               "corretta": false
+            },
+            {
+              "testo": "Nessuna delle precedenti",
+              "corretta": false
             }
-          ],
-          "id": 78
+          ]
         },
         {
+          "id": 79,
           "testo": "van't Hoff:",
           "livello": "bastardo",
           "risposte": [
@@ -1851,11 +2164,15 @@
             {
               "testo": "K ∝ T",
               "corretta": false
+            },
+            {
+              "testo": "Nessuna delle precedenti",
+              "corretta": false
             }
-          ],
-          "id": 79
+          ]
         },
         {
+          "id": 80,
           "testo": "Grado dissociazione α:",
           "livello": "bastardo",
           "risposte": [
@@ -1874,9 +2191,12 @@
             {
               "testo": "√(K·C)",
               "corretta": false
+            },
+            {
+              "testo": "Nessuna delle precedenti",
+              "corretta": false
             }
-          ],
-          "id": 80
+          ]
         }
       ]
     },
@@ -1884,6 +2204,7 @@
       "nome": "Elettrochimica",
       "domande": [
         {
+          "id": 81,
           "testo": "All'anodo avviene:",
           "livello": "base",
           "risposte": [
@@ -1902,11 +2223,15 @@
             {
               "testo": "Deposizione",
               "corretta": false
+            },
+            {
+              "testo": "Nessuna delle precedenti",
+              "corretta": false
             }
-          ],
-          "id": 81
+          ]
         },
         {
+          "id": 82,
           "testo": "N.O. di O in H₂O₂:",
           "livello": "base",
           "risposte": [
@@ -1925,11 +2250,15 @@
             {
               "testo": "+1",
               "corretta": false
+            },
+            {
+              "testo": "Nessuna delle precedenti",
+              "corretta": false
             }
-          ],
-          "id": 82
+          ]
         },
         {
+          "id": 83,
           "testo": "Una pila Daniell usa:",
           "livello": "base",
           "risposte": [
@@ -1948,11 +2277,15 @@
             {
               "testo": "H₂/O₂",
               "corretta": false
+            },
+            {
+              "testo": "Nessuna delle precedenti",
+              "corretta": false
             }
-          ],
-          "id": 83
+          ]
         },
         {
+          "id": 84,
           "testo": "Equazione di Nernst:",
           "livello": "intermedio",
           "risposte": [
@@ -1971,11 +2304,15 @@
             {
               "testo": "E=E°+Q",
               "corretta": false
+            },
+            {
+              "testo": "Nessuna delle precedenti",
+              "corretta": false
             }
-          ],
-          "id": 84
+          ]
         },
         {
+          "id": 85,
           "testo": "Faraday vale:",
           "livello": "intermedio",
           "risposte": [
@@ -1994,11 +2331,15 @@
             {
               "testo": "273",
               "corretta": false
+            },
+            {
+              "testo": "Nessuna delle precedenti",
+              "corretta": false
             }
-          ],
-          "id": 85
+          ]
         },
         {
+          "id": 86,
           "testo": "Cella spontanea:",
           "livello": "intermedio",
           "risposte": [
@@ -2017,11 +2358,15 @@
             {
               "testo": "ΔG° > 0",
               "corretta": false
+            },
+            {
+              "testo": "Nessuna delle precedenti",
+              "corretta": false
             }
-          ],
-          "id": 86
+          ]
         },
         {
+          "id": 87,
           "testo": "Elettrolisi H₂O, anodo:",
           "livello": "avanzato",
           "risposte": [
@@ -2040,11 +2385,15 @@
             {
               "testo": "OH⁻",
               "corretta": false
+            },
+            {
+              "testo": "Nessuna delle precedenti",
+              "corretta": false
             }
-          ],
-          "id": 87
+          ]
         },
         {
+          "id": 88,
           "testo": "E° e K:",
           "livello": "avanzato",
           "risposte": [
@@ -2063,11 +2412,15 @@
             {
               "testo": "E° = K/nF",
               "corretta": false
+            },
+            {
+              "testo": "Nessuna delle precedenti",
+              "corretta": false
             }
-          ],
-          "id": 88
+          ]
         },
         {
+          "id": 89,
           "testo": "Potenziale giunzione:",
           "livello": "bastardo",
           "risposte": [
@@ -2086,11 +2439,15 @@
             {
               "testo": "= E°",
               "corretta": false
+            },
+            {
+              "testo": "Nessuna delle precedenti",
+              "corretta": false
             }
-          ],
-          "id": 89
+          ]
         },
         {
+          "id": 90,
           "testo": "6.35g Cu, serve:",
           "livello": "bastardo",
           "risposte": [
@@ -2109,9 +2466,12 @@
             {
               "testo": "0.1 F",
               "corretta": false
+            },
+            {
+              "testo": "Nessuna delle precedenti",
+              "corretta": false
             }
-          ],
-          "id": 90
+          ]
         }
       ]
     },
@@ -2119,6 +2479,7 @@
       "nome": "Struttura Atomica",
       "domande": [
         {
+          "id": 91,
           "testo": "Elettrone scoperto da:",
           "livello": "base",
           "risposte": [
@@ -2137,11 +2498,15 @@
             {
               "testo": "Dalton",
               "corretta": false
+            },
+            {
+              "testo": "Nessuna delle precedenti",
+              "corretta": false
             }
-          ],
-          "id": 91
+          ]
         },
         {
+          "id": 92,
           "testo": "Numero massa A:",
           "livello": "base",
           "risposte": [
@@ -2160,11 +2525,15 @@
             {
               "testo": "p + e",
               "corretta": false
+            },
+            {
+              "testo": "Nessuna delle precedenti",
+              "corretta": false
             }
-          ],
-          "id": 92
+          ]
         },
         {
+          "id": 93,
           "testo": "Isotopi differiscono per:",
           "livello": "base",
           "risposte": [
@@ -2183,11 +2552,15 @@
             {
               "testo": "Z",
               "corretta": false
+            },
+            {
+              "testo": "Nessuna delle precedenti",
+              "corretta": false
             }
-          ],
-          "id": 93
+          ]
         },
         {
+          "id": 94,
           "testo": "Principio Heisenberg:",
           "livello": "intermedio",
           "risposte": [
@@ -2206,11 +2579,15 @@
             {
               "testo": "p = mv",
               "corretta": false
+            },
+            {
+              "testo": "Nessuna delle precedenti",
+              "corretta": false
             }
-          ],
-          "id": 94
+          ]
         },
         {
+          "id": 95,
           "testo": "Orbitale p ha forma:",
           "livello": "intermedio",
           "risposte": [
@@ -2229,11 +2606,15 @@
             {
               "testo": "Tetraedrica",
               "corretta": false
+            },
+            {
+              "testo": "Nessuna delle precedenti",
+              "corretta": false
             }
-          ],
-          "id": 95
+          ]
         },
         {
+          "id": 96,
           "testo": "m può valere:",
           "livello": "intermedio",
           "risposte": [
@@ -2252,11 +2633,15 @@
             {
               "testo": "±1/2",
               "corretta": false
+            },
+            {
+              "testo": "Nessuna delle precedenti",
+              "corretta": false
             }
-          ],
-          "id": 96
+          ]
         },
         {
+          "id": 97,
           "testo": "Regola di Hund:",
           "livello": "avanzato",
           "risposte": [
@@ -2275,11 +2660,15 @@
             {
               "testo": "Casuale",
               "corretta": false
+            },
+            {
+              "testo": "Nessuna delle precedenti",
+              "corretta": false
             }
-          ],
-          "id": 97
+          ]
         },
         {
+          "id": 98,
           "testo": "Effetto schermo da:",
           "livello": "avanzato",
           "risposte": [
@@ -2298,11 +2687,15 @@
             {
               "testo": "Neutroni",
               "corretta": false
+            },
+            {
+              "testo": "Nessuna delle precedenti",
+              "corretta": false
             }
-          ],
-          "id": 98
+          ]
         },
         {
+          "id": 99,
           "testo": "Accoppiamento spin-orbita:",
           "livello": "bastardo",
           "risposte": [
@@ -2321,11 +2714,15 @@
             {
               "testo": "Fluorescenza",
               "corretta": false
+            },
+            {
+              "testo": "Nessuna delle precedenti",
+              "corretta": false
             }
-          ],
-          "id": 99
+          ]
         },
         {
+          "id": 100,
           "testo": "Lamb shift dovuto a:",
           "livello": "bastardo",
           "risposte": [
@@ -2344,9 +2741,12 @@
             {
               "testo": "Temperatura",
               "corretta": false
+            },
+            {
+              "testo": "Nessuna delle precedenti",
+              "corretta": false
             }
-          ],
-          "id": 100
+          ]
         }
       ]
     },
@@ -2354,6 +2754,7 @@
       "nome": "Gas",
       "domande": [
         {
+          "id": 101,
           "testo": "Equazione gas ideali:",
           "livello": "base",
           "risposte": [
@@ -2372,11 +2773,15 @@
             {
               "testo": "P + V = nRT",
               "corretta": false
+            },
+            {
+              "testo": "Nessuna delle precedenti",
+              "corretta": false
             }
-          ],
-          "id": 101
+          ]
         },
         {
+          "id": 102,
           "testo": "1 mol a STP occupa:",
           "livello": "base",
           "risposte": [
@@ -2395,11 +2800,15 @@
             {
               "testo": "10 L",
               "corretta": false
+            },
+            {
+              "testo": "Nessuna delle precedenti",
+              "corretta": false
             }
-          ],
-          "id": 102
+          ]
         },
         {
+          "id": 103,
           "testo": "Legge di Boyle:",
           "livello": "base",
           "risposte": [
@@ -2418,11 +2827,15 @@
             {
               "testo": "PV = T",
               "corretta": false
+            },
+            {
+              "testo": "Nessuna delle precedenti",
+              "corretta": false
             }
-          ],
-          "id": 103
+          ]
         },
         {
+          "id": 104,
           "testo": "Pressione parziale:",
           "livello": "intermedio",
           "risposte": [
@@ -2441,11 +2854,15 @@
             {
               "testo": "P_i = P_tot",
               "corretta": false
+            },
+            {
+              "testo": "Nessuna delle precedenti",
+              "corretta": false
             }
-          ],
-          "id": 104
+          ]
         },
         {
+          "id": 105,
           "testo": "v_rms ∝:",
           "livello": "intermedio",
           "risposte": [
@@ -2464,11 +2881,15 @@
             {
               "testo": "√(M/T)",
               "corretta": false
+            },
+            {
+              "testo": "Nessuna delle precedenti",
+              "corretta": false
             }
-          ],
-          "id": 105
+          ]
         },
         {
+          "id": 106,
           "testo": "van der Waals corregge:",
           "livello": "intermedio",
           "risposte": [
@@ -2487,11 +2908,15 @@
             {
               "testo": "Temperatura",
               "corretta": false
+            },
+            {
+              "testo": "Nessuna delle precedenti",
+              "corretta": false
             }
-          ],
-          "id": 106
+          ]
         },
         {
+          "id": 107,
           "testo": "Cammino libero medio:",
           "livello": "avanzato",
           "risposte": [
@@ -2510,11 +2935,15 @@
             {
               "testo": "N° collisioni",
               "corretta": false
+            },
+            {
+              "testo": "Nessuna delle precedenti",
+              "corretta": false
             }
-          ],
-          "id": 107
+          ]
         },
         {
+          "id": 108,
           "testo": "T critica:",
           "livello": "avanzato",
           "risposte": [
@@ -2533,11 +2962,15 @@
             {
               "testo": "V = 0",
               "corretta": false
+            },
+            {
+              "testo": "Nessuna delle precedenti",
+              "corretta": false
             }
-          ],
-          "id": 108
+          ]
         },
         {
+          "id": 109,
           "testo": "Fattore Z = PV/nRT:",
           "livello": "bastardo",
           "risposte": [
@@ -2556,11 +2989,15 @@
             {
               "testo": "Sempre > 1",
               "corretta": false
+            },
+            {
+              "testo": "Nessuna delle precedenti",
+              "corretta": false
             }
-          ],
-          "id": 109
+          ]
         },
         {
+          "id": 110,
           "testo": "Viriale B(T):",
           "livello": "bastardo",
           "risposte": [
@@ -2579,9 +3016,12 @@
             {
               "testo": "Energia",
               "corretta": false
+            },
+            {
+              "testo": "Nessuna delle precedenti",
+              "corretta": false
             }
-          ],
-          "id": 110
+          ]
         }
       ]
     },
@@ -2589,6 +3029,7 @@
       "nome": "Chimica Organica",
       "domande": [
         {
+          "id": 111,
           "testo": "Formula del metano:",
           "livello": "base",
           "risposte": [
@@ -2607,11 +3048,15 @@
             {
               "testo": "CH₂",
               "corretta": false
+            },
+            {
+              "testo": "Nessuna delle precedenti",
+              "corretta": false
             }
-          ],
-          "id": 111
+          ]
         },
         {
+          "id": 112,
           "testo": "Alcol primario:",
           "livello": "base",
           "risposte": [
@@ -2630,11 +3075,15 @@
             {
               "testo": "Anello",
               "corretta": false
+            },
+            {
+              "testo": "Nessuna delle precedenti",
+              "corretta": false
             }
-          ],
-          "id": 112
+          ]
         },
         {
+          "id": 113,
           "testo": "Formula benzene:",
           "livello": "base",
           "risposte": [
@@ -2653,11 +3102,15 @@
             {
               "testo": "C₇H₈",
               "corretta": false
+            },
+            {
+              "testo": "Nessuna delle precedenti",
+              "corretta": false
             }
-          ],
-          "id": 113
+          ]
         },
         {
+          "id": 114,
           "testo": "Isomeri hanno:",
           "livello": "intermedio",
           "risposte": [
@@ -2676,11 +3129,15 @@
             {
               "testo": "Stesso p.f.",
               "corretta": false
+            },
+            {
+              "testo": "Nessuna delle precedenti",
+              "corretta": false
             }
-          ],
-          "id": 114
+          ]
         },
         {
+          "id": 115,
           "testo": "SN2 procede con:",
           "livello": "intermedio",
           "risposte": [
@@ -2699,11 +3156,15 @@
             {
               "testo": "Eliminazione",
               "corretta": false
+            },
+            {
+              "testo": "Nessuna delle precedenti",
+              "corretta": false
             }
-          ],
-          "id": 115
+          ]
         },
         {
+          "id": 116,
           "testo": "Carbocatione 3°:",
           "livello": "intermedio",
           "risposte": [
@@ -2722,11 +3183,15 @@
             {
               "testo": "Non esiste",
               "corretta": false
+            },
+            {
+              "testo": "Nessuna delle precedenti",
+              "corretta": false
             }
-          ],
-          "id": 116
+          ]
         },
         {
+          "id": 117,
           "testo": "Markovnikov:",
           "livello": "avanzato",
           "risposte": [
@@ -2745,11 +3210,15 @@
             {
               "testo": "Non si addiziona",
               "corretta": false
+            },
+            {
+              "testo": "Nessuna delle precedenti",
+              "corretta": false
             }
-          ],
-          "id": 117
+          ]
         },
         {
+          "id": 118,
           "testo": "Effetto -I massimo:",
           "livello": "avanzato",
           "risposte": [
@@ -2768,11 +3237,15 @@
             {
               "testo": "NH₂",
               "corretta": false
+            },
+            {
+              "testo": "Nessuna delle precedenti",
+              "corretta": false
             }
-          ],
-          "id": 118
+          ]
         },
         {
+          "id": 119,
           "testo": "Diels-Alder è:",
           "livello": "bastardo",
           "risposte": [
@@ -2791,11 +3264,15 @@
             {
               "testo": "Eliminazione",
               "corretta": false
+            },
+            {
+              "testo": "Nessuna delle precedenti",
+              "corretta": false
             }
-          ],
-          "id": 119
+          ]
         },
         {
+          "id": 120,
           "testo": "Inversione NH₃:",
           "livello": "bastardo",
           "risposte": [
@@ -2814,9 +3291,12 @@
             {
               "testo": "Non avviene",
               "corretta": false
+            },
+            {
+              "testo": "Nessuna delle precedenti",
+              "corretta": false
             }
-          ],
-          "id": 120
+          ]
         }
       ]
     },
@@ -2824,6 +3304,7 @@
       "nome": "Radioattività",
       "domande": [
         {
+          "id": 121,
           "testo": "Particella α è:",
           "livello": "base",
           "risposte": [
@@ -2842,11 +3323,15 @@
             {
               "testo": "Neutrone",
               "corretta": false
+            },
+            {
+              "testo": "Nessuna delle precedenti",
+              "corretta": false
             }
-          ],
-          "id": 121
+          ]
         },
         {
+          "id": 122,
           "testo": "t½ è tempo per:",
           "livello": "base",
           "risposte": [
@@ -2865,11 +3350,15 @@
             {
               "testo": "Raddoppiare",
               "corretta": false
+            },
+            {
+              "testo": "Nessuna delle precedenti",
+              "corretta": false
             }
-          ],
-          "id": 122
+          ]
         },
         {
+          "id": 123,
           "testo": "Radiazione γ è:",
           "livello": "base",
           "risposte": [
@@ -2888,11 +3377,15 @@
             {
               "testo": "Protoni",
               "corretta": false
+            },
+            {
+              "testo": "Nessuna delle precedenti",
+              "corretta": false
             }
-          ],
-          "id": 123
+          ]
         },
         {
+          "id": 124,
           "testo": "β⁻ decade:",
           "livello": "intermedio",
           "risposte": [
@@ -2911,11 +3404,15 @@
             {
               "testo": "Due protoni",
               "corretta": false
+            },
+            {
+              "testo": "Nessuna delle precedenti",
+              "corretta": false
             }
-          ],
-          "id": 124
+          ]
         },
         {
+          "id": 125,
           "testo": "¹⁴C datazione:",
           "livello": "intermedio",
           "risposte": [
@@ -2934,11 +3431,15 @@
             {
               "testo": "Fissione",
               "corretta": false
+            },
+            {
+              "testo": "Nessuna delle precedenti",
+              "corretta": false
             }
-          ],
-          "id": 125
+          ]
         },
         {
+          "id": 126,
           "testo": "Attività in:",
           "livello": "intermedio",
           "risposte": [
@@ -2957,11 +3458,15 @@
             {
               "testo": "Sievert",
               "corretta": false
+            },
+            {
+              "testo": "Nessuna delle precedenti",
+              "corretta": false
             }
-          ],
-          "id": 126
+          ]
         },
         {
+          "id": 127,
           "testo": "U-235 fissione:",
           "livello": "avanzato",
           "risposte": [
@@ -2980,11 +3485,15 @@
             {
               "testo": "10 neutroni",
               "corretta": false
+            },
+            {
+              "testo": "Nessuna delle precedenti",
+              "corretta": false
             }
-          ],
-          "id": 127
+          ]
         },
         {
+          "id": 128,
           "testo": "Difetto massa → :",
           "livello": "avanzato",
           "risposte": [
@@ -3003,11 +3512,15 @@
             {
               "testo": "Elettroni",
               "corretta": false
+            },
+            {
+              "testo": "Nessuna delle precedenti",
+              "corretta": false
             }
-          ],
-          "id": 128
+          ]
         },
         {
+          "id": 129,
           "testo": "Isola stabilità:",
           "livello": "bastardo",
           "risposte": [
@@ -3026,11 +3539,15 @@
             {
               "testo": "20-30",
               "corretta": false
+            },
+            {
+              "testo": "Nessuna delle precedenti",
+              "corretta": false
             }
-          ],
-          "id": 129
+          ]
         },
         {
+          "id": 130,
           "testo": "Processo r in:",
           "livello": "bastardo",
           "risposte": [
@@ -3049,9 +3566,12 @@
             {
               "testo": "Atmosfera",
               "corretta": false
+            },
+            {
+              "testo": "Nessuna delle precedenti",
+              "corretta": false
             }
-          ],
-          "id": 130
+          ]
         }
       ]
     },
@@ -3059,6 +3579,7 @@
       "nome": "Chimica dei Solidi",
       "domande": [
         {
+          "id": 131,
           "testo": "Coordinazione cubico semplice:",
           "livello": "base",
           "risposte": [
@@ -3077,11 +3598,15 @@
             {
               "testo": "4",
               "corretta": false
+            },
+            {
+              "testo": "Nessuna delle precedenti",
+              "corretta": false
             }
-          ],
-          "id": 131
+          ]
         },
         {
+          "id": 132,
           "testo": "Solido ionico:",
           "livello": "base",
           "risposte": [
@@ -3100,11 +3625,15 @@
             {
               "testo": "Gassoso",
               "corretta": false
+            },
+            {
+              "testo": "Nessuna delle precedenti",
+              "corretta": false
             }
-          ],
-          "id": 132
+          ]
         },
         {
+          "id": 133,
           "testo": "Diamante è:",
           "livello": "base",
           "risposte": [
@@ -3123,11 +3652,15 @@
             {
               "testo": "Molecolare",
               "corretta": false
+            },
+            {
+              "testo": "Nessuna delle precedenti",
+              "corretta": false
             }
-          ],
-          "id": 133
+          ]
         },
         {
+          "id": 134,
           "testo": "Impaccamento CFC:",
           "livello": "intermedio",
           "risposte": [
@@ -3146,11 +3679,15 @@
             {
               "testo": "1.00",
               "corretta": false
+            },
+            {
+              "testo": "Nessuna delle precedenti",
+              "corretta": false
             }
-          ],
-          "id": 134
+          ]
         },
         {
+          "id": 135,
           "testo": "Piani (111):",
           "livello": "intermedio",
           "risposte": [
@@ -3169,11 +3706,15 @@
             {
               "testo": "Origine",
               "corretta": false
+            },
+            {
+              "testo": "Nessuna delle precedenti",
+              "corretta": false
             }
-          ],
-          "id": 135
+          ]
         },
         {
+          "id": 136,
           "testo": "Legge di Bragg:",
           "livello": "intermedio",
           "risposte": [
@@ -3192,11 +3733,15 @@
             {
               "testo": "λ = θ",
               "corretta": false
+            },
+            {
+              "testo": "Nessuna delle precedenti",
+              "corretta": false
             }
-          ],
-          "id": 136
+          ]
         },
         {
+          "id": 137,
           "testo": "Semiconduttore gap:",
           "livello": "avanzato",
           "risposte": [
@@ -3215,11 +3760,15 @@
             {
               "testo": "100 eV",
               "corretta": false
+            },
+            {
+              "testo": "Nessuna delle precedenti",
+              "corretta": false
             }
-          ],
-          "id": 137
+          ]
         },
         {
+          "id": 138,
           "testo": "Doping tipo n:",
           "livello": "avanzato",
           "risposte": [
@@ -3238,11 +3787,15 @@
             {
               "testo": "Protoni",
               "corretta": false
+            },
+            {
+              "testo": "Nessuna delle precedenti",
+              "corretta": false
             }
-          ],
-          "id": 138
+          ]
         },
         {
+          "id": 139,
           "testo": "Quasicristalli violano:",
           "livello": "bastardo",
           "risposte": [
@@ -3261,11 +3814,15 @@
             {
               "testo": "Tutte leggi",
               "corretta": false
+            },
+            {
+              "testo": "Nessuna delle precedenti",
+              "corretta": false
             }
-          ],
-          "id": 139
+          ]
         },
         {
+          "id": 140,
           "testo": "Avrami n=4:",
           "livello": "bastardo",
           "risposte": [
@@ -3284,9 +3841,12 @@
             {
               "testo": "Istantanea",
               "corretta": false
+            },
+            {
+              "testo": "Nessuna delle precedenti",
+              "corretta": false
             }
-          ],
-          "id": 140
+          ]
         }
       ]
     },
@@ -3294,6 +3854,7 @@
       "nome": "Spettroscopia",
       "domande": [
         {
+          "id": 141,
           "testo": "IR rileva:",
           "livello": "base",
           "risposte": [
@@ -3312,11 +3873,15 @@
             {
               "testo": "Massa",
               "corretta": false
+            },
+            {
+              "testo": "Nessuna delle precedenti",
+              "corretta": false
             }
-          ],
-          "id": 141
+          ]
         },
         {
+          "id": 142,
           "testo": "¹H NMR usa:",
           "livello": "base",
           "risposte": [
@@ -3335,11 +3900,15 @@
             {
               "testo": "Vibrazioni",
               "corretta": false
+            },
+            {
+              "testo": "Nessuna delle precedenti",
+              "corretta": false
             }
-          ],
-          "id": 142
+          ]
         },
         {
+          "id": 143,
           "testo": "UV-Vis misura:",
           "livello": "base",
           "risposte": [
@@ -3358,11 +3927,15 @@
             {
               "testo": "Spin",
               "corretta": false
+            },
+            {
+              "testo": "Nessuna delle precedenti",
+              "corretta": false
             }
-          ],
-          "id": 143
+          ]
         },
         {
+          "id": 144,
           "testo": "Chemical shift in:",
           "livello": "intermedio",
           "risposte": [
@@ -3381,11 +3954,15 @@
             {
               "testo": "nm",
               "corretta": false
+            },
+            {
+              "testo": "Nessuna delle precedenti",
+              "corretta": false
             }
-          ],
-          "id": 144
+          ]
         },
         {
+          "id": 145,
           "testo": "Regola n+1:",
           "livello": "intermedio",
           "risposte": [
@@ -3404,11 +3981,15 @@
             {
               "testo": "2n picchi",
               "corretta": false
+            },
+            {
+              "testo": "Nessuna delle precedenti",
+              "corretta": false
             }
-          ],
-          "id": 145
+          ]
         },
         {
+          "id": 146,
           "testo": "C=O stretching:",
           "livello": "intermedio",
           "risposte": [
@@ -3427,11 +4008,15 @@
             {
               "testo": "500",
               "corretta": false
+            },
+            {
+              "testo": "Nessuna delle precedenti",
+              "corretta": false
             }
-          ],
-          "id": 146
+          ]
         },
         {
+          "id": 147,
           "testo": "Raman complementare:",
           "livello": "avanzato",
           "risposte": [
@@ -3450,11 +4035,15 @@
             {
               "testo": "Massa",
               "corretta": false
+            },
+            {
+              "testo": "Nessuna delle precedenti",
+              "corretta": false
             }
-          ],
-          "id": 147
+          ]
         },
         {
+          "id": 148,
           "testo": "Cotton effect:",
           "livello": "avanzato",
           "risposte": [
@@ -3473,11 +4062,15 @@
             {
               "testo": "T",
               "corretta": false
+            },
+            {
+              "testo": "Nessuna delle precedenti",
+              "corretta": false
             }
-          ],
-          "id": 148
+          ]
         },
         {
+          "id": 149,
           "testo": "COSY correla:",
           "livello": "bastardo",
           "risposte": [
@@ -3496,11 +4089,15 @@
             {
               "testo": "Aromatici",
               "corretta": false
+            },
+            {
+              "testo": "Nessuna delle precedenti",
+              "corretta": false
             }
-          ],
-          "id": 149
+          ]
         },
         {
+          "id": 150,
           "testo": "NOE dipende da:",
           "livello": "bastardo",
           "risposte": [
@@ -3519,9 +4116,12 @@
             {
               "testo": "Campo",
               "corretta": false
+            },
+            {
+              "testo": "Nessuna delle precedenti",
+              "corretta": false
             }
-          ],
-          "id": 150
+          ]
         }
       ]
     },
@@ -3529,6 +4129,7 @@
       "nome": "Chimica Inorganica",
       "domande": [
         {
+          "id": 151,
           "testo": "Complesso ottaedrico:",
           "livello": "base",
           "risposte": [
@@ -3547,11 +4148,15 @@
             {
               "testo": "8",
               "corretta": false
+            },
+            {
+              "testo": "Nessuna delle precedenti",
+              "corretta": false
             }
-          ],
-          "id": 151
+          ]
         },
         {
+          "id": 152,
           "testo": "Leganti forti causano:",
           "livello": "base",
           "risposte": [
@@ -3570,11 +4175,15 @@
             {
               "testo": "No effetto",
               "corretta": false
+            },
+            {
+              "testo": "Nessuna delle precedenti",
+              "corretta": false
             }
-          ],
-          "id": 152
+          ]
         },
         {
+          "id": 153,
           "testo": "EDTA è chelante:",
           "livello": "base",
           "risposte": [
@@ -3593,11 +4202,15 @@
             {
               "testo": "Tetradentato",
               "corretta": false
+            },
+            {
+              "testo": "Nessuna delle precedenti",
+              "corretta": false
             }
-          ],
-          "id": 153
+          ]
         },
         {
+          "id": 154,
           "testo": "Serie spettrochimica:",
           "livello": "intermedio",
           "risposte": [
@@ -3616,11 +4229,15 @@
             {
               "testo": "CN⁻ debole",
               "corretta": false
+            },
+            {
+              "testo": "Nessuna delle precedenti",
+              "corretta": false
             }
-          ],
-          "id": 154
+          ]
         },
         {
+          "id": 155,
           "testo": "Trans effect massimo:",
           "livello": "intermedio",
           "risposte": [
@@ -3639,11 +4256,15 @@
             {
               "testo": "Cl⁻",
               "corretta": false
+            },
+            {
+              "testo": "Nessuna delle precedenti",
+              "corretta": false
             }
-          ],
-          "id": 155
+          ]
         },
         {
+          "id": 156,
           "testo": "Complessi d⁸ square:",
           "livello": "intermedio",
           "risposte": [
@@ -3662,11 +4283,15 @@
             {
               "testo": "Cu(I)",
               "corretta": false
+            },
+            {
+              "testo": "Nessuna delle precedenti",
+              "corretta": false
             }
-          ],
-          "id": 156
+          ]
         },
         {
+          "id": 157,
           "testo": "Jahn-Teller per:",
           "livello": "avanzato",
           "risposte": [
@@ -3685,11 +4310,15 @@
             {
               "testo": "d⁵",
               "corretta": false
+            },
+            {
+              "testo": "Nessuna delle precedenti",
+              "corretta": false
             }
-          ],
-          "id": 157
+          ]
         },
         {
+          "id": 158,
           "testo": "18 elettroni regola:",
           "livello": "avanzato",
           "risposte": [
@@ -3708,11 +4337,15 @@
             {
               "testo": "Lantanidi",
               "corretta": false
+            },
+            {
+              "testo": "Nessuna delle precedenti",
+              "corretta": false
             }
-          ],
-          "id": 158
+          ]
         },
         {
+          "id": 159,
           "testo": "Complessi spin-crossover:",
           "livello": "bastardo",
           "risposte": [
@@ -3731,11 +4364,15 @@
             {
               "testo": "Solo Co",
               "corretta": false
+            },
+            {
+              "testo": "Nessuna delle precedenti",
+              "corretta": false
             }
-          ],
-          "id": 159
+          ]
         },
         {
+          "id": 160,
           "testo": "Superscambio:",
           "livello": "bastardo",
           "risposte": [
@@ -3754,9 +4391,12 @@
             {
               "testo": "Ionico",
               "corretta": false
+            },
+            {
+              "testo": "Nessuna delle precedenti",
+              "corretta": false
             }
-          ],
-          "id": 160
+          ]
         }
       ]
     },
@@ -3764,6 +4404,7 @@
       "nome": "Biochimica",
       "domande": [
         {
+          "id": 161,
           "testo": "ATP contiene:",
           "livello": "base",
           "risposte": [
@@ -3782,11 +4423,15 @@
             {
               "testo": "1 fosfato",
               "corretta": false
+            },
+            {
+              "testo": "Nessuna delle precedenti",
+              "corretta": false
             }
-          ],
-          "id": 161
+          ]
         },
         {
+          "id": 162,
           "testo": "DNA basi:",
           "livello": "base",
           "risposte": [
@@ -3805,11 +4450,15 @@
             {
               "testo": "Solo G, C",
               "corretta": false
+            },
+            {
+              "testo": "Nessuna delle precedenti",
+              "corretta": false
             }
-          ],
-          "id": 162
+          ]
         },
         {
+          "id": 163,
           "testo": "Struttura proteine primaria:",
           "livello": "base",
           "risposte": [
@@ -3828,11 +4477,15 @@
             {
               "testo": "3D",
               "corretta": false
+            },
+            {
+              "testo": "Nessuna delle precedenti",
+              "corretta": false
             }
-          ],
-          "id": 163
+          ]
         },
         {
+          "id": 164,
           "testo": "Enzima abbassa:",
           "livello": "intermedio",
           "risposte": [
@@ -3851,11 +4504,15 @@
             {
               "testo": "Substrato",
               "corretta": false
+            },
+            {
+              "testo": "Nessuna delle precedenti",
+              "corretta": false
             }
-          ],
-          "id": 164
+          ]
         },
         {
+          "id": 165,
           "testo": "Emoglobina trasporta:",
           "livello": "intermedio",
           "risposte": [
@@ -3874,11 +4531,15 @@
             {
               "testo": "Glucosio",
               "corretta": false
+            },
+            {
+              "testo": "Nessuna delle precedenti",
+              "corretta": false
             }
-          ],
-          "id": 165
+          ]
         },
         {
+          "id": 166,
           "testo": "pH fisiologico:",
           "livello": "intermedio",
           "risposte": [
@@ -3897,11 +4558,15 @@
             {
               "testo": "7.0",
               "corretta": false
+            },
+            {
+              "testo": "Nessuna delle precedenti",
+              "corretta": false
             }
-          ],
-          "id": 166
+          ]
         },
         {
+          "id": 167,
           "testo": "Glicolisi produce:",
           "livello": "avanzato",
           "risposte": [
@@ -3920,11 +4585,15 @@
             {
               "testo": "0 ATP",
               "corretta": false
+            },
+            {
+              "testo": "Nessuna delle precedenti",
+              "corretta": false
             }
-          ],
-          "id": 167
+          ]
         },
         {
+          "id": 168,
           "testo": "Citocromo c in:",
           "livello": "avanzato",
           "risposte": [
@@ -3943,11 +4612,15 @@
             {
               "testo": "Fotosintesi",
               "corretta": false
+            },
+            {
+              "testo": "Nessuna delle precedenti",
+              "corretta": false
             }
-          ],
-          "id": 168
+          ]
         },
         {
+          "id": 169,
           "testo": "Costante Michaelis Km:",
           "livello": "bastardo",
           "risposte": [
@@ -3966,11 +4639,15 @@
             {
               "testo": "kcat",
               "corretta": false
+            },
+            {
+              "testo": "Nessuna delle precedenti",
+              "corretta": false
             }
-          ],
-          "id": 169
+          ]
         },
         {
+          "id": 170,
           "testo": "Stato T/R emoglobina:",
           "livello": "bastardo",
           "risposte": [
@@ -3989,9 +4666,12 @@
             {
               "testo": "Sintesi",
               "corretta": false
+            },
+            {
+              "testo": "Nessuna delle precedenti",
+              "corretta": false
             }
-          ],
-          "id": 170
+          ]
         }
       ]
     },
@@ -3999,6 +4679,7 @@
       "nome": "Chimica Ambientale",
       "domande": [
         {
+          "id": 171,
           "testo": "Ozono stratosferico:",
           "livello": "base",
           "risposte": [
@@ -4017,11 +4698,15 @@
             {
               "testo": "Piogge acide",
               "corretta": false
+            },
+            {
+              "testo": "Nessuna delle precedenti",
+              "corretta": false
             }
-          ],
-          "id": 171
+          ]
         },
         {
+          "id": 172,
           "testo": "pH pioggia acida:",
           "livello": "base",
           "risposte": [
@@ -4040,11 +4725,15 @@
             {
               "testo": "8-9",
               "corretta": false
+            },
+            {
+              "testo": "Nessuna delle precedenti",
+              "corretta": false
             }
-          ],
-          "id": 172
+          ]
         },
         {
+          "id": 173,
           "testo": "Gas serra principale:",
           "livello": "base",
           "risposte": [
@@ -4063,11 +4752,15 @@
             {
               "testo": "Ar",
               "corretta": false
+            },
+            {
+              "testo": "Nessuna delle precedenti",
+              "corretta": false
             }
-          ],
-          "id": 173
+          ]
         },
         {
+          "id": 174,
           "testo": "CFC distruggono:",
           "livello": "intermedio",
           "risposte": [
@@ -4086,11 +4779,15 @@
             {
               "testo": "N₂",
               "corretta": false
+            },
+            {
+              "testo": "Nessuna delle precedenti",
+              "corretta": false
             }
-          ],
-          "id": 174
+          ]
         },
         {
+          "id": 175,
           "testo": "BOD misura:",
           "livello": "intermedio",
           "risposte": [
@@ -4109,11 +4806,15 @@
             {
               "testo": "Solidi",
               "corretta": false
+            },
+            {
+              "testo": "Nessuna delle precedenti",
+              "corretta": false
             }
-          ],
-          "id": 175
+          ]
         },
         {
+          "id": 176,
           "testo": "Eutrofizzazione da:",
           "livello": "intermedio",
           "risposte": [
@@ -4132,11 +4833,15 @@
             {
               "testo": "Sale",
               "corretta": false
+            },
+            {
+              "testo": "Nessuna delle precedenti",
+              "corretta": false
             }
-          ],
-          "id": 176
+          ]
         },
         {
+          "id": 177,
           "testo": "PM2.5 sono:",
           "livello": "avanzato",
           "risposte": [
@@ -4155,11 +4860,15 @@
             {
               "testo": "Ioni",
               "corretta": false
+            },
+            {
+              "testo": "Nessuna delle precedenti",
+              "corretta": false
             }
-          ],
-          "id": 177
+          ]
         },
         {
+          "id": 178,
           "testo": "Bioaccumulo massimo:",
           "livello": "avanzato",
           "risposte": [
@@ -4178,11 +4887,15 @@
             {
               "testo": "Ioni",
               "corretta": false
+            },
+            {
+              "testo": "Nessuna delle precedenti",
+              "corretta": false
             }
-          ],
-          "id": 178
+          ]
         },
         {
+          "id": 179,
           "testo": "Fotochemical smog:",
           "livello": "bastardo",
           "risposte": [
@@ -4201,11 +4914,15 @@
             {
               "testo": "Notte",
               "corretta": false
+            },
+            {
+              "testo": "Nessuna delle precedenti",
+              "corretta": false
             }
-          ],
-          "id": 179
+          ]
         },
         {
+          "id": 180,
           "testo": "Tempo residenza CO₂:",
           "livello": "bastardo",
           "risposte": [
@@ -4224,9 +4941,12 @@
             {
               "testo": "10000 anni",
               "corretta": false
+            },
+            {
+              "testo": "Nessuna delle precedenti",
+              "corretta": false
             }
-          ],
-          "id": 180
+          ]
         }
       ]
     },
@@ -4234,6 +4954,7 @@
       "nome": "Chimica Analitica",
       "domande": [
         {
+          "id": 181,
           "testo": "Accuratezza è:",
           "livello": "base",
           "risposte": [
@@ -4252,11 +4973,15 @@
             {
               "testo": "Sensibilità",
               "corretta": false
+            },
+            {
+              "testo": "Nessuna delle precedenti",
+              "corretta": false
             }
-          ],
-          "id": 181
+          ]
         },
         {
+          "id": 182,
           "testo": "Standard interno serve:",
           "livello": "base",
           "risposte": [
@@ -4275,11 +5000,15 @@
             {
               "testo": "Colorare",
               "corretta": false
+            },
+            {
+              "testo": "Nessuna delle precedenti",
+              "corretta": false
             }
-          ],
-          "id": 182
+          ]
         },
         {
+          "id": 183,
           "testo": "LOD è:",
           "livello": "base",
           "risposte": [
@@ -4298,11 +5027,15 @@
             {
               "testo": "Accuratezza",
               "corretta": false
+            },
+            {
+              "testo": "Nessuna delle precedenti",
+              "corretta": false
             }
-          ],
-          "id": 183
+          ]
         },
         {
+          "id": 184,
           "testo": "HPLC separa per:",
           "livello": "intermedio",
           "risposte": [
@@ -4321,11 +5054,15 @@
             {
               "testo": "Colore",
               "corretta": false
+            },
+            {
+              "testo": "Nessuna delle precedenti",
+              "corretta": false
             }
-          ],
-          "id": 184
+          ]
         },
         {
+          "id": 185,
           "testo": "In GC fase mobile:",
           "livello": "intermedio",
           "risposte": [
@@ -4344,11 +5081,15 @@
             {
               "testo": "Plasma",
               "corretta": false
+            },
+            {
+              "testo": "Nessuna delle precedenti",
+              "corretta": false
             }
-          ],
-          "id": 185
+          ]
         },
         {
+          "id": 186,
           "testo": "Spettrometria massa:",
           "livello": "intermedio",
           "risposte": [
@@ -4367,11 +5108,15 @@
             {
               "testo": "Assorbanza",
               "corretta": false
+            },
+            {
+              "testo": "Nessuna delle precedenti",
+              "corretta": false
             }
-          ],
-          "id": 186
+          ]
         },
         {
+          "id": 187,
           "testo": "ICP-MS per:",
           "livello": "avanzato",
           "risposte": [
@@ -4390,11 +5135,15 @@
             {
               "testo": "Zuccheri",
               "corretta": false
+            },
+            {
+              "testo": "Nessuna delle precedenti",
+              "corretta": false
             }
-          ],
-          "id": 187
+          ]
         },
         {
+          "id": 188,
           "testo": "Validazione metodo:",
           "livello": "avanzato",
           "risposte": [
@@ -4413,11 +5162,15 @@
             {
               "testo": "Solo teoria",
               "corretta": false
+            },
+            {
+              "testo": "Nessuna delle precedenti",
+              "corretta": false
             }
-          ],
-          "id": 188
+          ]
         },
         {
+          "id": 189,
           "testo": "MALDI-TOF per:",
           "livello": "bastardo",
           "risposte": [
@@ -4436,11 +5189,15 @@
             {
               "testo": "Solo acqua",
               "corretta": false
+            },
+            {
+              "testo": "Nessuna delle precedenti",
+              "corretta": false
             }
-          ],
-          "id": 189
+          ]
         },
         {
+          "id": 190,
           "testo": "SPE vs LLE:",
           "livello": "bastardo",
           "risposte": [
@@ -4459,9 +5216,12 @@
             {
               "testo": "Non confrontabili",
               "corretta": false
+            },
+            {
+              "testo": "Nessuna delle precedenti",
+              "corretta": false
             }
-          ],
-          "id": 190
+          ]
         }
       ]
     },
@@ -4469,6 +5229,7 @@
       "nome": "Chimica Computazionale",
       "domande": [
         {
+          "id": 191,
           "testo": "DFT calcola:",
           "livello": "base",
           "risposte": [
@@ -4487,11 +5248,15 @@
             {
               "testo": "Solo geometrie",
               "corretta": false
+            },
+            {
+              "testo": "Nessuna delle precedenti",
+              "corretta": false
             }
-          ],
-          "id": 191
+          ]
         },
         {
+          "id": 192,
           "testo": "Base set minima:",
           "livello": "base",
           "risposte": [
@@ -4510,11 +5275,15 @@
             {
               "testo": "aug-cc-pVDZ",
               "corretta": false
+            },
+            {
+              "testo": "Nessuna delle precedenti",
+              "corretta": false
             }
-          ],
-          "id": 192
+          ]
         },
         {
+          "id": 193,
           "testo": "HF non include:",
           "livello": "base",
           "risposte": [
@@ -4533,11 +5302,15 @@
             {
               "testo": "Nuclei",
               "corretta": false
+            },
+            {
+              "testo": "Nessuna delle precedenti",
+              "corretta": false
             }
-          ],
-          "id": 193
+          ]
         },
         {
+          "id": 194,
           "testo": "Funzionale B3LYP:",
           "livello": "intermedio",
           "risposte": [
@@ -4556,11 +5329,15 @@
             {
               "testo": "Meta-GGA",
               "corretta": false
+            },
+            {
+              "testo": "Nessuna delle precedenti",
+              "corretta": false
             }
-          ],
-          "id": 194
+          ]
         },
         {
+          "id": 195,
           "testo": "MD simula:",
           "livello": "intermedio",
           "risposte": [
@@ -4579,11 +5356,15 @@
             {
               "testo": "Solo orbitali",
               "corretta": false
+            },
+            {
+              "testo": "Nessuna delle precedenti",
+              "corretta": false
             }
-          ],
-          "id": 195
+          ]
         },
         {
+          "id": 196,
           "testo": "PCM modella:",
           "livello": "intermedio",
           "risposte": [
@@ -4602,11 +5383,15 @@
             {
               "testo": "Vuoto",
               "corretta": false
+            },
+            {
+              "testo": "Nessuna delle precedenti",
+              "corretta": false
             }
-          ],
-          "id": 196
+          ]
         },
         {
+          "id": 197,
           "testo": "CI include:",
           "livello": "avanzato",
           "risposte": [
@@ -4625,11 +5410,15 @@
             {
               "testo": "Solo core",
               "corretta": false
+            },
+            {
+              "testo": "Nessuna delle precedenti",
+              "corretta": false
             }
-          ],
-          "id": 197
+          ]
         },
         {
+          "id": 198,
           "testo": "CCSD(T) è:",
           "livello": "avanzato",
           "risposte": [
@@ -4648,11 +5437,15 @@
             {
               "testo": "HF",
               "corretta": false
+            },
+            {
+              "testo": "Nessuna delle precedenti",
+              "corretta": false
             }
-          ],
-          "id": 198
+          ]
         },
         {
+          "id": 199,
           "testo": "CASSCF per:",
           "livello": "bastardo",
           "risposte": [
@@ -4671,11 +5464,15 @@
             {
               "testo": "Semiempirico",
               "corretta": false
+            },
+            {
+              "testo": "Nessuna delle precedenti",
+              "corretta": false
             }
-          ],
-          "id": 199
+          ]
         },
         {
+          "id": 200,
           "testo": "Basis set superposition:",
           "livello": "bastardo",
           "risposte": [
@@ -4694,9 +5491,12 @@
             {
               "testo": "Solo metalli",
               "corretta": false
+            },
+            {
+              "testo": "Nessuna delle precedenti",
+              "corretta": false
             }
-          ],
-          "id": 200
+          ]
         }
       ]
     },
@@ -4704,6 +5504,7 @@
       "nome": "Nanotecnologia",
       "domande": [
         {
+          "id": 201,
           "testo": "Nanotubi C sono:",
           "livello": "base",
           "risposte": [
@@ -4722,11 +5523,15 @@
             {
               "testo": "Grafite",
               "corretta": false
+            },
+            {
+              "testo": "Nessuna delle precedenti",
+              "corretta": false
             }
-          ],
-          "id": 201
+          ]
         },
         {
+          "id": 202,
           "testo": "Quantum dots:",
           "livello": "base",
           "risposte": [
@@ -4745,11 +5550,15 @@
             {
               "testo": "Ceramiche",
               "corretta": false
+            },
+            {
+              "testo": "Nessuna delle precedenti",
+              "corretta": false
             }
-          ],
-          "id": 202
+          ]
         },
         {
+          "id": 203,
           "testo": "1 nm =:",
           "livello": "base",
           "risposte": [
@@ -4768,11 +5577,15 @@
             {
               "testo": "10⁻³ m",
               "corretta": false
+            },
+            {
+              "testo": "Nessuna delle precedenti",
+              "corretta": false
             }
-          ],
-          "id": 203
+          ]
         },
         {
+          "id": 204,
           "testo": "SPR in nanoparticelle:",
           "livello": "intermedio",
           "risposte": [
@@ -4791,11 +5604,15 @@
             {
               "testo": "Radioattività",
               "corretta": false
+            },
+            {
+              "testo": "Nessuna delle precedenti",
+              "corretta": false
             }
-          ],
-          "id": 204
+          ]
         },
         {
+          "id": 205,
           "testo": "Top-down vs bottom-up:",
           "livello": "intermedio",
           "risposte": [
@@ -4814,11 +5631,15 @@
             {
               "testo": "Solo fisico",
               "corretta": false
+            },
+            {
+              "testo": "Nessuna delle precedenti",
+              "corretta": false
             }
-          ],
-          "id": 205
+          ]
         },
         {
+          "id": 206,
           "testo": "Grafene è:",
           "livello": "intermedio",
           "risposte": [
@@ -4837,11 +5658,15 @@
             {
               "testo": "Amorfo",
               "corretta": false
+            },
+            {
+              "testo": "Nessuna delle precedenti",
+              "corretta": false
             }
-          ],
-          "id": 206
+          ]
         },
         {
+          "id": 207,
           "testo": "Nanomedicina usa:",
           "livello": "avanzato",
           "risposte": [
@@ -4860,11 +5685,15 @@
             {
               "testo": "Macro farmaci",
               "corretta": false
+            },
+            {
+              "testo": "Nessuna delle precedenti",
+              "corretta": false
             }
-          ],
-          "id": 207
+          ]
         },
         {
+          "id": 208,
           "testo": "Effetto dimensione:",
           "livello": "avanzato",
           "risposte": [
@@ -4883,11 +5712,15 @@
             {
               "testo": "> 1 μm",
               "corretta": false
+            },
+            {
+              "testo": "Nessuna delle precedenti",
+              "corretta": false
             }
-          ],
-          "id": 208
+          ]
         },
         {
+          "id": 209,
           "testo": "Self-assembly guidato:",
           "livello": "bastardo",
           "risposte": [
@@ -4906,11 +5739,15 @@
             {
               "testo": "Impossibile",
               "corretta": false
+            },
+            {
+              "testo": "Nessuna delle precedenti",
+              "corretta": false
             }
-          ],
-          "id": 209
+          ]
         },
         {
+          "id": 210,
           "testo": "Nanorod vs nanosphere:",
           "livello": "bastardo",
           "risposte": [
@@ -4929,9 +5766,12 @@
             {
               "testo": "Solo massa",
               "corretta": false
+            },
+            {
+              "testo": "Nessuna delle precedenti",
+              "corretta": false
             }
-          ],
-          "id": 210
+          ]
         }
       ]
     },
@@ -4939,6 +5779,7 @@
       "nome": "Polimeri",
       "domande": [
         {
+          "id": 211,
           "testo": "Monomero + monomero:",
           "livello": "base",
           "risposte": [
@@ -4957,11 +5798,15 @@
             {
               "testo": "Degradazione",
               "corretta": false
+            },
+            {
+              "testo": "Nessuna delle precedenti",
+              "corretta": false
             }
-          ],
-          "id": 211
+          ]
         },
         {
+          "id": 212,
           "testo": "Polimerizzazione radicalica:",
           "livello": "base",
           "risposte": [
@@ -4980,11 +5825,15 @@
             {
               "testo": "Solo termico",
               "corretta": false
+            },
+            {
+              "testo": "Nessuna delle precedenti",
+              "corretta": false
             }
-          ],
-          "id": 212
+          ]
         },
         {
+          "id": 213,
           "testo": "PE è:",
           "livello": "base",
           "risposte": [
@@ -5003,11 +5852,15 @@
             {
               "testo": "Polietere",
               "corretta": false
+            },
+            {
+              "testo": "Nessuna delle precedenti",
+              "corretta": false
             }
-          ],
-          "id": 213
+          ]
         },
         {
+          "id": 214,
           "testo": "Grado polimerizzazione:",
           "livello": "intermedio",
           "risposte": [
@@ -5026,11 +5879,15 @@
             {
               "testo": "Colore",
               "corretta": false
+            },
+            {
+              "testo": "Nessuna delle precedenti",
+              "corretta": false
             }
-          ],
-          "id": 214
+          ]
         },
         {
+          "id": 215,
           "testo": "Tg è:",
           "livello": "intermedio",
           "risposte": [
@@ -5049,11 +5906,15 @@
             {
               "testo": "Decomposizione",
               "corretta": false
+            },
+            {
+              "testo": "Nessuna delle precedenti",
+              "corretta": false
             }
-          ],
-          "id": 215
+          ]
         },
         {
+          "id": 216,
           "testo": "Polimeri termoplastici:",
           "livello": "intermedio",
           "risposte": [
@@ -5072,11 +5933,15 @@
             {
               "testo": "Sempre liquidi",
               "corretta": false
+            },
+            {
+              "testo": "Nessuna delle precedenti",
+              "corretta": false
             }
-          ],
-          "id": 216
+          ]
         },
         {
+          "id": 217,
           "testo": "Vulcanizzazione:",
           "livello": "avanzato",
           "risposte": [
@@ -5095,11 +5960,15 @@
             {
               "testo": "Cristallizzazione",
               "corretta": false
+            },
+            {
+              "testo": "Nessuna delle precedenti",
+              "corretta": false
             }
-          ],
-          "id": 217
+          ]
         },
         {
+          "id": 218,
           "testo": "PDI = Mw/Mn:",
           "livello": "avanzato",
           "risposte": [
@@ -5118,11 +5987,15 @@
             {
               "testo": "Densità",
               "corretta": false
+            },
+            {
+              "testo": "Nessuna delle precedenti",
+              "corretta": false
             }
-          ],
-          "id": 218
+          ]
         },
         {
+          "id": 219,
           "testo": "ROMP usa:",
           "livello": "bastardo",
           "risposte": [
@@ -5141,11 +6014,15 @@
             {
               "testo": "Ionica",
               "corretta": false
+            },
+            {
+              "testo": "Nessuna delle precedenti",
+              "corretta": false
             }
-          ],
-          "id": 219
+          ]
         },
         {
+          "id": 220,
           "testo": "Polimeri conduttori:",
           "livello": "bastardo",
           "risposte": [
@@ -5164,9 +6041,12 @@
             {
               "testo": "Solo metalli",
               "corretta": false
+            },
+            {
+              "testo": "Nessuna delle precedenti",
+              "corretta": false
             }
-          ],
-          "id": 220
+          ]
         }
       ]
     }
