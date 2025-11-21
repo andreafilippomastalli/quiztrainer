@@ -1,683 +1,299 @@
 {
-  "materia": "Chimica",
-  "versione": "1.0",
-  "descrizione": "Quiz di chimica generale per studenti universitari",
   "argomenti": [
     {
-      "id": "tavola-periodica",
       "nome": "Tavola Periodica",
       "domande": [
         {
-          "id": 1,
-          "testo": "Qual è il simbolo chimico del sodio?",
-          "livello": "base",
-          "risposte": [
-            {"testo": "Na", "corretta": true},
-            {"testo": "So", "corretta": false},
-            {"testo": "Sd", "corretta": false},
-            {"testo": "N", "corretta": false},
-            {"testo": "S", "corretta": false}
-          ]
-        },
-        {
-          "id": 2,
-          "testo": "Quanti elettroni può contenere al massimo il primo livello energetico (n=1)?",
-          "livello": "base",
-          "risposte": [
-            {"testo": "2 elettroni", "corretta": true},
-            {"testo": "8 elettroni", "corretta": false},
-            {"testo": "18 elettroni", "corretta": false},
-            {"testo": "32 elettroni", "corretta": false},
-            {"testo": "1 elettrone", "corretta": false}
-          ]
-        },
-        {
-          "id": 3,
-          "testo": "Quale elemento ha numero atomico 6?",
-          "livello": "base",
-          "risposte": [
-            {"testo": "Carbonio", "corretta": true},
-            {"testo": "Ossigeno", "corretta": false},
-            {"testo": "Azoto", "corretta": false},
-            {"testo": "Boro", "corretta": false},
-            {"testo": "Litio", "corretta": false}
-          ]
-        },
-        {
-          "id": 4,
-          "testo": "Cosa indica il numero atomico di un elemento?",
-          "livello": "base",
-          "risposte": [
-            {"testo": "Il numero di protoni nel nucleo", "corretta": true},
-            {"testo": "Il numero di neutroni", "corretta": false},
-            {"testo": "La massa atomica", "corretta": false},
-            {"testo": "Il numero di elettroni di valenza", "corretta": false},
-            {"testo": "Il numero di livelli energetici", "corretta": false}
-          ]
-        },
-        {
-          "id": 5,
-          "testo": "Qual è il simbolo chimico del ferro?",
-          "livello": "base",
-          "risposte": [
-            {"testo": "Fe", "corretta": true},
-            {"testo": "Fr", "corretta": false},
-            {"testo": "F", "corretta": false},
-            {"testo": "Fe2", "corretta": false},
-            {"testo": "Fo", "corretta": false}
-          ]
-        },
-        {
-          "id": 6,
-          "testo": "Quanti gruppi (colonne) ha la tavola periodica moderna?",
-          "livello": "base",
-          "risposte": [
-            {"testo": "18 gruppi", "corretta": true},
-            {"testo": "8 gruppi", "corretta": false},
-            {"testo": "7 gruppi", "corretta": false},
-            {"testo": "16 gruppi", "corretta": false},
-            {"testo": "10 gruppi", "corretta": false}
-          ]
-        },
-        {
-          "id": 7,
-          "testo": "Quale elemento è il più leggero?",
-          "livello": "base",
-          "risposte": [
-            {"testo": "Idrogeno", "corretta": true},
-            {"testo": "Elio", "corretta": false},
-            {"testo": "Litio", "corretta": false},
-            {"testo": "Carbonio", "corretta": false},
-            {"testo": "Ossigeno", "corretta": false}
-          ]
-        },
-        {
-          "id": 8,
-          "testo": "Cos'è un isotopo?",
-          "livello": "base",
-          "risposte": [
-            {"testo": "Atomi dello stesso elemento con diverso numero di neutroni", "corretta": true},
-            {"testo": "Atomi con lo stesso numero di elettroni", "corretta": false},
-            {"testo": "Elementi dello stesso gruppo", "corretta": false},
-            {"testo": "Molecole identiche", "corretta": false},
-            {"testo": "Ioni con carica opposta", "corretta": false}
-          ]
-        },
-        {
-          "id": 9,
-          "testo": "Qual è il simbolo del calcio?",
-          "livello": "base",
-          "risposte": [
-            {"testo": "Ca", "corretta": true},
-            {"testo": "C", "corretta": false},
-            {"testo": "Cl", "corretta": false},
-            {"testo": "Cd", "corretta": false},
-            {"testo": "Co", "corretta": false}
-          ]
-        },
-        {
-          "id": 10,
-          "testo": "Quanti elettroni può contenere al massimo il secondo livello energetico (n=2)?",
-          "livello": "base",
-          "risposte": [
-            {"testo": "8 elettroni", "corretta": true},
-            {"testo": "2 elettroni", "corretta": false},
-            {"testo": "18 elettroni", "corretta": false},
-            {"testo": "6 elettroni", "corretta": false},
-            {"testo": "10 elettroni", "corretta": false}
-          ]
-        },
-        {
-          "id": 11,
-          "testo": "Quale gas nobile si trova nel secondo periodo?",
-          "livello": "base",
-          "risposte": [
-            {"testo": "Neon", "corretta": true},
-            {"testo": "Elio", "corretta": false},
-            {"testo": "Argon", "corretta": false},
-            {"testo": "Kripton", "corretta": false},
-            {"testo": "Xeno", "corretta": false}
-          ]
-        },
-        {
-          "id": 12,
-          "testo": "Cosa rappresenta la massa atomica?",
-          "livello": "base",
-          "risposte": [
-            {"testo": "La somma approssimata di protoni e neutroni", "corretta": true},
-            {"testo": "Il numero di elettroni", "corretta": false},
-            {"testo": "Solo il numero di protoni", "corretta": false},
-            {"testo": "Il peso dell'atomo in grammi", "corretta": false},
-            {"testo": "Il numero di livelli energetici", "corretta": false}
-          ]
-        },
-        {
-          "id": 13,
-          "testo": "Quale elemento ha simbolo O?",
-          "livello": "base",
-          "risposte": [
-            {"testo": "Ossigeno", "corretta": true},
-            {"testo": "Oro", "corretta": false},
-            {"testo": "Osmio", "corretta": false},
-            {"testo": "Olmio", "corretta": false},
-            {"testo": "Oganesson", "corretta": false}
-          ]
-        },
-        {
-          "id": 14,
-          "testo": "Quale gruppo della tavola periodica contiene i gas nobili?",
-          "livello": "intermedio",
-          "risposte": [
-            {"testo": "Gruppo 18 (VIII A)", "corretta": true},
-            {"testo": "Gruppo 1 (I A)", "corretta": false},
-            {"testo": "Gruppo 17 (VII A)", "corretta": false},
-            {"testo": "Gruppo 2 (II A)", "corretta": false},
-            {"testo": "Gruppo 16 (VI A)", "corretta": false}
-          ]
-        },
-        {
-          "id": 15,
-          "testo": "Come varia il raggio atomico scendendo in un gruppo?",
-          "livello": "intermedio",
-          "risposte": [
-            {"testo": "Aumenta progressivamente", "corretta": true},
-            {"testo": "Diminuisce progressivamente", "corretta": false},
-            {"testo": "Rimane costante", "corretta": false},
-            {"testo": "Prima aumenta poi diminuisce", "corretta": false},
-            {"testo": "Varia in modo casuale", "corretta": false}
-          ]
-        },
-        {
-          "id": 16,
-          "testo": "Quale configurazione elettronica è più stabile?",
-          "livello": "intermedio",
-          "risposte": [
-            {"testo": "Ottetto completo (8 elettroni nell'ultimo livello)", "corretta": true},
-            {"testo": "Sestetto (6 elettroni)", "corretta": false},
-            {"testo": "Quartetto (4 elettroni)", "corretta": false},
-            {"testo": "Duetto per tutti gli elementi", "corretta": false},
-            {"testo": "Livelli parzialmente riempiti", "corretta": false}
-          ]
-        },
-        {
-          "id": 17,
-          "testo": "Quali elementi sono chiamati metalli alcalini?",
-          "livello": "intermedio",
-          "risposte": [
-            {"testo": "Elementi del gruppo 1 (escluso idrogeno)", "corretta": true},
-            {"testo": "Tutti i metalli", "corretta": false},
-            {"testo": "Elementi del gruppo 2", "corretta": false},
-            {"testo": "Gas nobili", "corretta": false},
-            {"testo": "Metalli di transizione", "corretta": false}
-          ]
-        },
-        {
-          "id": 18,
-          "testo": "Cosa sono i metalli di transizione?",
-          "livello": "intermedio",
-          "risposte": [
-            {"testo": "Elementi dei gruppi 3-12 con elettroni negli orbitali d", "corretta": true},
-            {"testo": "Elementi che cambiano stato facilmente", "corretta": false},
-            {"testo": "Metalli leggeri del gruppo 1", "corretta": false},
-            {"testo": "Non metalli", "corretta": false},
-            {"testo": "Gas nobili metallici", "corretta": false}
-          ]
-        },
-        {
-          "id": 19,
-          "testo": "Quale tendenza segue l'elettronegatività nella tavola periodica?",
-          "livello": "intermedio",
-          "risposte": [
-            {"testo": "Aumenta verso destra e verso l'alto", "corretta": true},
-            {"testo": "Diminuisce verso destra", "corretta": false},
-            {"testo": "Aumenta scendendo nei gruppi", "corretta": false},
-            {"testo": "È uguale per tutti gli elementi", "corretta": false},
-            {"testo": "Diminuisce verso l'alto", "corretta": false}
-          ]
-        },
-        {
-          "id": 20,
-          "testo": "Cosa rappresenta il numero quantico principale n?",
-          "livello": "intermedio",
-          "risposte": [
-            {"testo": "Il livello energetico dell'elettrone", "corretta": true},
-            {"testo": "Il numero di protoni", "corretta": false},
-            {"testo": "Lo spin dell'elettrone", "corretta": false},
-            {"testo": "La forma dell'orbitale", "corretta": false},
-            {"testo": "Il numero di neutroni", "corretta": false}
-          ]
-        },
-        {
-          "id": 21,
-          "testo": "Quale elemento ha la più alta elettronegatività?",
-          "livello": "intermedio",
-          "risposte": [
-            {"testo": "Fluoro", "corretta": true},
-            {"testo": "Ossigeno", "corretta": false},
-            {"testo": "Azoto", "corretta": false},
-            {"testo": "Cloro", "corretta": false},
-            {"testo": "Carbonio", "corretta": false}
-          ]
-        },
-        {
-          "id": 22,
-          "testo": "Come si chiamano gli elementi del gruppo 17?",
-          "livello": "intermedio",
-          "risposte": [
-            {"testo": "Alogeni", "corretta": true},
-            {"testo": "Metalli alcalini", "corretta": false},
-            {"testo": "Gas nobili", "corretta": false},
-            {"testo": "Metalli alcalino-terrosi", "corretta": false},
-            {"testo": "Lantanidi", "corretta": false}
-          ]
-        },
-        {
-          "id": 23,
-          "testo": "Quale proprietà aumenta scendendo in un gruppo?",
-          "livello": "intermedio",
-          "risposte": [
-            {"testo": "Raggio atomico", "corretta": true},
-            {"testo": "Elettronegatività", "corretta": false},
-            {"testo": "Energia di ionizzazione", "corretta": false},
-            {"testo": "Affinità elettronica", "corretta": false},
-            {"testo": "Densità di carica nucleare", "corretta": false}
-          ]
-        },
-        {
-          "id": 24,
-          "testo": "Quanti elettroni di valenza ha un elemento del gruppo 14?",
-          "livello": "intermedio",
-          "risposte": [
-            {"testo": "4 elettroni", "corretta": true},
-            {"testo": "14 elettroni", "corretta": false},
-            {"testo": "8 elettroni", "corretta": false},
-            {"testo": "2 elettroni", "corretta": false},
-            {"testo": "6 elettroni", "corretta": false}
-          ]
-        },
-        {
-          "id": 25,
-          "testo": "Cosa indica il periodo in cui si trova un elemento?",
-          "livello": "intermedio",
-          "risposte": [
-            {"testo": "Il numero di livelli energetici occupati", "corretta": true},
-            {"testo": "Il numero di protoni", "corretta": false},
-            {"testo": "Il numero di elettroni di valenza", "corretta": false},
-            {"testo": "La massa atomica", "corretta": false},
-            {"testo": "Il numero di isotopi", "corretta": false}
-          ]
-        },
-        {
-          "id": 26,
-          "testo": "Quale affermazione è vera per i lantanidi?",
-          "livello": "intermedio",
-          "risposte": [
-            {"testo": "Sono elementi con orbitali f parzialmente riempiti", "corretta": true},
-            {"testo": "Sono tutti gas nobili", "corretta": false},
-            {"testo": "Si trovano nel gruppo 1", "corretta": false},
-            {"testo": "Hanno solo 2 elettroni di valenza", "corretta": false},
-            {"testo": "Sono non metalli", "corretta": false}
-          ]
-        },
-        {
-          "id": 27,
-          "testo": "Come varia l'elettronegatività muovendosi da sinistra a destra in un periodo?",
-          "livello": "avanzato",
-          "risposte": [
-            {"testo": "Aumenta progressivamente (escludendo i gas nobili)", "corretta": true},
-            {"testo": "Diminuisce progressivamente", "corretta": false},
-            {"testo": "Rimane costante", "corretta": false},
-            {"testo": "Prima aumenta poi diminuisce", "corretta": false},
-            {"testo": "Varia in modo casuale", "corretta": false}
-          ]
-        },
-        {
-          "id": 28,
-          "testo": "Quale configurazione elettronica rappresenta un'eccezione alla regola dell'aufbau?",
-          "livello": "avanzato",
-          "risposte": [
-            {"testo": "Cromo: [Ar] 3d⁵ 4s¹ invece di [Ar] 3d⁴ 4s²", "corretta": true},
-            {"testo": "Ossigeno: 1s² 2s² 2p⁴", "corretta": false},
-            {"testo": "Sodio: [Ne] 3s¹", "corretta": false},
-            {"testo": "Cloro: [Ne] 3s² 3p⁵", "corretta": false},
-            {"testo": "Carbonio: 1s² 2s² 2p²", "corretta": false}
-          ]
-        },
-        {
-          "id": 29,
-          "testo": "Come si spiega l'effetto di schermatura nucleare?",
-          "livello": "avanzato",
-          "risposte": [
-            {"testo": "Gli elettroni interni riducono l'attrazione nucleare sugli elettroni esterni", "corretta": true},
-            {"testo": "Il nucleo perde protoni nel tempo", "corretta": false},
-            {"testo": "Gli elettroni esterni proteggono il nucleo", "corretta": false},
-            {"testo": "I neutroni bloccano la forza nucleare", "corretta": false},
-            {"testo": "È un effetto quantistico senza spiegazione classica", "corretta": false}
-          ]
-        },
-        {
-          "id": 30,
-          "testo": "Perché il rame ha configurazione [Ar] 3d¹⁰ 4s¹ invece di [Ar] 3d⁹ 4s²?",
-          "livello": "avanzato",
-          "risposte": [
-            {"testo": "Un orbitale d completamente riempito è più stabile", "corretta": true},
-            {"testo": "È un errore della teoria quantistica", "corretta": false},
-            {"testo": "Il rame segue sempre la regola dell'aufbau", "corretta": false},
-            {"testo": "Gli elettroni s hanno più energia", "corretta": false},
-            {"testo": "Il rame è un'eccezione senza spiegazione", "corretta": false}
-          ]
-        },
-        {
-          "id": 31,
-          "testo": "Cosa rappresenta l'affinità elettronica negativa?",
-          "livello": "avanzato",
-          "risposte": [
-            {"testo": "L'energia rilasciata quando un atomo acquista un elettrone", "corretta": true},
-            {"testo": "L'energia necessaria per rimuovere un elettrone", "corretta": false},
-            {"testo": "La tendenza a perdere elettroni", "corretta": false},
-            {"testo": "L'impossibilità di accettare elettroni", "corretta": false},
-            {"testo": "La carica negativa del nucleo", "corretta": false}
-          ]
-        },
-        {
-          "id": 32,
-          "testo": "Quale principio stabilisce che due elettroni nello stesso orbitale devono avere spin opposti?",
-          "livello": "avanzato",
-          "risposte": [
-            {"testo": "Principio di esclusione di Pauli", "corretta": true},
-            {"testo": "Regola di Hund", "corretta": false},
-            {"testo": "Principio dell'aufbau", "corretta": false},
-            {"testo": "Principio di indeterminazione", "corretta": false},
-            {"testo": "Legge di Avogadro", "corretta": false}
-          ]
-        },
-        {
-          "id": 33,
-          "testo": "Quale serie di elementi ha proprietà chimiche simili ai metalli alcalino-terrosi?",
-          "livello": "avanzato",
-          "risposte": [
-            {"testo": "Elementi del gruppo 2", "corretta": true},
-            {"testo": "Elementi del gruppo 1", "corretta": false},
-            {"testo": "Gas nobili", "corretta": false},
-            {"testo": "Alogeni", "corretta": false},
-            {"testo": "Metalli di transizione", "corretta": false}
-          ]
-        },
-        {
-          "id": 34,
-          "testo": "Come varia l'energia di ionizzazione attraverso un periodo?",
-          "livello": "avanzato",
-          "risposte": [
-            {"testo": "Aumenta generalmente da sinistra a destra", "corretta": true},
-            {"testo": "Diminuisce da sinistra a destra", "corretta": false},
-            {"testo": "Rimane costante", "corretta": false},
-            {"testo": "Diminuisce verso i gas nobili", "corretta": false},
-            {"testo": "È massima per i metalli alcalini", "corretta": false}
-          ]
-        },
-        {
-          "id": 35,
-          "testo": "Cosa causa la contrazione lantanidica?",
-          "livello": "avanzato",
-          "risposte": [
-            {"testo": "Il riempimento degli orbitali 4f causa uno scarso effetto di schermatura", "corretta": true},
-            {"testo": "I lantanidi perdono massa nel tempo", "corretta": false},
-            {"testo": "È un effetto della radioattività", "corretta": false},
-            {"testo": "I lantanidi hanno meno protoni del previsto", "corretta": false},
-            {"testo": "È causata dalla pressione atmosferica", "corretta": false}
-          ]
-        },
-        {
-          "id": 36,
-          "testo": "Quale regola determina come riempire gli orbitali di uguale energia?",
-          "livello": "avanzato",
-          "risposte": [
-            {"testo": "Regola di Hund (massima molteplicità di spin)", "corretta": true},
-            {"testo": "Regola dell'aufbau", "corretta": false},
-            {"testo": "Principio di Pauli", "corretta": false},
-            {"testo": "Legge di Boyle", "corretta": false},
-            {"testo": "Legge periodica", "corretta": false}
-          ]
-        },
-        {
-          "id": 37,
-          "testo": "Quale proprietà NON mostra periodicità nella tavola?",
-          "livello": "avanzato",
-          "risposte": [
-            {"testo": "Numero di neutroni", "corretta": true},
-            {"testo": "Raggio atomico", "corretta": false},
-            {"testo": "Elettronegatività", "corretta": false},
-            {"testo": "Energia di ionizzazione", "corretta": false},
-            {"testo": "Affinità elettronica", "corretta": false}
-          ]
-        },
-        {
-          "id": 38,
-          "testo": "Cosa rappresenta la carica nucleare effettiva?",
-          "livello": "avanzato",
-          "risposte": [
-            {"testo": "La carica netta percepita dagli elettroni di valenza dopo lo schermaggio", "corretta": true},
-            {"testo": "Il numero totale di protoni", "corretta": false},
-            {"testo": "La carica degli elettroni", "corretta": false},
-            {"testo": "La differenza tra protoni e neutroni", "corretta": false},
-            {"testo": "L'energia del nucleo", "corretta": false}
-          ]
-        },
-        {
-          "id": 39,
-          "testo": "Perché l'energia di prima ionizzazione dell'ossigeno è inferiore a quella dell'azoto?",
-          "livello": "bastardo",
-          "risposte": [
-            {"testo": "L'ossigeno ha repulsione elettronica nel sottolivello 2p semi-riempito", "corretta": true},
-            {"testo": "L'ossigeno ha un raggio atomico maggiore", "corretta": false},
-            {"testo": "L'azoto ha configurazione instabile", "corretta": false},
-            {"testo": "È un'eccezione senza spiegazione teorica", "corretta": false},
-            {"testo": "L'ossigeno ha meno protoni", "corretta": false}
-          ]
-        },
-        {
-          "id": 40,
-          "testo": "Quale fenomeno spiega perché il gallio ha punto di fusione inferiore all'alluminio nonostante sia più pesante?",
-          "livello": "bastardo",
-          "risposte": [
-            {"testo": "Il gallio ha una struttura cristallina più aperta e legami metallici più deboli", "corretta": true},
-            {"testo": "Il gallio è radioattivo", "corretta": false},
-            {"testo": "L'alluminio ha più elettroni di valenza", "corretta": false},
-            {"testo": "È un errore sperimentale", "corretta": false},
-            {"testo": "Il gallio è un semimetallo", "corretta": false}
-          ]
-        },
-        {
-          "id": 41,
-          "testo": "Perché l'elio non segue la regola dell'ottetto ma quella del duetto?",
-          "livello": "bastardo",
-          "risposte": [
-            {"testo": "Il primo livello energetico può contenere solo 2 elettroni", "corretta": true},
-            {"testo": "L'elio è un'eccezione quantistica", "corretta": false},
-            {"testo": "L'elio ha spin nucleare anomalo", "corretta": false},
-            {"testo": "Per effetto della relatività", "corretta": false},
-            {"testo": "L'elio ha elettroni virtuali", "corretta": false}
-          ]
-        },
-        {
-          "id": 42,
-          "testo": "Quale elemento del quarto periodo viola l'ordine di riempimento previsto dall'aufbau?",
-          "livello": "bastardo",
-          "risposte": [
-            {"testo": "Il cromo riempie 3d⁵ 4s¹ per stabilità del semiriempimento", "corretta": true},
-            {"testo": "Il ferro segue perfettamente l'aufbau", "corretta": false},
-            {"testo": "Il calcio ha anomalie negli orbitali d", "corretta": false},
-            {"testo": "Il potassio viola l'aufbau", "corretta": false},
-            {"testo": "Nessun elemento viola l'aufbau", "corretta": false}
-          ]
-        },
-        {
-          "id": 43,
-          "testo": "Perché l'oro è giallo mentre la maggior parte dei metalli è grigia?",
-          "livello": "bastardo",
-          "risposte": [
-            {"testo": "Effetti relativistici modificano gli orbitali d causando assorbimento selettivo della luce", "corretta": true},
-            {"testo": "L'oro contiene impurità gialle", "corretta": false},
-            {"testo": "È un'illusione ottica dovuta alla rifrazione", "corretta": false},
-            {"testo": "L'oro reagisce con l'ossigeno formando uno strato giallo", "corretta": false},
-            {"testo": "Il colore dipende dalla temperatura ambiente", "corretta": false}
-          ]
-        },
-        {
-          "id": 44,
-          "testo": "Cosa causa il paradosso del lantanide nell'affinità elettronica?",
-          "livello": "bastardo",
-          "risposte": [
-            {"testo": "Il riempimento degli orbitali f causa una variazione non monotona delle proprietà", "corretta": true},
-            {"testo": "I lantanidi non hanno affinità elettronica", "corretta": false},
-            {"testo": "È causato da errori di misurazione", "corretta": false},
-            {"testo": "Gli orbitali f sono instabili", "corretta": false},
-            {"testo": "Non esiste tale paradosso", "corretta": false}
-          ]
-        },
-        {
-          "id": 45,
-          "testo": "Perché il mercurio è liquido a temperatura ambiente?",
-          "livello": "bastardo",
-          "risposte": [
-            {"testo": "Effetti relativistici riducono il legame metallico tra gli atomi", "corretta": true},
-            {"testo": "Ha punto di fusione naturalmente basso", "corretta": false},
-            {"testo": "È sempre stato liquido dall'origine dell'universo", "corretta": false},
-            {"testo": "La pressione atmosferica lo mantiene liquido", "corretta": false},
-            {"testo": "Reagisce con l'aria formando uno stato liquido", "corretta": false}
-          ]
-        },
-        {
-          "id": 46,
-          "testo": "Quale fenomeno quantistico spiega perché l'argento è il miglior conduttore elettrico?",
-          "livello": "bastardo",
-          "risposte": [
-            {"testo": "Ha la struttura elettronica più favorevole per la mobilità degli elettroni nel reticolo", "corretta": true},
-            {"testo": "Ha più elettroni liberi del rame", "corretta": false},
-            {"testo": "Gli ioni argento si muovono liberamente", "corretta": false},
-            {"testo": "È dovuto alla sua lucentezza", "corretta": false},
-            {"testo": "L'argento ha superconduttività a temperatura ambiente", "corretta": false}
-          ]
-        },
-        {
-          "id": 47,
-          "testo": "Perché l'azoto ha affinità elettronica quasi nulla nonostante sia molto elettronegativo?",
-          "livello": "bastardo",
-          "risposte": [
-            {"testo": "Il sottolivello 2p semi-riempito è stabile, aggiungere elettroni causa repulsione", "corretta": true},
-            {"testo": "L'azoto non può accettare elettroni", "corretta": false},
-            {"testo": "È un errore nella scala di elettronegatività", "corretta": false},
-            {"testo": "L'azoto ha carica nucleare insufficiente", "corretta": false},
-            {"testo": "Gli elettroni dell'azoto sono troppo veloci", "corretta": false}
-          ]
-        },
-        {
-          "id": 48,
-          "testo": "Quale effetto causa la differenza tra il raggio ionico di Fe²⁺ e Fe³⁺?",
-          "livello": "bastardo",
-          "risposte": [
-            {"testo": "Fe³⁺ ha maggiore carica nucleare effettiva attirando più gli elettroni", "corretta": true},
-            {"testo": "Fe²⁺ ha più neutroni", "corretta": false},
-            {"testo": "Fe³⁺ ha più livelli energetici", "corretta": false},
-            {"testo": "Non c'è differenza di raggio", "corretta": false},
-            {"testo": "È causato dalla temperatura", "corretta": false}
-          ]
-        },
-        {
-          "id": 49,
-          "testo": "Perché la seconda energia di ionizzazione è sempre maggiore della prima?",
-          "livello": "bastardo",
-          "risposte": [
-            {"testo": "Dopo la prima ionizzazione aumenta il rapporto carica/raggio rendendo più difficile rimuovere altri elettroni", "corretta": true},
-            {"testo": "Gli elettroni diventano più pesanti", "corretta": false},
-            {"testo": "Il nucleo acquista più protoni", "corretta": false},
-            {"testo": "È solo una convenzione", "corretta": false},
-            {"testo": "Non è sempre maggiore", "corretta": false}
-          ]
-        },
-        {
-          "id": 50,
-          "testo": "Quale fenomeno relativístico influenza maggiormente gli elementi superpesanti?",
-          "livello": "bastardo",
-          "risposte": [
-            {"testo": "La contrazione relativistica degli orbitali s dovuta all'alta velocità degli elettroni", "corretta": true},
-            {"testo": "L'espansione del nucleo", "corretta": false},
-            {"testo": "Il decadimento radioattivo", "corretta": false},
-            {"testo": "La fusione nucleare spontanea", "corretta": false},
-            {"testo": "Non subiscono effetti relativistici", "corretta": false}
-          ]
-        }
-      ]
-    },
-    {
-      "id": "legami-chimici",
-      "nome": "Legami Chimici",
-      "domande": [
-        {
-          "id": 6,
-          "testo": "Cos'è un legame covalente?",
+          "testo": "Qual è il simbolo chimico dell'oro?",
           "livello": "base",
           "risposte": [
             {
-              "testo": "Condivisione di una o più coppie di elettroni tra due atomi",
+              "testo": "Au",
               "corretta": true
             },
             {
-              "testo": "Trasferimento completo di elettroni da un atomo all'altro",
+              "testo": "Ag",
               "corretta": false
             },
             {
-              "testo": "Attrazione tra ioni di carica opposta",
+              "testo": "Or",
               "corretta": false
             },
             {
-              "testo": "Interazione tra dipoli molecolari",
-              "corretta": false
-            },
-            {
-              "testo": "Legame formato solo da atomi metallici",
+              "testo": "Go",
               "corretta": false
             }
-          ]
+          ],
+          "id": 1
         },
         {
-          "id": 7,
-          "testo": "Quale tipo di legame si forma tra sodio e cloro in NaCl?",
+          "testo": "Quanti protoni ha l'idrogeno?",
           "livello": "base",
           "risposte": [
             {
-              "testo": "Legame ionico",
+              "testo": "1",
               "corretta": true
             },
             {
-              "testo": "Legame covalente puro",
+              "testo": "2",
+              "corretta": false
+            },
+            {
+              "testo": "0",
+              "corretta": false
+            },
+            {
+              "testo": "3",
+              "corretta": false
+            }
+          ],
+          "id": 2
+        },
+        {
+          "testo": "I gas nobili si trovano nel gruppo:",
+          "livello": "base",
+          "risposte": [
+            {
+              "testo": "18",
+              "corretta": true
+            },
+            {
+              "testo": "1",
+              "corretta": false
+            },
+            {
+              "testo": "17",
+              "corretta": false
+            },
+            {
+              "testo": "2",
+              "corretta": false
+            }
+          ],
+          "id": 3
+        },
+        {
+          "testo": "L'elemento più elettronegativo è:",
+          "livello": "intermedio",
+          "risposte": [
+            {
+              "testo": "Fluoro",
+              "corretta": true
+            },
+            {
+              "testo": "Ossigeno",
+              "corretta": false
+            },
+            {
+              "testo": "Cloro",
+              "corretta": false
+            },
+            {
+              "testo": "Azoto",
+              "corretta": false
+            }
+          ],
+          "id": 4
+        },
+        {
+          "testo": "La configurazione elettronica del neon è:",
+          "livello": "intermedio",
+          "risposte": [
+            {
+              "testo": "1s² 2s² 2p⁶",
+              "corretta": true
+            },
+            {
+              "testo": "1s² 2s² 2p⁴",
+              "corretta": false
+            },
+            {
+              "testo": "1s² 2s²",
+              "corretta": false
+            },
+            {
+              "testo": "1s² 2s² 2p⁵",
+              "corretta": false
+            }
+          ],
+          "id": 5
+        },
+        {
+          "testo": "Gli elementi del gruppo 17 sono chiamati:",
+          "livello": "intermedio",
+          "risposte": [
+            {
+              "testo": "Alogeni",
+              "corretta": true
+            },
+            {
+              "testo": "Metalli alcalini",
+              "corretta": false
+            },
+            {
+              "testo": "Gas nobili",
+              "corretta": false
+            },
+            {
+              "testo": "Lantanidi",
+              "corretta": false
+            }
+          ],
+          "id": 6
+        },
+        {
+          "testo": "Quale lantanide è usato nei magneti permanenti?",
+          "livello": "avanzato",
+          "risposte": [
+            {
+              "testo": "Neodimio",
+              "corretta": true
+            },
+            {
+              "testo": "Uranio",
+              "corretta": false
+            },
+            {
+              "testo": "Torio",
+              "corretta": false
+            },
+            {
+              "testo": "Cerio",
+              "corretta": false
+            }
+          ],
+          "id": 7
+        },
+        {
+          "testo": "Il tecnezio (Tc) è notevole perché:",
+          "livello": "avanzato",
+          "risposte": [
+            {
+              "testo": "È il primo elemento sintetico",
+              "corretta": true
+            },
+            {
+              "testo": "È un gas nobile",
+              "corretta": false
+            },
+            {
+              "testo": "È il più pesante",
+              "corretta": false
+            },
+            {
+              "testo": "Non è radioattivo",
+              "corretta": false
+            }
+          ],
+          "id": 8
+        },
+        {
+          "testo": "L'effetto relativistico influenza maggiormente:",
+          "livello": "bastardo",
+          "risposte": [
+            {
+              "testo": "Gli orbitali 6s del mercurio",
+              "corretta": true
+            },
+            {
+              "testo": "Gli orbitali 2p del carbonio",
+              "corretta": false
+            },
+            {
+              "testo": "Gli orbitali 3d del ferro",
+              "corretta": false
+            },
+            {
+              "testo": "Gli orbitali 1s dell'idrogeno",
+              "corretta": false
+            }
+          ],
+          "id": 9
+        },
+        {
+          "testo": "L'anomalia del raggio atomico del gallio è dovuta a:",
+          "livello": "bastardo",
+          "risposte": [
+            {
+              "testo": "Contrazione dei lantanidi",
+              "corretta": true
+            },
+            {
+              "testo": "Effetto schermo",
+              "corretta": false
+            },
+            {
+              "testo": "Ibridazione sp³",
               "corretta": false
             },
             {
               "testo": "Legame metallico",
               "corretta": false
+            }
+          ],
+          "id": 10
+        }
+      ]
+    },
+    {
+      "nome": "Legami Chimici",
+      "domande": [
+        {
+          "testo": "Che tipo di legame si forma tra Na e Cl?",
+          "livello": "base",
+          "risposte": [
+            {
+              "testo": "Ionico",
+              "corretta": true
             },
             {
-              "testo": "Legame a idrogeno",
+              "testo": "Covalente puro",
               "corretta": false
             },
             {
-              "testo": "Forze di van der Waals",
+              "testo": "Metallico",
+              "corretta": false
+            },
+            {
+              "testo": "Idrogeno",
               "corretta": false
             }
-          ]
+          ],
+          "id": 11
         },
         {
-          "id": 8,
-          "testo": "Qual è la geometria molecolare del metano (CH4) secondo la teoria VSEPR?",
-          "livello": "intermedio",
+          "testo": "Quanti elettroni condivide un legame doppio?",
+          "livello": "base",
+          "risposte": [
+            {
+              "testo": "4",
+              "corretta": true
+            },
+            {
+              "testo": "2",
+              "corretta": false
+            },
+            {
+              "testo": "6",
+              "corretta": false
+            },
+            {
+              "testo": "8",
+              "corretta": false
+            }
+          ],
+          "id": 12
+        },
+        {
+          "testo": "La geometria del metano (CH₄) è:",
+          "livello": "base",
           "risposte": [
             {
               "testo": "Tetraedrica",
               "corretta": true
             },
             {
-              "testo": "Planare trigonale",
+              "testo": "Planare",
               "corretta": false
             },
             {
@@ -685,250 +301,1898 @@
               "corretta": false
             },
             {
-              "testo": "Piramidale trigonale",
-              "corretta": false
-            },
-            {
-              "testo": "Angolare",
+              "testo": "Piramidale",
               "corretta": false
             }
-          ]
+          ],
+          "id": 13
         },
         {
-          "id": 9,
-          "testo": "Quale molecola presenta legami a idrogeno più forti?",
-          "livello": "avanzato",
-          "risposte": [
-            {
-              "testo": "HF (acido fluoridrico)",
-              "corretta": true
-            },
-            {
-              "testo": "H2O (acqua)",
-              "corretta": false
-            },
-            {
-              "testo": "NH3 (ammoniaca)",
-              "corretta": false
-            },
-            {
-              "testo": "CH4 (metano)",
-              "corretta": false
-            },
-            {
-              "testo": "HCl (acido cloridrico)",
-              "corretta": false
-            }
-          ]
-        },
-        {
-          "id": 10,
-          "testo": "Perché il carbonio nel benzene (C6H6) presenta un ordine di legame di 1.5 invece di legami semplici e doppi alternati?",
-          "livello": "bastardo",
-          "risposte": [
-            {
-              "testo": "La delocalizzazione degli elettroni π crea una risonanza che distribuisce uniformemente la densità elettronica",
-              "corretta": true
-            },
-            {
-              "testo": "I legami oscillano rapidamente tra singoli e doppi",
-              "corretta": false
-            },
-            {
-              "testo": "Il benzene ha una struttura instabile che varia continuamente",
-              "corretta": false
-            },
-            {
-              "testo": "È un effetto quantistico che viola le regole classiche del legame",
-              "corretta": false
-            },
-            {
-              "testo": "I legami sono tutti tripli ma parzialmente saturati",
-              "corretta": false
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "reazioni",
-      "nome": "Reazioni Chimiche",
-      "domande": [
-        {
-          "id": 11,
-          "testo": "Cos'è una reazione di ossidoriduzione (redox)?",
-          "livello": "base",
-          "risposte": [
-            {
-              "testo": "Reazione in cui avviene trasferimento di elettroni tra specie chimiche",
-              "corretta": true
-            },
-            {
-              "testo": "Reazione che produce sempre ossigeno",
-              "corretta": false
-            },
-            {
-              "testo": "Reazione che avviene solo in presenza di acqua",
-              "corretta": false
-            },
-            {
-              "testo": "Reazione reversibile ad alta temperatura",
-              "corretta": false
-            },
-            {
-              "testo": "Reazione che consuma sempre idrogeno",
-              "corretta": false
-            }
-          ]
-        },
-        {
-          "id": 12,
-          "testo": "Cosa rappresenta il pH di una soluzione?",
-          "livello": "base",
-          "risposte": [
-            {
-              "testo": "Il logaritmo negativo della concentrazione di ioni H+",
-              "corretta": true
-            },
-            {
-              "testo": "La concentrazione di basi nella soluzione",
-              "corretta": false
-            },
-            {
-              "testo": "La temperatura della soluzione",
-              "corretta": false
-            },
-            {
-              "testo": "La pressione idrostatica",
-              "corretta": false
-            },
-            {
-              "testo": "Il potenziale elettrico della soluzione",
-              "corretta": false
-            }
-          ]
-        },
-        {
-          "id": 13,
-          "testo": "In una reazione esotermica, come varia l'entalpia del sistema?",
+          "testo": "L'ibridazione del carbonio nel benzene è:",
           "livello": "intermedio",
           "risposte": [
             {
-              "testo": "Diminuisce (ΔH < 0)",
+              "testo": "sp²",
               "corretta": true
             },
             {
-              "testo": "Aumenta (ΔH > 0)",
+              "testo": "sp³",
               "corretta": false
             },
             {
-              "testo": "Rimane costante (ΔH = 0)",
+              "testo": "sp",
               "corretta": false
             },
             {
-              "testo": "Prima aumenta poi diminuisce",
-              "corretta": false
-            },
-            {
-              "testo": "Dipende dalla temperatura ambiente",
+              "testo": "sp³d",
               "corretta": false
             }
-          ]
+          ],
+          "id": 14
         },
         {
-          "id": 14,
-          "testo": "Quale fattore NON influenza la velocità di una reazione chimica secondo la teoria cinetica?",
+          "testo": "Quale molecola ha momento dipolare zero?",
+          "livello": "intermedio",
+          "risposte": [
+            {
+              "testo": "CO₂",
+              "corretta": true
+            },
+            {
+              "testo": "H₂O",
+              "corretta": false
+            },
+            {
+              "testo": "NH₃",
+              "corretta": false
+            },
+            {
+              "testo": "HCl",
+              "corretta": false
+            }
+          ],
+          "id": 15
+        },
+        {
+          "testo": "La teoria VSEPR prevede per SF₄ geometria:",
+          "livello": "intermedio",
+          "risposte": [
+            {
+              "testo": "Altalena (seesaw)",
+              "corretta": true
+            },
+            {
+              "testo": "Tetraedrica",
+              "corretta": false
+            },
+            {
+              "testo": "Ottaedrica",
+              "corretta": false
+            },
+            {
+              "testo": "Planare quadrata",
+              "corretta": false
+            }
+          ],
+          "id": 16
+        },
+        {
+          "testo": "L'ordine di legame in O₂ secondo MO è:",
           "livello": "avanzato",
           "risposte": [
             {
-              "testo": "La variazione di entalpia (ΔH) della reazione",
+              "testo": "2",
               "corretta": true
             },
             {
-              "testo": "La temperatura del sistema",
+              "testo": "1",
               "corretta": false
             },
             {
-              "testo": "La concentrazione dei reagenti",
+              "testo": "3",
               "corretta": false
             },
             {
-              "testo": "La presenza di un catalizzatore",
-              "corretta": false
-            },
-            {
-              "testo": "La superficie di contatto tra reagenti",
+              "testo": "1.5",
               "corretta": false
             }
-          ]
+          ],
+          "id": 17
         },
         {
-          "id": 15,
-          "testo": "Nel principio di Le Chatelier, perché aggiungere un gas inerte a volume costante NON sposta l'equilibrio, mentre aggiungerlo a pressione costante sì?",
+          "testo": "Il legame banana si trova in:",
+          "livello": "avanzato",
+          "risposte": [
+            {
+              "testo": "Ciclopropano",
+              "corretta": true
+            },
+            {
+              "testo": "Benzene",
+              "corretta": false
+            },
+            {
+              "testo": "Etano",
+              "corretta": false
+            },
+            {
+              "testo": "Cicloesano",
+              "corretta": false
+            }
+          ],
+          "id": 18
+        },
+        {
+          "testo": "Nel diborano B₂H₆ i legami ponte sono:",
           "livello": "bastardo",
           "risposte": [
             {
-              "testo": "A volume costante le pressioni parziali dei reagenti non cambiano, a pressione costante il volume aumenta diminuendo le concentrazioni",
+              "testo": "3-centri 2-elettroni",
               "corretta": true
             },
             {
-              "testo": "I gas inerti catalizzano la reazione solo a pressione costante",
+              "testo": "2-centri 2-elettroni",
               "corretta": false
             },
             {
-              "testo": "Il gas inerte reagisce solo quando la pressione è costante",
+              "testo": "4-centri 4-elettroni",
               "corretta": false
             },
             {
-              "testo": "È un paradosso termodinamico ancora inspiegato",
-              "corretta": false
-            },
-            {
-              "testo": "L'energia cinetica media cambia solo a pressione costante",
+              "testo": "Ionici",
               "corretta": false
             }
-          ]
+          ],
+          "id": 19
+        },
+        {
+          "testo": "L'interazione agostica M···H-C è importante in:",
+          "livello": "bastardo",
+          "risposte": [
+            {
+              "testo": "Catalisi organometallica",
+              "corretta": true
+            },
+            {
+              "testo": "Legami ionici",
+              "corretta": false
+            },
+            {
+              "testo": "Forze van der Waals",
+              "corretta": false
+            },
+            {
+              "testo": "Legami peptidici",
+              "corretta": false
+            }
+          ],
+          "id": 20
         }
       ]
     },
     {
-      "id": "stechiometria",
       "nome": "Stechiometria",
       "domande": [
         {
-          "id": 16,
-          "testo": "Cos'è una mole in chimica?",
+          "testo": "Il numero di Avogadro è:",
           "livello": "base",
           "risposte": [
             {
-              "testo": "La quantità di sostanza che contiene 6.022 × 10²³ entità elementari (numero di Avogadro)",
+              "testo": "6.022 × 10²³",
               "corretta": true
             },
             {
-              "testo": "L'unità di misura della massa atomica",
+              "testo": "6.022 × 10²²",
               "corretta": false
             },
             {
-              "testo": "Il volume occupato da un gas a STP",
+              "testo": "3.011 × 10²³",
               "corretta": false
             },
             {
-              "testo": "La concentrazione di una soluzione",
-              "corretta": false
-            },
-            {
-              "testo": "Un'unità di misura della temperatura",
+              "testo": "6.022 × 10²⁴",
               "corretta": false
             }
-          ]
+          ],
+          "id": 21
         },
         {
-          "id": 17,
-          "testo": "Quale relazione matematica esprime la legge dei gas ideali?",
+          "testo": "La massa molare dell'H₂O è:",
           "livello": "base",
           "risposte": [
             {
-              "testo": "PV = nRT",
+              "testo": "18 g/mol",
+              "corretta": true
+            },
+            {
+              "testo": "20 g/mol",
+              "corretta": false
+            },
+            {
+              "testo": "16 g/mol",
+              "corretta": false
+            },
+            {
+              "testo": "17 g/mol",
+              "corretta": false
+            }
+          ],
+          "id": 22
+        },
+        {
+          "testo": "In 2H₂ + O₂ → 2H₂O, il rapporto H₂:O₂ è:",
+          "livello": "base",
+          "risposte": [
+            {
+              "testo": "2:1",
+              "corretta": true
+            },
+            {
+              "testo": "1:1",
+              "corretta": false
+            },
+            {
+              "testo": "1:2",
+              "corretta": false
+            },
+            {
+              "testo": "4:2",
+              "corretta": false
+            }
+          ],
+          "id": 23
+        },
+        {
+          "testo": "0.5 moli di CO₂ pesano:",
+          "livello": "intermedio",
+          "risposte": [
+            {
+              "testo": "22 g",
+              "corretta": true
+            },
+            {
+              "testo": "44 g",
+              "corretta": false
+            },
+            {
+              "testo": "11 g",
+              "corretta": false
+            },
+            {
+              "testo": "88 g",
+              "corretta": false
+            }
+          ],
+          "id": 24
+        },
+        {
+          "testo": "Il reagente limitante determina:",
+          "livello": "intermedio",
+          "risposte": [
+            {
+              "testo": "La quantità massima di prodotto",
+              "corretta": true
+            },
+            {
+              "testo": "La velocità di reazione",
+              "corretta": false
+            },
+            {
+              "testo": "La temperatura",
+              "corretta": false
+            },
+            {
+              "testo": "Il catalizzatore",
+              "corretta": false
+            }
+          ],
+          "id": 25
+        },
+        {
+          "testo": "Per 500 mL di NaOH 0.1 M servono:",
+          "livello": "intermedio",
+          "risposte": [
+            {
+              "testo": "2.0 g di NaOH",
+              "corretta": true
+            },
+            {
+              "testo": "4.0 g di NaOH",
+              "corretta": false
+            },
+            {
+              "testo": "1.0 g di NaOH",
+              "corretta": false
+            },
+            {
+              "testo": "0.5 g di NaOH",
+              "corretta": false
+            }
+          ],
+          "id": 26
+        },
+        {
+          "testo": "La resa % = (reale/teorica)×100. Se ottengo 8g invece di 10g:",
+          "livello": "avanzato",
+          "risposte": [
+            {
+              "testo": "80%",
+              "corretta": true
+            },
+            {
+              "testo": "125%",
+              "corretta": false
+            },
+            {
+              "testo": "20%",
+              "corretta": false
+            },
+            {
+              "testo": "90%",
+              "corretta": false
+            }
+          ],
+          "id": 27
+        },
+        {
+          "testo": "Al punto equivalente di una titolazione:",
+          "livello": "avanzato",
+          "risposte": [
+            {
+              "testo": "nₐcᵢdₒ = nbₐₛₑ",
+              "corretta": true
+            },
+            {
+              "testo": "pH = 7 sempre",
+              "corretta": false
+            },
+            {
+              "testo": "V_acido = V_base",
+              "corretta": false
+            },
+            {
+              "testo": "[H⁺] = [OH⁻]",
+              "corretta": false
+            }
+          ],
+          "id": 28
+        },
+        {
+          "testo": "Da 250g CaCO₃ → CaO + CO₂, si ottengono di CaO:",
+          "livello": "bastardo",
+          "risposte": [
+            {
+              "testo": "140 g",
+              "corretta": true
+            },
+            {
+              "testo": "250 g",
+              "corretta": false
+            },
+            {
+              "testo": "100 g",
+              "corretta": false
+            },
+            {
+              "testo": "56 g",
+              "corretta": false
+            }
+          ],
+          "id": 29
+        },
+        {
+          "testo": "P₄O₁₀ + 6H₂O → 4H₃PO₄. Da 10g P₄O₁₀:",
+          "livello": "bastardo",
+          "risposte": [
+            {
+              "testo": "13.8 g H₃PO₄",
+              "corretta": true
+            },
+            {
+              "testo": "10.0 g H₃PO₄",
+              "corretta": false
+            },
+            {
+              "testo": "39.2 g H₃PO₄",
+              "corretta": false
+            },
+            {
+              "testo": "6.9 g H₃PO₄",
+              "corretta": false
+            }
+          ],
+          "id": 30
+        }
+      ]
+    },
+    {
+      "nome": "Soluzioni",
+      "domande": [
+        {
+          "testo": "La molarità M è definita come:",
+          "livello": "base",
+          "risposte": [
+            {
+              "testo": "mol soluto/L soluzione",
+              "corretta": true
+            },
+            {
+              "testo": "g soluto/L soluzione",
+              "corretta": false
+            },
+            {
+              "testo": "mol soluto/kg solvente",
+              "corretta": false
+            },
+            {
+              "testo": "% peso/volume",
+              "corretta": false
+            }
+          ],
+          "id": 31
+        },
+        {
+          "testo": "Una soluzione satura è:",
+          "livello": "base",
+          "risposte": [
+            {
+              "testo": "In equilibrio col soluto solido",
+              "corretta": true
+            },
+            {
+              "testo": "Molto concentrata",
+              "corretta": false
+            },
+            {
+              "testo": "Molto diluita",
+              "corretta": false
+            },
+            {
+              "testo": "Al 100%",
+              "corretta": false
+            }
+          ],
+          "id": 32
+        },
+        {
+          "testo": "La solubilità dei gas aumenta con:",
+          "livello": "base",
+          "risposte": [
+            {
+              "testo": "Aumento di pressione",
+              "corretta": true
+            },
+            {
+              "testo": "Aumento di temperatura",
+              "corretta": false
+            },
+            {
+              "testo": "Agitazione",
+              "corretta": false
+            },
+            {
+              "testo": "pH basico",
+              "corretta": false
+            }
+          ],
+          "id": 33
+        },
+        {
+          "testo": "Le proprietà colligative dipendono da:",
+          "livello": "intermedio",
+          "risposte": [
+            {
+              "testo": "Numero di particelle",
+              "corretta": true
+            },
+            {
+              "testo": "Natura chimica del soluto",
+              "corretta": false
+            },
+            {
+              "testo": "Colore della soluzione",
+              "corretta": false
+            },
+            {
+              "testo": "Viscosità",
+              "corretta": false
+            }
+          ],
+          "id": 34
+        },
+        {
+          "testo": "L'osmosi è il passaggio di solvente:",
+          "livello": "intermedio",
+          "risposte": [
+            {
+              "testo": "Verso soluzione più concentrata",
+              "corretta": true
+            },
+            {
+              "testo": "Verso soluzione meno concentrata",
+              "corretta": false
+            },
+            {
+              "testo": "Bidirezionale uguale",
+              "corretta": false
+            },
+            {
+              "testo": "Solo a T alta",
+              "corretta": false
+            }
+          ],
+          "id": 35
+        },
+        {
+          "testo": "Il fattore van't Hoff per NaCl è:",
+          "livello": "intermedio",
+          "risposte": [
+            {
+              "testo": "≈ 2",
+              "corretta": true
+            },
+            {
+              "testo": "1",
+              "corretta": false
+            },
+            {
+              "testo": "3",
+              "corretta": false
+            },
+            {
+              "testo": "0.5",
+              "corretta": false
+            }
+          ],
+          "id": 36
+        },
+        {
+          "testo": "La legge di Raoult: P_tot =",
+          "livello": "avanzato",
+          "risposte": [
+            {
+              "testo": "X₁P₁° + X₂P₂°",
+              "corretta": true
+            },
+            {
+              "testo": "P₁° + P₂°",
+              "corretta": false
+            },
+            {
+              "testo": "X₁X₂(P₁° + P₂°)",
+              "corretta": false
+            },
+            {
+              "testo": "P₁°P₂°/(P₁° + P₂°)",
+              "corretta": false
+            }
+          ],
+          "id": 37
+        },
+        {
+          "testo": "ΔT_eb = Kb·m. Per glucosio 0.1m (Kb=0.512):",
+          "livello": "avanzato",
+          "risposte": [
+            {
+              "testo": "0.0512°C",
+              "corretta": true
+            },
+            {
+              "testo": "0.512°C",
+              "corretta": false
+            },
+            {
+              "testo": "5.12°C",
+              "corretta": false
+            },
+            {
+              "testo": "0.00512°C",
+              "corretta": false
+            }
+          ],
+          "id": 38
+        },
+        {
+          "testo": "L'attività ionica a concentrazione alta:",
+          "livello": "bastardo",
+          "risposte": [
+            {
+              "testo": "a < C",
+              "corretta": true
+            },
+            {
+              "testo": "a = C",
+              "corretta": false
+            },
+            {
+              "testo": "a > C",
+              "corretta": false
+            },
+            {
+              "testo": "a = 1",
+              "corretta": false
+            }
+          ],
+          "id": 39
+        },
+        {
+          "testo": "Deviazioni positive da Raoult indicano:",
+          "livello": "bastardo",
+          "risposte": [
+            {
+              "testo": "Interazioni A-B < A-A, B-B",
+              "corretta": true
+            },
+            {
+              "testo": "Interazioni A-B > A-A, B-B",
+              "corretta": false
+            },
+            {
+              "testo": "Idealità",
+              "corretta": false
+            },
+            {
+              "testo": "Immiscibilità",
+              "corretta": false
+            }
+          ],
+          "id": 40
+        }
+      ]
+    },
+    {
+      "nome": "Acidi e Basi",
+      "domande": [
+        {
+          "testo": "Un acido secondo Arrhenius libera:",
+          "livello": "base",
+          "risposte": [
+            {
+              "testo": "H⁺",
+              "corretta": true
+            },
+            {
+              "testo": "OH⁻",
+              "corretta": false
+            },
+            {
+              "testo": "e⁻",
+              "corretta": false
+            },
+            {
+              "testo": "n",
+              "corretta": false
+            }
+          ],
+          "id": 41
+        },
+        {
+          "testo": "pH neutro a 25°C è:",
+          "livello": "base",
+          "risposte": [
+            {
+              "testo": "7",
+              "corretta": true
+            },
+            {
+              "testo": "0",
+              "corretta": false
+            },
+            {
+              "testo": "14",
+              "corretta": false
+            },
+            {
+              "testo": "1",
+              "corretta": false
+            }
+          ],
+          "id": 42
+        },
+        {
+          "testo": "HCl è un acido:",
+          "livello": "base",
+          "risposte": [
+            {
+              "testo": "Forte",
+              "corretta": true
+            },
+            {
+              "testo": "Debole",
+              "corretta": false
+            },
+            {
+              "testo": "Medio",
+              "corretta": false
+            },
+            {
+              "testo": "Anfotero",
+              "corretta": false
+            }
+          ],
+          "id": 43
+        },
+        {
+          "testo": "Base secondo Brønsted è:",
+          "livello": "intermedio",
+          "risposte": [
+            {
+              "testo": "Accettore di H⁺",
+              "corretta": true
+            },
+            {
+              "testo": "Donatore di H⁺",
+              "corretta": false
+            },
+            {
+              "testo": "Donatore e⁻",
+              "corretta": false
+            },
+            {
+              "testo": "Libera OH⁻",
+              "corretta": false
+            }
+          ],
+          "id": 44
+        },
+        {
+          "testo": "Kw a 25°C vale:",
+          "livello": "intermedio",
+          "risposte": [
+            {
+              "testo": "10⁻¹⁴",
+              "corretta": true
+            },
+            {
+              "testo": "10⁻⁷",
+              "corretta": false
+            },
+            {
+              "testo": "1",
+              "corretta": false
+            },
+            {
+              "testo": "14",
+              "corretta": false
+            }
+          ],
+          "id": 45
+        },
+        {
+          "testo": "Un tampone contiene:",
+          "livello": "intermedio",
+          "risposte": [
+            {
+              "testo": "Acido debole + base coniugata",
+              "corretta": true
+            },
+            {
+              "testo": "Due acidi forti",
+              "corretta": false
+            },
+            {
+              "testo": "Due basi forti",
+              "corretta": false
+            },
+            {
+              "testo": "Solo H₂O",
+              "corretta": false
+            }
+          ],
+          "id": 46
+        },
+        {
+          "testo": "Henderson-Hasselbalch:",
+          "livello": "avanzato",
+          "risposte": [
+            {
+              "testo": "pH=pKa+log([A⁻]/[HA])",
+              "corretta": true
+            },
+            {
+              "testo": "pH=pKa-log([A⁻]/[HA])",
+              "corretta": false
+            },
+            {
+              "testo": "pH=-log[H⁺]",
+              "corretta": false
+            },
+            {
+              "testo": "pH=pKa",
+              "corretta": false
+            }
+          ],
+          "id": 47
+        },
+        {
+          "testo": "Per H₂A diprotico:",
+          "livello": "avanzato",
+          "risposte": [
+            {
+              "testo": "Ka₁ > Ka₂",
+              "corretta": true
+            },
+            {
+              "testo": "Ka₁ < Ka₂",
+              "corretta": false
+            },
+            {
+              "testo": "Ka₁ = Ka₂",
+              "corretta": false
+            },
+            {
+              "testo": "Solo una Ka",
+              "corretta": false
+            }
+          ],
+          "id": 48
+        },
+        {
+          "testo": "pH di HClO₄ 10⁻⁸M:",
+          "livello": "bastardo",
+          "risposte": [
+            {
+              "testo": "6.98",
+              "corretta": true
+            },
+            {
+              "testo": "8.00",
+              "corretta": false
+            },
+            {
+              "testo": "7.00",
+              "corretta": false
+            },
+            {
+              "testo": "6.00",
+              "corretta": false
+            }
+          ],
+          "id": 49
+        },
+        {
+          "testo": "H₃PO₄ a pH 9.5:",
+          "livello": "bastardo",
+          "risposte": [
+            {
+              "testo": "HPO₄²⁻ predomina",
+              "corretta": true
+            },
+            {
+              "testo": "H₂PO₄⁻",
+              "corretta": false
+            },
+            {
+              "testo": "H₃PO₄",
+              "corretta": false
+            },
+            {
+              "testo": "PO₄³⁻",
+              "corretta": false
+            }
+          ],
+          "id": 50
+        }
+      ]
+    },
+    {
+      "nome": "Termodinamica",
+      "domande": [
+        {
+          "testo": "I principio:",
+          "livello": "base",
+          "risposte": [
+            {
+              "testo": "Energia si conserva",
+              "corretta": true
+            },
+            {
+              "testo": "Entropia aumenta",
+              "corretta": false
+            },
+            {
+              "testo": "T costante",
+              "corretta": false
+            },
+            {
+              "testo": "E si crea",
+              "corretta": false
+            }
+          ],
+          "id": 51
+        },
+        {
+          "testo": "Reazione esotermica:",
+          "livello": "base",
+          "risposte": [
+            {
+              "testo": "Rilascia calore",
+              "corretta": true
+            },
+            {
+              "testo": "Assorbe calore",
+              "corretta": false
+            },
+            {
+              "testo": "Q = 0",
+              "corretta": false
+            },
+            {
+              "testo": "Sempre spontanea",
+              "corretta": false
+            }
+          ],
+          "id": 52
+        },
+        {
+          "testo": "L'entropia misura:",
+          "livello": "base",
+          "risposte": [
+            {
+              "testo": "Disordine",
+              "corretta": true
+            },
+            {
+              "testo": "Energia",
+              "corretta": false
+            },
+            {
+              "testo": "Temperatura",
+              "corretta": false
+            },
+            {
+              "testo": "Pressione",
+              "corretta": false
+            }
+          ],
+          "id": 53
+        },
+        {
+          "testo": "Per reazione spontanea ΔG:",
+          "livello": "intermedio",
+          "risposte": [
+            {
+              "testo": "< 0",
+              "corretta": true
+            },
+            {
+              "testo": "> 0",
+              "corretta": false
+            },
+            {
+              "testo": "= 0",
+              "corretta": false
+            },
+            {
+              "testo": "∞",
+              "corretta": false
+            }
+          ],
+          "id": 54
+        },
+        {
+          "testo": "Equazione di Gibbs:",
+          "livello": "intermedio",
+          "risposte": [
+            {
+              "testo": "ΔG = ΔH - TΔS",
+              "corretta": true
+            },
+            {
+              "testo": "ΔG = ΔH + TΔS",
+              "corretta": false
+            },
+            {
+              "testo": "ΔG = ΔH·T",
+              "corretta": false
+            },
+            {
+              "testo": "ΔG = ΔS/T",
+              "corretta": false
+            }
+          ],
+          "id": 55
+        },
+        {
+          "testo": "Cp acqua:",
+          "livello": "intermedio",
+          "risposte": [
+            {
+              "testo": "4.18 J/(g·K)",
+              "corretta": true
+            },
+            {
+              "testo": "1.00",
+              "corretta": false
+            },
+            {
+              "testo": "10.0",
+              "corretta": false
+            },
+            {
+              "testo": "0.418",
+              "corretta": false
+            }
+          ],
+          "id": 56
+        },
+        {
+          "testo": "ΔH°f elementi:",
+          "livello": "avanzato",
+          "risposte": [
+            {
+              "testo": "0",
+              "corretta": true
+            },
+            {
+              "testo": "Sempre > 0",
+              "corretta": false
+            },
+            {
+              "testo": "Sempre < 0",
+              "corretta": false
+            },
+            {
+              "testo": "298 kJ",
+              "corretta": false
+            }
+          ],
+          "id": 57
+        },
+        {
+          "testo": "Gas ideale isoterma:",
+          "livello": "avanzato",
+          "risposte": [
+            {
+              "testo": "ΔU = 0",
+              "corretta": true
+            },
+            {
+              "testo": "Q = 0",
+              "corretta": false
+            },
+            {
+              "testo": "W = 0",
+              "corretta": false
+            },
+            {
+              "testo": "ΔH = 0",
+              "corretta": false
+            }
+          ],
+          "id": 58
+        },
+        {
+          "testo": "Fugacità sostituisce:",
+          "livello": "bastardo",
+          "risposte": [
+            {
+              "testo": "Pressione",
+              "corretta": true
+            },
+            {
+              "testo": "Volume",
+              "corretta": false
+            },
+            {
+              "testo": "Temperatura",
+              "corretta": false
+            },
+            {
+              "testo": "Energia",
+              "corretta": false
+            }
+          ],
+          "id": 59
+        },
+        {
+          "testo": "H₂O(s)→H₂O(l) a 0°C:",
+          "livello": "bastardo",
+          "risposte": [
+            {
+              "testo": "ΔG = 0",
+              "corretta": true
+            },
+            {
+              "testo": "ΔG > 0",
+              "corretta": false
+            },
+            {
+              "testo": "ΔG < 0",
+              "corretta": false
+            },
+            {
+              "testo": "ΔG = -6 kJ",
+              "corretta": false
+            }
+          ],
+          "id": 60
+        }
+      ]
+    },
+    {
+      "nome": "Cinetica Chimica",
+      "domande": [
+        {
+          "testo": "Velocità si misura in:",
+          "livello": "base",
+          "risposte": [
+            {
+              "testo": "mol/(L·s)",
+              "corretta": true
+            },
+            {
+              "testo": "mol/L",
+              "corretta": false
+            },
+            {
+              "testo": "s⁻¹",
+              "corretta": false
+            },
+            {
+              "testo": "L/mol",
+              "corretta": false
+            }
+          ],
+          "id": 61
+        },
+        {
+          "testo": "Un catalizzatore:",
+          "livello": "base",
+          "risposte": [
+            {
+              "testo": "Abbassa Ea",
+              "corretta": true
+            },
+            {
+              "testo": "Cambia ΔG",
+              "corretta": false
+            },
+            {
+              "testo": "Si consuma",
+              "corretta": false
+            },
+            {
+              "testo": "Cambia K",
+              "corretta": false
+            }
+          ],
+          "id": 62
+        },
+        {
+          "testo": "L'ordine di reazione:",
+          "livello": "base",
+          "risposte": [
+            {
+              "testo": "Si determina sperimentalmente",
+              "corretta": true
+            },
+            {
+              "testo": "= coefficienti",
+              "corretta": false
+            },
+            {
+              "testo": "Sempre 1",
+              "corretta": false
+            },
+            {
+              "testo": "Sempre intero",
+              "corretta": false
+            }
+          ],
+          "id": 63
+        },
+        {
+          "testo": "Per I ordine, t½:",
+          "livello": "intermedio",
+          "risposte": [
+            {
+              "testo": "Indipendente da [A]₀",
+              "corretta": true
+            },
+            {
+              "testo": "∝ [A]₀",
+              "corretta": false
+            },
+            {
+              "testo": "∝ 1/[A]₀",
+              "corretta": false
+            },
+            {
+              "testo": "= 1 s",
+              "corretta": false
+            }
+          ],
+          "id": 64
+        },
+        {
+          "testo": "Arrhenius:",
+          "livello": "intermedio",
+          "risposte": [
+            {
+              "testo": "k = A·exp(-Ea/RT)",
+              "corretta": true
+            },
+            {
+              "testo": "k = A·exp(Ea/RT)",
+              "corretta": false
+            },
+            {
+              "testo": "k = Ea/RT",
+              "corretta": false
+            },
+            {
+              "testo": "k = A + Ea",
+              "corretta": false
+            }
+          ],
+          "id": 65
+        },
+        {
+          "testo": "Molecolarità è:",
+          "livello": "intermedio",
+          "risposte": [
+            {
+              "testo": "N° molecole che collidono",
+              "corretta": true
+            },
+            {
+              "testo": "Ordine totale",
+              "corretta": false
+            },
+            {
+              "testo": "Può essere frazionaria",
+              "corretta": false
+            },
+            {
+              "testo": "Sempre 1",
+              "corretta": false
+            }
+          ],
+          "id": 66
+        },
+        {
+          "testo": "[A] vs t lineare:",
+          "livello": "avanzato",
+          "risposte": [
+            {
+              "testo": "Ordine zero",
+              "corretta": true
+            },
+            {
+              "testo": "I ordine",
+              "corretta": false
+            },
+            {
+              "testo": "II ordine",
+              "corretta": false
+            },
+            {
+              "testo": "III ordine",
+              "corretta": false
+            }
+          ],
+          "id": 67
+        },
+        {
+          "testo": "Il meccanismo determina:",
+          "livello": "avanzato",
+          "risposte": [
+            {
+              "testo": "Legge cinetica",
+              "corretta": true
+            },
+            {
+              "testo": "Solo prodotti",
+              "corretta": false
+            },
+            {
+              "testo": "ΔG",
+              "corretta": false
+            },
+            {
+              "testo": "Equilibrio",
+              "corretta": false
+            }
+          ],
+          "id": 68
+        },
+        {
+          "testo": "Stato stazionario:",
+          "livello": "bastardo",
+          "risposte": [
+            {
+              "testo": "d[I]/dt ≈ 0",
+              "corretta": true
+            },
+            {
+              "testo": "v costante",
+              "corretta": false
+            },
+            {
+              "testo": "T costante",
+              "corretta": false
+            },
+            {
+              "testo": "No intermedi",
+              "corretta": false
+            }
+          ],
+          "id": 69
+        },
+        {
+          "testo": "Autocatalisi:",
+          "livello": "bastardo",
+          "risposte": [
+            {
+              "testo": "Prodotto catalizza",
+              "corretta": true
+            },
+            {
+              "testo": "No catalizzatore",
+              "corretta": false
+            },
+            {
+              "testo": "v diminuisce",
+              "corretta": false
+            },
+            {
+              "testo": "Ordine zero",
+              "corretta": false
+            }
+          ],
+          "id": 70
+        }
+      ]
+    },
+    {
+      "nome": "Equilibrio Chimico",
+      "domande": [
+        {
+          "testo": "All'equilibrio:",
+          "livello": "base",
+          "risposte": [
+            {
+              "testo": "v_diretta = v_inversa",
+              "corretta": true
+            },
+            {
+              "testo": "v_d > v_i",
+              "corretta": false
+            },
+            {
+              "testo": "v_d < v_i",
+              "corretta": false
+            },
+            {
+              "testo": "v = 0",
+              "corretta": false
+            }
+          ],
+          "id": 71
+        },
+        {
+          "testo": "K dipende da:",
+          "livello": "base",
+          "risposte": [
+            {
+              "testo": "Solo T",
+              "corretta": true
+            },
+            {
+              "testo": "T e P",
+              "corretta": false
+            },
+            {
+              "testo": "Solo P",
+              "corretta": false
+            },
+            {
+              "testo": "Concentrazioni",
+              "corretta": false
+            }
+          ],
+          "id": 72
+        },
+        {
+          "testo": "Per N₂+3H₂⇌2NH₃:",
+          "livello": "base",
+          "risposte": [
+            {
+              "testo": "[NH₃]²/[N₂][H₂]³",
+              "corretta": true
+            },
+            {
+              "testo": "[N₂][H₂]³/[NH₃]²",
+              "corretta": false
+            },
+            {
+              "testo": "[NH₃]/[N₂][H₂]",
+              "corretta": false
+            },
+            {
+              "testo": "Prodotti/Reagenti",
+              "corretta": false
+            }
+          ],
+          "id": 73
+        },
+        {
+          "testo": "Le Châtelier + P:",
+          "livello": "intermedio",
+          "risposte": [
+            {
+              "testo": "Verso meno moli gas",
+              "corretta": true
+            },
+            {
+              "testo": "Sempre a destra",
+              "corretta": false
+            },
+            {
+              "testo": "Non cambia",
+              "corretta": false
+            },
+            {
+              "testo": "K aumenta",
+              "corretta": false
+            }
+          ],
+          "id": 74
+        },
+        {
+          "testo": "Se Q < K:",
+          "livello": "intermedio",
+          "risposte": [
+            {
+              "testo": "Procede → prodotti",
+              "corretta": true
+            },
+            {
+              "testo": "← reagenti",
+              "corretta": false
+            },
+            {
+              "testo": "Equilibrio",
+              "corretta": false
+            },
+            {
+              "testo": "Non avviene",
+              "corretta": false
+            }
+          ],
+          "id": 75
+        },
+        {
+          "testo": "Endotermica + T:",
+          "livello": "intermedio",
+          "risposte": [
+            {
+              "testo": "K aumenta",
+              "corretta": true
+            },
+            {
+              "testo": "K diminuisce",
+              "corretta": false
+            },
+            {
+              "testo": "K costante",
+              "corretta": false
+            },
+            {
+              "testo": "Si ferma",
+              "corretta": false
+            }
+          ],
+          "id": 76
+        },
+        {
+          "testo": "Kp = Kc(RT)^:",
+          "livello": "avanzato",
+          "risposte": [
+            {
+              "testo": "Δn",
+              "corretta": true
+            },
+            {
+              "testo": "n_tot",
+              "corretta": false
+            },
+            {
+              "testo": "1",
+              "corretta": false
+            },
+            {
+              "testo": "0",
+              "corretta": false
+            }
+          ],
+          "id": 77
+        },
+        {
+          "testo": "CaCO₃⇌CaO+CO₂, K=:",
+          "livello": "avanzato",
+          "risposte": [
+            {
+              "testo": "[CO₂]",
+              "corretta": true
+            },
+            {
+              "testo": "[CaO][CO₂]/[CaCO₃]",
+              "corretta": false
+            },
+            {
+              "testo": "[CaO]/[CaCO₃]",
+              "corretta": false
+            },
+            {
+              "testo": "1",
+              "corretta": false
+            }
+          ],
+          "id": 78
+        },
+        {
+          "testo": "van't Hoff:",
+          "livello": "bastardo",
+          "risposte": [
+            {
+              "testo": "ln(K₂/K₁)=-ΔH/R(1/T₂-1/T₁)",
+              "corretta": true
+            },
+            {
+              "testo": "ln K = ΔH/RT",
+              "corretta": false
+            },
+            {
+              "testo": "K₂ = K₁ + ΔH",
+              "corretta": false
+            },
+            {
+              "testo": "K ∝ T",
+              "corretta": false
+            }
+          ],
+          "id": 79
+        },
+        {
+          "testo": "Grado dissociazione α:",
+          "livello": "bastardo",
+          "risposte": [
+            {
+              "testo": "√(K/C) per AB⇌A+B",
+              "corretta": true
+            },
+            {
+              "testo": "K/C",
+              "corretta": false
+            },
+            {
+              "testo": "K·C",
+              "corretta": false
+            },
+            {
+              "testo": "√(K·C)",
+              "corretta": false
+            }
+          ],
+          "id": 80
+        }
+      ]
+    },
+    {
+      "nome": "Elettrochimica",
+      "domande": [
+        {
+          "testo": "All'anodo avviene:",
+          "livello": "base",
+          "risposte": [
+            {
+              "testo": "Ossidazione",
+              "corretta": true
+            },
+            {
+              "testo": "Riduzione",
+              "corretta": false
+            },
+            {
+              "testo": "Nulla",
+              "corretta": false
+            },
+            {
+              "testo": "Deposizione",
+              "corretta": false
+            }
+          ],
+          "id": 81
+        },
+        {
+          "testo": "N.O. di O in H₂O₂:",
+          "livello": "base",
+          "risposte": [
+            {
+              "testo": "-1",
+              "corretta": true
+            },
+            {
+              "testo": "-2",
+              "corretta": false
+            },
+            {
+              "testo": "0",
+              "corretta": false
+            },
+            {
+              "testo": "+1",
+              "corretta": false
+            }
+          ],
+          "id": 82
+        },
+        {
+          "testo": "Una pila Daniell usa:",
+          "livello": "base",
+          "risposte": [
+            {
+              "testo": "Zn/Cu",
+              "corretta": true
+            },
+            {
+              "testo": "Fe/Cu",
+              "corretta": false
+            },
+            {
+              "testo": "Ag/Au",
+              "corretta": false
+            },
+            {
+              "testo": "H₂/O₂",
+              "corretta": false
+            }
+          ],
+          "id": 83
+        },
+        {
+          "testo": "Equazione di Nernst:",
+          "livello": "intermedio",
+          "risposte": [
+            {
+              "testo": "E=E°-(RT/nF)lnQ",
+              "corretta": true
+            },
+            {
+              "testo": "E=E°+(RT/nF)lnQ",
+              "corretta": false
+            },
+            {
+              "testo": "E=E°·Q",
+              "corretta": false
+            },
+            {
+              "testo": "E=E°+Q",
+              "corretta": false
+            }
+          ],
+          "id": 84
+        },
+        {
+          "testo": "Faraday vale:",
+          "livello": "intermedio",
+          "risposte": [
+            {
+              "testo": "96485 C/mol",
+              "corretta": true
+            },
+            {
+              "testo": "8.314",
+              "corretta": false
+            },
+            {
+              "testo": "6.022×10²³",
+              "corretta": false
+            },
+            {
+              "testo": "273",
+              "corretta": false
+            }
+          ],
+          "id": 85
+        },
+        {
+          "testo": "Cella spontanea:",
+          "livello": "intermedio",
+          "risposte": [
+            {
+              "testo": "E° > 0, ΔG° < 0",
+              "corretta": true
+            },
+            {
+              "testo": "E° < 0",
+              "corretta": false
+            },
+            {
+              "testo": "E° = 0",
+              "corretta": false
+            },
+            {
+              "testo": "ΔG° > 0",
+              "corretta": false
+            }
+          ],
+          "id": 86
+        },
+        {
+          "testo": "Elettrolisi H₂O, anodo:",
+          "livello": "avanzato",
+          "risposte": [
+            {
+              "testo": "O₂",
+              "corretta": true
+            },
+            {
+              "testo": "H₂",
+              "corretta": false
+            },
+            {
+              "testo": "H₂O",
+              "corretta": false
+            },
+            {
+              "testo": "OH⁻",
+              "corretta": false
+            }
+          ],
+          "id": 87
+        },
+        {
+          "testo": "E° e K:",
+          "livello": "avanzato",
+          "risposte": [
+            {
+              "testo": "E° = (RT/nF)lnK",
+              "corretta": true
+            },
+            {
+              "testo": "E° = -RTlnK",
+              "corretta": false
+            },
+            {
+              "testo": "E° = K·F",
+              "corretta": false
+            },
+            {
+              "testo": "E° = K/nF",
+              "corretta": false
+            }
+          ],
+          "id": 88
+        },
+        {
+          "testo": "Potenziale giunzione:",
+          "livello": "bastardo",
+          "risposte": [
+            {
+              "testo": "Interfaccia soluzioni",
+              "corretta": true
+            },
+            {
+              "testo": "Sempre zero",
+              "corretta": false
+            },
+            {
+              "testo": "Solo metalli",
+              "corretta": false
+            },
+            {
+              "testo": "= E°",
+              "corretta": false
+            }
+          ],
+          "id": 89
+        },
+        {
+          "testo": "6.35g Cu, serve:",
+          "livello": "bastardo",
+          "risposte": [
+            {
+              "testo": "0.2 F",
+              "corretta": true
+            },
+            {
+              "testo": "1 F",
+              "corretta": false
+            },
+            {
+              "testo": "2 F",
+              "corretta": false
+            },
+            {
+              "testo": "0.1 F",
+              "corretta": false
+            }
+          ],
+          "id": 90
+        }
+      ]
+    },
+    {
+      "nome": "Struttura Atomica",
+      "domande": [
+        {
+          "testo": "Elettrone scoperto da:",
+          "livello": "base",
+          "risposte": [
+            {
+              "testo": "Thomson",
+              "corretta": true
+            },
+            {
+              "testo": "Rutherford",
+              "corretta": false
+            },
+            {
+              "testo": "Bohr",
+              "corretta": false
+            },
+            {
+              "testo": "Dalton",
+              "corretta": false
+            }
+          ],
+          "id": 91
+        },
+        {
+          "testo": "Numero massa A:",
+          "livello": "base",
+          "risposte": [
+            {
+              "testo": "p + n",
+              "corretta": true
+            },
+            {
+              "testo": "Solo p",
+              "corretta": false
+            },
+            {
+              "testo": "Solo n",
+              "corretta": false
+            },
+            {
+              "testo": "p + e",
+              "corretta": false
+            }
+          ],
+          "id": 92
+        },
+        {
+          "testo": "Isotopi differiscono per:",
+          "livello": "base",
+          "risposte": [
+            {
+              "testo": "Neutroni",
+              "corretta": true
+            },
+            {
+              "testo": "Protoni",
+              "corretta": false
+            },
+            {
+              "testo": "Elettroni",
+              "corretta": false
+            },
+            {
+              "testo": "Z",
+              "corretta": false
+            }
+          ],
+          "id": 93
+        },
+        {
+          "testo": "Principio Heisenberg:",
+          "livello": "intermedio",
+          "risposte": [
+            {
+              "testo": "Δx·Δp ≥ ℏ/2",
               "corretta": true
             },
             {
@@ -936,99 +2200,2973 @@
               "corretta": false
             },
             {
-              "testo": "ΔG = ΔH - TΔS",
+              "testo": "ΔE·Δt = 0",
               "corretta": false
             },
             {
-              "testo": "pH = -log[H+]",
-              "corretta": false
-            },
-            {
-              "testo": "F = ma",
+              "testo": "p = mv",
               "corretta": false
             }
-          ]
+          ],
+          "id": 94
         },
         {
-          "id": 18,
-          "testo": "Quanti grammi di acqua (H2O) si formano dalla combustione completa di 2 moli di idrogeno (H2) con ossigeno in eccesso? (PM H2O = 18 g/mol)",
+          "testo": "Orbitale p ha forma:",
           "livello": "intermedio",
           "risposte": [
             {
-              "testo": "36 grammi",
+              "testo": "Bilobata",
               "corretta": true
             },
             {
-              "testo": "18 grammi",
+              "testo": "Sferica",
               "corretta": false
             },
             {
-              "testo": "54 grammi",
+              "testo": "Cubica",
               "corretta": false
             },
             {
-              "testo": "72 grammi",
-              "corretta": false
-            },
-            {
-              "testo": "9 grammi",
+              "testo": "Tetraedrica",
               "corretta": false
             }
-          ]
+          ],
+          "id": 95
         },
         {
-          "id": 19,
-          "testo": "Qual è la molarità di una soluzione ottenuta sciogliendo 40 g di NaOH (PM = 40 g/mol) in acqua fino a 500 mL di soluzione totale?",
+          "testo": "m può valere:",
+          "livello": "intermedio",
+          "risposte": [
+            {
+              "testo": "Da -l a +l",
+              "corretta": true
+            },
+            {
+              "testo": "Solo positivi",
+              "corretta": false
+            },
+            {
+              "testo": "0 a n",
+              "corretta": false
+            },
+            {
+              "testo": "±1/2",
+              "corretta": false
+            }
+          ],
+          "id": 96
+        },
+        {
+          "testo": "Regola di Hund:",
           "livello": "avanzato",
           "risposte": [
             {
-              "testo": "2 M (molare)",
+              "testo": "Spin paralleli prima",
               "corretta": true
             },
             {
-              "testo": "1 M",
+              "testo": "Accoppiamento",
               "corretta": false
             },
             {
-              "testo": "4 M",
+              "testo": "No spaiati",
               "corretta": false
             },
             {
-              "testo": "0.5 M",
-              "corretta": false
-            },
-            {
-              "testo": "8 M",
+              "testo": "Casuale",
               "corretta": false
             }
-          ]
+          ],
+          "id": 97
         },
         {
-          "id": 20,
-          "testo": "In una reazione di precipitazione, perché il prodotto di solubilità (Kps) dipende dalla temperatura ma non dalla presenza di ioni comuni, mentre l'effetto dello ione comune sposta l'equilibrio?",
+          "testo": "Effetto schermo da:",
+          "livello": "avanzato",
+          "risposte": [
+            {
+              "testo": "Elettroni interni",
+              "corretta": true
+            },
+            {
+              "testo": "Nucleo",
+              "corretta": false
+            },
+            {
+              "testo": "e⁻ esterni",
+              "corretta": false
+            },
+            {
+              "testo": "Neutroni",
+              "corretta": false
+            }
+          ],
+          "id": 98
+        },
+        {
+          "testo": "Accoppiamento spin-orbita:",
           "livello": "bastardo",
           "risposte": [
             {
-              "testo": "Kps è una costante termodinamica che descrive l'equilibrio intrinseco, lo ione comune sposta le concentrazioni ma non modifica Kps",
+              "testo": "Struttura fine",
               "corretta": true
             },
             {
-              "testo": "Kps cambia con gli ioni comuni ma troppo lentamente per essere misurato",
+              "testo": "Raggi X",
               "corretta": false
             },
             {
-              "testo": "Gli ioni comuni modificano la struttura cristallina del precipitato",
+              "testo": "Radioattività",
               "corretta": false
             },
             {
-              "testo": "È un paradosso della termodinamica chimica classica",
-              "corretta": false
-            },
-            {
-              "testo": "Kps è sensibile solo a variazioni di pressione, non di concentrazione",
+              "testo": "Fluorescenza",
               "corretta": false
             }
-          ]
+          ],
+          "id": 99
+        },
+        {
+          "testo": "Lamb shift dovuto a:",
+          "livello": "bastardo",
+          "risposte": [
+            {
+              "testo": "Fluttuazioni vuoto",
+              "corretta": true
+            },
+            {
+              "testo": "Relatività",
+              "corretta": false
+            },
+            {
+              "testo": "Campo magnetico",
+              "corretta": false
+            },
+            {
+              "testo": "Temperatura",
+              "corretta": false
+            }
+          ],
+          "id": 100
+        }
+      ]
+    },
+    {
+      "nome": "Gas",
+      "domande": [
+        {
+          "testo": "Equazione gas ideali:",
+          "livello": "base",
+          "risposte": [
+            {
+              "testo": "PV = nRT",
+              "corretta": true
+            },
+            {
+              "testo": "PV = RT",
+              "corretta": false
+            },
+            {
+              "testo": "P = VRT",
+              "corretta": false
+            },
+            {
+              "testo": "P + V = nRT",
+              "corretta": false
+            }
+          ],
+          "id": 101
+        },
+        {
+          "testo": "1 mol a STP occupa:",
+          "livello": "base",
+          "risposte": [
+            {
+              "testo": "22.4 L",
+              "corretta": true
+            },
+            {
+              "testo": "24.4 L",
+              "corretta": false
+            },
+            {
+              "testo": "1 L",
+              "corretta": false
+            },
+            {
+              "testo": "10 L",
+              "corretta": false
+            }
+          ],
+          "id": 102
+        },
+        {
+          "testo": "Legge di Boyle:",
+          "livello": "base",
+          "risposte": [
+            {
+              "testo": "P₁V₁ = P₂V₂ (T cost)",
+              "corretta": true
+            },
+            {
+              "testo": "P/T = cost",
+              "corretta": false
+            },
+            {
+              "testo": "V/T = cost",
+              "corretta": false
+            },
+            {
+              "testo": "PV = T",
+              "corretta": false
+            }
+          ],
+          "id": 103
+        },
+        {
+          "testo": "Pressione parziale:",
+          "livello": "intermedio",
+          "risposte": [
+            {
+              "testo": "P_i = X_i·P_tot",
+              "corretta": true
+            },
+            {
+              "testo": "P_i = P_tot/n",
+              "corretta": false
+            },
+            {
+              "testo": "P_i = P_tot + X_i",
+              "corretta": false
+            },
+            {
+              "testo": "P_i = P_tot",
+              "corretta": false
+            }
+          ],
+          "id": 104
+        },
+        {
+          "testo": "v_rms ∝:",
+          "livello": "intermedio",
+          "risposte": [
+            {
+              "testo": "√(T/M)",
+              "corretta": true
+            },
+            {
+              "testo": "T/M",
+              "corretta": false
+            },
+            {
+              "testo": "M/T",
+              "corretta": false
+            },
+            {
+              "testo": "√(M/T)",
+              "corretta": false
+            }
+          ],
+          "id": 105
+        },
+        {
+          "testo": "van der Waals corregge:",
+          "livello": "intermedio",
+          "risposte": [
+            {
+              "testo": "Volume e forze",
+              "corretta": true
+            },
+            {
+              "testo": "Solo V",
+              "corretta": false
+            },
+            {
+              "testo": "Solo forze",
+              "corretta": false
+            },
+            {
+              "testo": "Temperatura",
+              "corretta": false
+            }
+          ],
+          "id": 106
+        },
+        {
+          "testo": "Cammino libero medio:",
+          "livello": "avanzato",
+          "risposte": [
+            {
+              "testo": "Distanza tra collisioni",
+              "corretta": true
+            },
+            {
+              "testo": "Velocità",
+              "corretta": false
+            },
+            {
+              "testo": "Tempo",
+              "corretta": false
+            },
+            {
+              "testo": "N° collisioni",
+              "corretta": false
+            }
+          ],
+          "id": 107
+        },
+        {
+          "testo": "T critica:",
+          "livello": "avanzato",
+          "risposte": [
+            {
+              "testo": "Gas non liquefa sopra",
+              "corretta": true
+            },
+            {
+              "testo": "Solidifica",
+              "corretta": false
+            },
+            {
+              "testo": "Esplode",
+              "corretta": false
+            },
+            {
+              "testo": "V = 0",
+              "corretta": false
+            }
+          ],
+          "id": 108
+        },
+        {
+          "testo": "Fattore Z = PV/nRT:",
+          "livello": "bastardo",
+          "risposte": [
+            {
+              "testo": "Può essere ≠ 1",
+              "corretta": true
+            },
+            {
+              "testo": "Sempre 1",
+              "corretta": false
+            },
+            {
+              "testo": "Sempre < 1",
+              "corretta": false
+            },
+            {
+              "testo": "Sempre > 1",
+              "corretta": false
+            }
+          ],
+          "id": 109
+        },
+        {
+          "testo": "Viriale B(T):",
+          "livello": "bastardo",
+          "risposte": [
+            {
+              "testo": "Interazioni a 2 corpi",
+              "corretta": true
+            },
+            {
+              "testo": "V molare",
+              "corretta": false
+            },
+            {
+              "testo": "P critica",
+              "corretta": false
+            },
+            {
+              "testo": "Energia",
+              "corretta": false
+            }
+          ],
+          "id": 110
+        }
+      ]
+    },
+    {
+      "nome": "Chimica Organica",
+      "domande": [
+        {
+          "testo": "Formula del metano:",
+          "livello": "base",
+          "risposte": [
+            {
+              "testo": "CH₄",
+              "corretta": true
+            },
+            {
+              "testo": "CH₃",
+              "corretta": false
+            },
+            {
+              "testo": "C₂H₆",
+              "corretta": false
+            },
+            {
+              "testo": "CH₂",
+              "corretta": false
+            }
+          ],
+          "id": 111
+        },
+        {
+          "testo": "Alcol primario:",
+          "livello": "base",
+          "risposte": [
+            {
+              "testo": "OH su C primario",
+              "corretta": true
+            },
+            {
+              "testo": "C secondario",
+              "corretta": false
+            },
+            {
+              "testo": "C terziario",
+              "corretta": false
+            },
+            {
+              "testo": "Anello",
+              "corretta": false
+            }
+          ],
+          "id": 112
+        },
+        {
+          "testo": "Formula benzene:",
+          "livello": "base",
+          "risposte": [
+            {
+              "testo": "C₆H₆",
+              "corretta": true
+            },
+            {
+              "testo": "C₆H₁₂",
+              "corretta": false
+            },
+            {
+              "testo": "C₅H₅",
+              "corretta": false
+            },
+            {
+              "testo": "C₇H₈",
+              "corretta": false
+            }
+          ],
+          "id": 113
+        },
+        {
+          "testo": "Isomeri hanno:",
+          "livello": "intermedio",
+          "risposte": [
+            {
+              "testo": "Stessa formula, diversa struttura",
+              "corretta": true
+            },
+            {
+              "testo": "Stessa struttura",
+              "corretta": false
+            },
+            {
+              "testo": "Diversa formula",
+              "corretta": false
+            },
+            {
+              "testo": "Stesso p.f.",
+              "corretta": false
+            }
+          ],
+          "id": 114
+        },
+        {
+          "testo": "SN2 procede con:",
+          "livello": "intermedio",
+          "risposte": [
+            {
+              "testo": "Inversione",
+              "corretta": true
+            },
+            {
+              "testo": "Ritenzione",
+              "corretta": false
+            },
+            {
+              "testo": "Racemizzazione",
+              "corretta": false
+            },
+            {
+              "testo": "Eliminazione",
+              "corretta": false
+            }
+          ],
+          "id": 115
+        },
+        {
+          "testo": "Carbocatione 3°:",
+          "livello": "intermedio",
+          "risposte": [
+            {
+              "testo": "Più stabile di 1°",
+              "corretta": true
+            },
+            {
+              "testo": "Meno stabile",
+              "corretta": false
+            },
+            {
+              "testo": "Uguale",
+              "corretta": false
+            },
+            {
+              "testo": "Non esiste",
+              "corretta": false
+            }
+          ],
+          "id": 116
+        },
+        {
+          "testo": "Markovnikov:",
+          "livello": "avanzato",
+          "risposte": [
+            {
+              "testo": "H al C meno sostituito",
+              "corretta": true
+            },
+            {
+              "testo": "H al C più sostituito",
+              "corretta": false
+            },
+            {
+              "testo": "Casuale",
+              "corretta": false
+            },
+            {
+              "testo": "Non si addiziona",
+              "corretta": false
+            }
+          ],
+          "id": 117
+        },
+        {
+          "testo": "Effetto -I massimo:",
+          "livello": "avanzato",
+          "risposte": [
+            {
+              "testo": "F",
+              "corretta": true
+            },
+            {
+              "testo": "I",
+              "corretta": false
+            },
+            {
+              "testo": "CH₃",
+              "corretta": false
+            },
+            {
+              "testo": "NH₂",
+              "corretta": false
+            }
+          ],
+          "id": 118
+        },
+        {
+          "testo": "Diels-Alder è:",
+          "livello": "bastardo",
+          "risposte": [
+            {
+              "testo": "[4+2] cicloaddizione",
+              "corretta": true
+            },
+            {
+              "testo": "[2+2]",
+              "corretta": false
+            },
+            {
+              "testo": "Sostituzione",
+              "corretta": false
+            },
+            {
+              "testo": "Eliminazione",
+              "corretta": false
+            }
+          ],
+          "id": 119
+        },
+        {
+          "testo": "Inversione NH₃:",
+          "livello": "bastardo",
+          "risposte": [
+            {
+              "testo": "~24 kJ/mol",
+              "corretta": true
+            },
+            {
+              "testo": "0 kJ/mol",
+              "corretta": false
+            },
+            {
+              "testo": "100 kJ/mol",
+              "corretta": false
+            },
+            {
+              "testo": "Non avviene",
+              "corretta": false
+            }
+          ],
+          "id": 120
+        }
+      ]
+    },
+    {
+      "nome": "Radioattività",
+      "domande": [
+        {
+          "testo": "Particella α è:",
+          "livello": "base",
+          "risposte": [
+            {
+              "testo": "Nucleo He",
+              "corretta": true
+            },
+            {
+              "testo": "Elettrone",
+              "corretta": false
+            },
+            {
+              "testo": "Protone",
+              "corretta": false
+            },
+            {
+              "testo": "Neutrone",
+              "corretta": false
+            }
+          ],
+          "id": 121
+        },
+        {
+          "testo": "t½ è tempo per:",
+          "livello": "base",
+          "risposte": [
+            {
+              "testo": "Dimezzare quantità",
+              "corretta": true
+            },
+            {
+              "testo": "Completare",
+              "corretta": false
+            },
+            {
+              "testo": "Iniziare",
+              "corretta": false
+            },
+            {
+              "testo": "Raddoppiare",
+              "corretta": false
+            }
+          ],
+          "id": 122
+        },
+        {
+          "testo": "Radiazione γ è:",
+          "livello": "base",
+          "risposte": [
+            {
+              "testo": "Elettromagnetica",
+              "corretta": true
+            },
+            {
+              "testo": "Particelle",
+              "corretta": false
+            },
+            {
+              "testo": "Neutroni",
+              "corretta": false
+            },
+            {
+              "testo": "Protoni",
+              "corretta": false
+            }
+          ],
+          "id": 123
+        },
+        {
+          "testo": "β⁻ decade:",
+          "livello": "intermedio",
+          "risposte": [
+            {
+              "testo": "n → p + e⁻ + ν̄",
+              "corretta": true
+            },
+            {
+              "testo": "p → n",
+              "corretta": false
+            },
+            {
+              "testo": "Solo e⁻",
+              "corretta": false
+            },
+            {
+              "testo": "Due protoni",
+              "corretta": false
+            }
+          ],
+          "id": 124
+        },
+        {
+          "testo": "¹⁴C datazione:",
+          "livello": "intermedio",
+          "risposte": [
+            {
+              "testo": "Decade dopo morte",
+              "corretta": true
+            },
+            {
+              "testo": "Si produce",
+              "corretta": false
+            },
+            {
+              "testo": "Costante",
+              "corretta": false
+            },
+            {
+              "testo": "Fissione",
+              "corretta": false
+            }
+          ],
+          "id": 125
+        },
+        {
+          "testo": "Attività in:",
+          "livello": "intermedio",
+          "risposte": [
+            {
+              "testo": "Bq (Becquerel)",
+              "corretta": true
+            },
+            {
+              "testo": "Joule",
+              "corretta": false
+            },
+            {
+              "testo": "Gray",
+              "corretta": false
+            },
+            {
+              "testo": "Sievert",
+              "corretta": false
+            }
+          ],
+          "id": 126
+        },
+        {
+          "testo": "U-235 fissione:",
+          "livello": "avanzato",
+          "risposte": [
+            {
+              "testo": "2-3 neutroni",
+              "corretta": true
+            },
+            {
+              "testo": "1 neutrone",
+              "corretta": false
+            },
+            {
+              "testo": "0 neutroni",
+              "corretta": false
+            },
+            {
+              "testo": "10 neutroni",
+              "corretta": false
+            }
+          ],
+          "id": 127
+        },
+        {
+          "testo": "Difetto massa → :",
+          "livello": "avanzato",
+          "risposte": [
+            {
+              "testo": "Energia legame",
+              "corretta": true
+            },
+            {
+              "testo": "Solo calore",
+              "corretta": false
+            },
+            {
+              "testo": "Neutrini",
+              "corretta": false
+            },
+            {
+              "testo": "Elettroni",
+              "corretta": false
+            }
+          ],
+          "id": 128
+        },
+        {
+          "testo": "Isola stabilità:",
+          "livello": "bastardo",
+          "risposte": [
+            {
+              "testo": "Z = 114-126",
+              "corretta": true
+            },
+            {
+              "testo": "50-60",
+              "corretta": false
+            },
+            {
+              "testo": "200-210",
+              "corretta": false
+            },
+            {
+              "testo": "20-30",
+              "corretta": false
+            }
+          ],
+          "id": 129
+        },
+        {
+          "testo": "Processo r in:",
+          "livello": "bastardo",
+          "risposte": [
+            {
+              "testo": "Supernovae",
+              "corretta": true
+            },
+            {
+              "testo": "Sole",
+              "corretta": false
+            },
+            {
+              "testo": "Lab",
+              "corretta": false
+            },
+            {
+              "testo": "Atmosfera",
+              "corretta": false
+            }
+          ],
+          "id": 130
+        }
+      ]
+    },
+    {
+      "nome": "Chimica dei Solidi",
+      "domande": [
+        {
+          "testo": "Coordinazione cubico semplice:",
+          "livello": "base",
+          "risposte": [
+            {
+              "testo": "6",
+              "corretta": true
+            },
+            {
+              "testo": "8",
+              "corretta": false
+            },
+            {
+              "testo": "12",
+              "corretta": false
+            },
+            {
+              "testo": "4",
+              "corretta": false
+            }
+          ],
+          "id": 131
+        },
+        {
+          "testo": "Solido ionico:",
+          "livello": "base",
+          "risposte": [
+            {
+              "testo": "Non conduce (solido)",
+              "corretta": true
+            },
+            {
+              "testo": "Conduce sempre",
+              "corretta": false
+            },
+            {
+              "testo": "Metallico",
+              "corretta": false
+            },
+            {
+              "testo": "Gassoso",
+              "corretta": false
+            }
+          ],
+          "id": 132
+        },
+        {
+          "testo": "Diamante è:",
+          "livello": "base",
+          "risposte": [
+            {
+              "testo": "Covalente reticolare",
+              "corretta": true
+            },
+            {
+              "testo": "Ionico",
+              "corretta": false
+            },
+            {
+              "testo": "Metallico",
+              "corretta": false
+            },
+            {
+              "testo": "Molecolare",
+              "corretta": false
+            }
+          ],
+          "id": 133
+        },
+        {
+          "testo": "Impaccamento CFC:",
+          "livello": "intermedio",
+          "risposte": [
+            {
+              "testo": "0.74",
+              "corretta": true
+            },
+            {
+              "testo": "0.52",
+              "corretta": false
+            },
+            {
+              "testo": "0.68",
+              "corretta": false
+            },
+            {
+              "testo": "1.00",
+              "corretta": false
+            }
+          ],
+          "id": 134
+        },
+        {
+          "testo": "Piani (111):",
+          "livello": "intermedio",
+          "risposte": [
+            {
+              "testo": "Intersecano assi a 1",
+              "corretta": true
+            },
+            {
+              "testo": "Paralleli",
+              "corretta": false
+            },
+            {
+              "testo": "Non esistono",
+              "corretta": false
+            },
+            {
+              "testo": "Origine",
+              "corretta": false
+            }
+          ],
+          "id": 135
+        },
+        {
+          "testo": "Legge di Bragg:",
+          "livello": "intermedio",
+          "risposte": [
+            {
+              "testo": "nλ = 2d sinθ",
+              "corretta": true
+            },
+            {
+              "testo": "nλ = d sinθ",
+              "corretta": false
+            },
+            {
+              "testo": "λ = 2d cosθ",
+              "corretta": false
+            },
+            {
+              "testo": "λ = θ",
+              "corretta": false
+            }
+          ],
+          "id": 136
+        },
+        {
+          "testo": "Semiconduttore gap:",
+          "livello": "avanzato",
+          "risposte": [
+            {
+              "testo": "0.5-3 eV",
+              "corretta": true
+            },
+            {
+              "testo": "> 5 eV",
+              "corretta": false
+            },
+            {
+              "testo": "0 eV",
+              "corretta": false
+            },
+            {
+              "testo": "100 eV",
+              "corretta": false
+            }
+          ],
+          "id": 137
+        },
+        {
+          "testo": "Doping tipo n:",
+          "livello": "avanzato",
+          "risposte": [
+            {
+              "testo": "e⁻ maggioritari",
+              "corretta": true
+            },
+            {
+              "testo": "Lacune",
+              "corretta": false
+            },
+            {
+              "testo": "Nessuno",
+              "corretta": false
+            },
+            {
+              "testo": "Protoni",
+              "corretta": false
+            }
+          ],
+          "id": 138
+        },
+        {
+          "testo": "Quasicristalli violano:",
+          "livello": "bastardo",
+          "risposte": [
+            {
+              "testo": "Periodicità traslazionale",
+              "corretta": true
+            },
+            {
+              "testo": "Energia",
+              "corretta": false
+            },
+            {
+              "testo": "Massa",
+              "corretta": false
+            },
+            {
+              "testo": "Tutte leggi",
+              "corretta": false
+            }
+          ],
+          "id": 139
+        },
+        {
+          "testo": "Avrami n=4:",
+          "livello": "bastardo",
+          "risposte": [
+            {
+              "testo": "3D + nucleazione costante",
+              "corretta": true
+            },
+            {
+              "testo": "1D",
+              "corretta": false
+            },
+            {
+              "testo": "2D",
+              "corretta": false
+            },
+            {
+              "testo": "Istantanea",
+              "corretta": false
+            }
+          ],
+          "id": 140
+        }
+      ]
+    },
+    {
+      "nome": "Spettroscopia",
+      "domande": [
+        {
+          "testo": "IR rileva:",
+          "livello": "base",
+          "risposte": [
+            {
+              "testo": "Vibrazioni molecolari",
+              "corretta": true
+            },
+            {
+              "testo": "Elettroni",
+              "corretta": false
+            },
+            {
+              "testo": "Protoni",
+              "corretta": false
+            },
+            {
+              "testo": "Massa",
+              "corretta": false
+            }
+          ],
+          "id": 141
+        },
+        {
+          "testo": "¹H NMR usa:",
+          "livello": "base",
+          "risposte": [
+            {
+              "testo": "Spin nucleare",
+              "corretta": true
+            },
+            {
+              "testo": "Massa",
+              "corretta": false
+            },
+            {
+              "testo": "Carica",
+              "corretta": false
+            },
+            {
+              "testo": "Vibrazioni",
+              "corretta": false
+            }
+          ],
+          "id": 142
+        },
+        {
+          "testo": "UV-Vis misura:",
+          "livello": "base",
+          "risposte": [
+            {
+              "testo": "Transizioni elettroniche",
+              "corretta": true
+            },
+            {
+              "testo": "Nucleari",
+              "corretta": false
+            },
+            {
+              "testo": "Rotazionali",
+              "corretta": false
+            },
+            {
+              "testo": "Spin",
+              "corretta": false
+            }
+          ],
+          "id": 143
+        },
+        {
+          "testo": "Chemical shift in:",
+          "livello": "intermedio",
+          "risposte": [
+            {
+              "testo": "ppm",
+              "corretta": true
+            },
+            {
+              "testo": "Hz",
+              "corretta": false
+            },
+            {
+              "testo": "cm⁻¹",
+              "corretta": false
+            },
+            {
+              "testo": "nm",
+              "corretta": false
+            }
+          ],
+          "id": 144
+        },
+        {
+          "testo": "Regola n+1:",
+          "livello": "intermedio",
+          "risposte": [
+            {
+              "testo": "n+1 picchi",
+              "corretta": true
+            },
+            {
+              "testo": "n picchi",
+              "corretta": false
+            },
+            {
+              "testo": "1 picco",
+              "corretta": false
+            },
+            {
+              "testo": "2n picchi",
+              "corretta": false
+            }
+          ],
+          "id": 145
+        },
+        {
+          "testo": "C=O stretching:",
+          "livello": "intermedio",
+          "risposte": [
+            {
+              "testo": "~1700 cm⁻¹",
+              "corretta": true
+            },
+            {
+              "testo": "3000",
+              "corretta": false
+            },
+            {
+              "testo": "1000",
+              "corretta": false
+            },
+            {
+              "testo": "500",
+              "corretta": false
+            }
+          ],
+          "id": 146
+        },
+        {
+          "testo": "Raman complementare:",
+          "livello": "avanzato",
+          "risposte": [
+            {
+              "testo": "Regole selezione diverse",
+              "corretta": true
+            },
+            {
+              "testo": "Identica",
+              "corretta": false
+            },
+            {
+              "testo": "Usa stessa λ",
+              "corretta": false
+            },
+            {
+              "testo": "Massa",
+              "corretta": false
+            }
+          ],
+          "id": 147
+        },
+        {
+          "testo": "Cotton effect:",
+          "livello": "avanzato",
+          "risposte": [
+            {
+              "testo": "Chiralità",
+              "corretta": true
+            },
+            {
+              "testo": "Paramagnetismo",
+              "corretta": false
+            },
+            {
+              "testo": "Fluorescenza",
+              "corretta": false
+            },
+            {
+              "testo": "T",
+              "corretta": false
+            }
+          ],
+          "id": 148
+        },
+        {
+          "testo": "COSY correla:",
+          "livello": "bastardo",
+          "risposte": [
+            {
+              "testo": "¹H accoppiati",
+              "corretta": true
+            },
+            {
+              "testo": "¹H-¹³C",
+              "corretta": false
+            },
+            {
+              "testo": "¹H distanti",
+              "corretta": false
+            },
+            {
+              "testo": "Aromatici",
+              "corretta": false
+            }
+          ],
+          "id": 149
+        },
+        {
+          "testo": "NOE dipende da:",
+          "livello": "bastardo",
+          "risposte": [
+            {
+              "testo": "Distanza 1/r⁶",
+              "corretta": true
+            },
+            {
+              "testo": "Accoppiamento J",
+              "corretta": false
+            },
+            {
+              "testo": "T",
+              "corretta": false
+            },
+            {
+              "testo": "Campo",
+              "corretta": false
+            }
+          ],
+          "id": 150
+        }
+      ]
+    },
+    {
+      "nome": "Chimica Inorganica",
+      "domande": [
+        {
+          "testo": "Complesso ottaedrico:",
+          "livello": "base",
+          "risposte": [
+            {
+              "testo": "N.C. = 6",
+              "corretta": true
+            },
+            {
+              "testo": "4",
+              "corretta": false
+            },
+            {
+              "testo": "5",
+              "corretta": false
+            },
+            {
+              "testo": "8",
+              "corretta": false
+            }
+          ],
+          "id": 151
+        },
+        {
+          "testo": "Leganti forti causano:",
+          "livello": "base",
+          "risposte": [
+            {
+              "testo": "Alto spin → basso spin",
+              "corretta": true
+            },
+            {
+              "testo": "Sempre alto",
+              "corretta": false
+            },
+            {
+              "testo": "Sempre basso",
+              "corretta": false
+            },
+            {
+              "testo": "No effetto",
+              "corretta": false
+            }
+          ],
+          "id": 152
+        },
+        {
+          "testo": "EDTA è chelante:",
+          "livello": "base",
+          "risposte": [
+            {
+              "testo": "Esadentato",
+              "corretta": true
+            },
+            {
+              "testo": "Monodentato",
+              "corretta": false
+            },
+            {
+              "testo": "Bidentato",
+              "corretta": false
+            },
+            {
+              "testo": "Tetradentato",
+              "corretta": false
+            }
+          ],
+          "id": 153
+        },
+        {
+          "testo": "Serie spettrochimica:",
+          "livello": "intermedio",
+          "risposte": [
+            {
+              "testo": "I⁻ < Cl⁻ < H₂O < CN⁻",
+              "corretta": true
+            },
+            {
+              "testo": "Inversa",
+              "corretta": false
+            },
+            {
+              "testo": "Casuale",
+              "corretta": false
+            },
+            {
+              "testo": "CN⁻ debole",
+              "corretta": false
+            }
+          ],
+          "id": 154
+        },
+        {
+          "testo": "Trans effect massimo:",
+          "livello": "intermedio",
+          "risposte": [
+            {
+              "testo": "CO, CN⁻, PR₃",
+              "corretta": true
+            },
+            {
+              "testo": "H₂O",
+              "corretta": false
+            },
+            {
+              "testo": "NH₃",
+              "corretta": false
+            },
+            {
+              "testo": "Cl⁻",
+              "corretta": false
+            }
+          ],
+          "id": 155
+        },
+        {
+          "testo": "Complessi d⁸ square:",
+          "livello": "intermedio",
+          "risposte": [
+            {
+              "testo": "Pt(II), Pd(II)",
+              "corretta": true
+            },
+            {
+              "testo": "Fe(II)",
+              "corretta": false
+            },
+            {
+              "testo": "Zn(II)",
+              "corretta": false
+            },
+            {
+              "testo": "Cu(I)",
+              "corretta": false
+            }
+          ],
+          "id": 156
+        },
+        {
+          "testo": "Jahn-Teller per:",
+          "livello": "avanzato",
+          "risposte": [
+            {
+              "testo": "d⁹, d⁴ (alto spin)",
+              "corretta": true
+            },
+            {
+              "testo": "d¹⁰",
+              "corretta": false
+            },
+            {
+              "testo": "d⁰",
+              "corretta": false
+            },
+            {
+              "testo": "d⁵",
+              "corretta": false
+            }
+          ],
+          "id": 157
+        },
+        {
+          "testo": "18 elettroni regola:",
+          "livello": "avanzato",
+          "risposte": [
+            {
+              "testo": "Metalli transizione",
+              "corretta": true
+            },
+            {
+              "testo": "Tutti metalli",
+              "corretta": false
+            },
+            {
+              "testo": "Non metalli",
+              "corretta": false
+            },
+            {
+              "testo": "Lantanidi",
+              "corretta": false
+            }
+          ],
+          "id": 158
+        },
+        {
+          "testo": "Complessi spin-crossover:",
+          "livello": "bastardo",
+          "risposte": [
+            {
+              "testo": "Fe(II) con N-leganti",
+              "corretta": true
+            },
+            {
+              "testo": "Tutti Fe",
+              "corretta": false
+            },
+            {
+              "testo": "Mai",
+              "corretta": false
+            },
+            {
+              "testo": "Solo Co",
+              "corretta": false
+            }
+          ],
+          "id": 159
+        },
+        {
+          "testo": "Superscambio:",
+          "livello": "bastardo",
+          "risposte": [
+            {
+              "testo": "Accoppiamento attraverso legante",
+              "corretta": true
+            },
+            {
+              "testo": "Diretto",
+              "corretta": false
+            },
+            {
+              "testo": "Van der Waals",
+              "corretta": false
+            },
+            {
+              "testo": "Ionico",
+              "corretta": false
+            }
+          ],
+          "id": 160
+        }
+      ]
+    },
+    {
+      "nome": "Biochimica",
+      "domande": [
+        {
+          "testo": "ATP contiene:",
+          "livello": "base",
+          "risposte": [
+            {
+              "testo": "3 fosfati",
+              "corretta": true
+            },
+            {
+              "testo": "2 fosfati",
+              "corretta": false
+            },
+            {
+              "testo": "4 fosfati",
+              "corretta": false
+            },
+            {
+              "testo": "1 fosfato",
+              "corretta": false
+            }
+          ],
+          "id": 161
+        },
+        {
+          "testo": "DNA basi:",
+          "livello": "base",
+          "risposte": [
+            {
+              "testo": "A, T, G, C",
+              "corretta": true
+            },
+            {
+              "testo": "A, U, G, C",
+              "corretta": false
+            },
+            {
+              "testo": "Solo A, T",
+              "corretta": false
+            },
+            {
+              "testo": "Solo G, C",
+              "corretta": false
+            }
+          ],
+          "id": 162
+        },
+        {
+          "testo": "Struttura proteine primaria:",
+          "livello": "base",
+          "risposte": [
+            {
+              "testo": "Sequenza aminoacidi",
+              "corretta": true
+            },
+            {
+              "testo": "Foglietti β",
+              "corretta": false
+            },
+            {
+              "testo": "Elica α",
+              "corretta": false
+            },
+            {
+              "testo": "3D",
+              "corretta": false
+            }
+          ],
+          "id": 163
+        },
+        {
+          "testo": "Enzima abbassa:",
+          "livello": "intermedio",
+          "risposte": [
+            {
+              "testo": "Energia attivazione",
+              "corretta": true
+            },
+            {
+              "testo": "ΔG",
+              "corretta": false
+            },
+            {
+              "testo": "Prodotti",
+              "corretta": false
+            },
+            {
+              "testo": "Substrato",
+              "corretta": false
+            }
+          ],
+          "id": 164
+        },
+        {
+          "testo": "Emoglobina trasporta:",
+          "livello": "intermedio",
+          "risposte": [
+            {
+              "testo": "O₂ e CO₂",
+              "corretta": true
+            },
+            {
+              "testo": "Solo O₂",
+              "corretta": false
+            },
+            {
+              "testo": "Solo CO₂",
+              "corretta": false
+            },
+            {
+              "testo": "Glucosio",
+              "corretta": false
+            }
+          ],
+          "id": 165
+        },
+        {
+          "testo": "pH fisiologico:",
+          "livello": "intermedio",
+          "risposte": [
+            {
+              "testo": "~7.4",
+              "corretta": true
+            },
+            {
+              "testo": "6.0",
+              "corretta": false
+            },
+            {
+              "testo": "8.5",
+              "corretta": false
+            },
+            {
+              "testo": "7.0",
+              "corretta": false
+            }
+          ],
+          "id": 166
+        },
+        {
+          "testo": "Glicolisi produce:",
+          "livello": "avanzato",
+          "risposte": [
+            {
+              "testo": "2 ATP netti",
+              "corretta": true
+            },
+            {
+              "testo": "38 ATP",
+              "corretta": false
+            },
+            {
+              "testo": "4 ATP",
+              "corretta": false
+            },
+            {
+              "testo": "0 ATP",
+              "corretta": false
+            }
+          ],
+          "id": 167
+        },
+        {
+          "testo": "Citocromo c in:",
+          "livello": "avanzato",
+          "risposte": [
+            {
+              "testo": "Catena respiratoria",
+              "corretta": true
+            },
+            {
+              "testo": "Glicolisi",
+              "corretta": false
+            },
+            {
+              "testo": "Ciclo Krebs",
+              "corretta": false
+            },
+            {
+              "testo": "Fotosintesi",
+              "corretta": false
+            }
+          ],
+          "id": 168
+        },
+        {
+          "testo": "Costante Michaelis Km:",
+          "livello": "bastardo",
+          "risposte": [
+            {
+              "testo": "[S] a v=Vmax/2",
+              "corretta": true
+            },
+            {
+              "testo": "Vmax",
+              "corretta": false
+            },
+            {
+              "testo": "[E]",
+              "corretta": false
+            },
+            {
+              "testo": "kcat",
+              "corretta": false
+            }
+          ],
+          "id": 169
+        },
+        {
+          "testo": "Stato T/R emoglobina:",
+          "livello": "bastardo",
+          "risposte": [
+            {
+              "testo": "Cooperatività O₂",
+              "corretta": true
+            },
+            {
+              "testo": "No cooperatività",
+              "corretta": false
+            },
+            {
+              "testo": "Denaturazione",
+              "corretta": false
+            },
+            {
+              "testo": "Sintesi",
+              "corretta": false
+            }
+          ],
+          "id": 170
+        }
+      ]
+    },
+    {
+      "nome": "Chimica Ambientale",
+      "domande": [
+        {
+          "testo": "Ozono stratosferico:",
+          "livello": "base",
+          "risposte": [
+            {
+              "testo": "Protegge da UV",
+              "corretta": true
+            },
+            {
+              "testo": "Inquinante",
+              "corretta": false
+            },
+            {
+              "testo": "Serra",
+              "corretta": false
+            },
+            {
+              "testo": "Piogge acide",
+              "corretta": false
+            }
+          ],
+          "id": 171
+        },
+        {
+          "testo": "pH pioggia acida:",
+          "livello": "base",
+          "risposte": [
+            {
+              "testo": "< 5.6",
+              "corretta": true
+            },
+            {
+              "testo": "> 7",
+              "corretta": false
+            },
+            {
+              "testo": "= 7",
+              "corretta": false
+            },
+            {
+              "testo": "8-9",
+              "corretta": false
+            }
+          ],
+          "id": 172
+        },
+        {
+          "testo": "Gas serra principale:",
+          "livello": "base",
+          "risposte": [
+            {
+              "testo": "CO₂",
+              "corretta": true
+            },
+            {
+              "testo": "O₂",
+              "corretta": false
+            },
+            {
+              "testo": "N₂",
+              "corretta": false
+            },
+            {
+              "testo": "Ar",
+              "corretta": false
+            }
+          ],
+          "id": 173
+        },
+        {
+          "testo": "CFC distruggono:",
+          "livello": "intermedio",
+          "risposte": [
+            {
+              "testo": "Ozono",
+              "corretta": true
+            },
+            {
+              "testo": "CO₂",
+              "corretta": false
+            },
+            {
+              "testo": "O₂",
+              "corretta": false
+            },
+            {
+              "testo": "N₂",
+              "corretta": false
+            }
+          ],
+          "id": 174
+        },
+        {
+          "testo": "BOD misura:",
+          "livello": "intermedio",
+          "risposte": [
+            {
+              "testo": "O₂ per biodegradazione",
+              "corretta": true
+            },
+            {
+              "testo": "pH",
+              "corretta": false
+            },
+            {
+              "testo": "Temperatura",
+              "corretta": false
+            },
+            {
+              "testo": "Solidi",
+              "corretta": false
+            }
+          ],
+          "id": 175
+        },
+        {
+          "testo": "Eutrofizzazione da:",
+          "livello": "intermedio",
+          "risposte": [
+            {
+              "testo": "Eccesso nutrienti (N, P)",
+              "corretta": true
+            },
+            {
+              "testo": "Metalli pesanti",
+              "corretta": false
+            },
+            {
+              "testo": "Plastica",
+              "corretta": false
+            },
+            {
+              "testo": "Sale",
+              "corretta": false
+            }
+          ],
+          "id": 176
+        },
+        {
+          "testo": "PM2.5 sono:",
+          "livello": "avanzato",
+          "risposte": [
+            {
+              "testo": "Particolato < 2.5 μm",
+              "corretta": true
+            },
+            {
+              "testo": "Gas",
+              "corretta": false
+            },
+            {
+              "testo": "Liquidi",
+              "corretta": false
+            },
+            {
+              "testo": "Ioni",
+              "corretta": false
+            }
+          ],
+          "id": 177
+        },
+        {
+          "testo": "Bioaccumulo massimo:",
+          "livello": "avanzato",
+          "risposte": [
+            {
+              "testo": "Composti lipofilici",
+              "corretta": true
+            },
+            {
+              "testo": "Idrofilici",
+              "corretta": false
+            },
+            {
+              "testo": "Gas",
+              "corretta": false
+            },
+            {
+              "testo": "Ioni",
+              "corretta": false
+            }
+          ],
+          "id": 178
+        },
+        {
+          "testo": "Fotochemical smog:",
+          "livello": "bastardo",
+          "risposte": [
+            {
+              "testo": "NOx + VOC + luce",
+              "corretta": true
+            },
+            {
+              "testo": "Solo CO₂",
+              "corretta": false
+            },
+            {
+              "testo": "Solo SO₂",
+              "corretta": false
+            },
+            {
+              "testo": "Notte",
+              "corretta": false
+            }
+          ],
+          "id": 179
+        },
+        {
+          "testo": "Tempo residenza CO₂:",
+          "livello": "bastardo",
+          "risposte": [
+            {
+              "testo": "~100 anni",
+              "corretta": true
+            },
+            {
+              "testo": "1 giorno",
+              "corretta": false
+            },
+            {
+              "testo": "1 anno",
+              "corretta": false
+            },
+            {
+              "testo": "10000 anni",
+              "corretta": false
+            }
+          ],
+          "id": 180
+        }
+      ]
+    },
+    {
+      "nome": "Chimica Analitica",
+      "domande": [
+        {
+          "testo": "Accuratezza è:",
+          "livello": "base",
+          "risposte": [
+            {
+              "testo": "Vicinanza al vero",
+              "corretta": true
+            },
+            {
+              "testo": "Riproducibilità",
+              "corretta": false
+            },
+            {
+              "testo": "Precisione",
+              "corretta": false
+            },
+            {
+              "testo": "Sensibilità",
+              "corretta": false
+            }
+          ],
+          "id": 181
+        },
+        {
+          "testo": "Standard interno serve:",
+          "livello": "base",
+          "risposte": [
+            {
+              "testo": "Correggere variazioni",
+              "corretta": true
+            },
+            {
+              "testo": "Calibrazione",
+              "corretta": false
+            },
+            {
+              "testo": "Diluire",
+              "corretta": false
+            },
+            {
+              "testo": "Colorare",
+              "corretta": false
+            }
+          ],
+          "id": 182
+        },
+        {
+          "testo": "LOD è:",
+          "livello": "base",
+          "risposte": [
+            {
+              "testo": "Limite di rivelabilità",
+              "corretta": true
+            },
+            {
+              "testo": "Linearità",
+              "corretta": false
+            },
+            {
+              "testo": "Precisione",
+              "corretta": false
+            },
+            {
+              "testo": "Accuratezza",
+              "corretta": false
+            }
+          ],
+          "id": 183
+        },
+        {
+          "testo": "HPLC separa per:",
+          "livello": "intermedio",
+          "risposte": [
+            {
+              "testo": "Affinità fasi",
+              "corretta": true
+            },
+            {
+              "testo": "Solo peso",
+              "corretta": false
+            },
+            {
+              "testo": "Solo carica",
+              "corretta": false
+            },
+            {
+              "testo": "Colore",
+              "corretta": false
+            }
+          ],
+          "id": 184
+        },
+        {
+          "testo": "In GC fase mobile:",
+          "livello": "intermedio",
+          "risposte": [
+            {
+              "testo": "Gas inerte",
+              "corretta": true
+            },
+            {
+              "testo": "Liquido",
+              "corretta": false
+            },
+            {
+              "testo": "Solido",
+              "corretta": false
+            },
+            {
+              "testo": "Plasma",
+              "corretta": false
+            }
+          ],
+          "id": 185
+        },
+        {
+          "testo": "Spettrometria massa:",
+          "livello": "intermedio",
+          "risposte": [
+            {
+              "testo": "m/z",
+              "corretta": true
+            },
+            {
+              "testo": "Solo m",
+              "corretta": false
+            },
+            {
+              "testo": "Solo z",
+              "corretta": false
+            },
+            {
+              "testo": "Assorbanza",
+              "corretta": false
+            }
+          ],
+          "id": 186
+        },
+        {
+          "testo": "ICP-MS per:",
+          "livello": "avanzato",
+          "risposte": [
+            {
+              "testo": "Elementi tracce",
+              "corretta": true
+            },
+            {
+              "testo": "Organici",
+              "corretta": false
+            },
+            {
+              "testo": "Proteine",
+              "corretta": false
+            },
+            {
+              "testo": "Zuccheri",
+              "corretta": false
+            }
+          ],
+          "id": 187
+        },
+        {
+          "testo": "Validazione metodo:",
+          "livello": "avanzato",
+          "risposte": [
+            {
+              "testo": "Accuratezza, precisione, LOD",
+              "corretta": true
+            },
+            {
+              "testo": "Solo costo",
+              "corretta": false
+            },
+            {
+              "testo": "Solo tempo",
+              "corretta": false
+            },
+            {
+              "testo": "Solo teoria",
+              "corretta": false
+            }
+          ],
+          "id": 188
+        },
+        {
+          "testo": "MALDI-TOF per:",
+          "livello": "bastardo",
+          "risposte": [
+            {
+              "testo": "Proteine, polimeri",
+              "corretta": true
+            },
+            {
+              "testo": "Solo gas",
+              "corretta": false
+            },
+            {
+              "testo": "Solo metalli",
+              "corretta": false
+            },
+            {
+              "testo": "Solo acqua",
+              "corretta": false
+            }
+          ],
+          "id": 189
+        },
+        {
+          "testo": "SPE vs LLE:",
+          "livello": "bastardo",
+          "risposte": [
+            {
+              "testo": "Fase solida più selettiva",
+              "corretta": true
+            },
+            {
+              "testo": "Uguale",
+              "corretta": false
+            },
+            {
+              "testo": "LLE sempre meglio",
+              "corretta": false
+            },
+            {
+              "testo": "Non confrontabili",
+              "corretta": false
+            }
+          ],
+          "id": 190
+        }
+      ]
+    },
+    {
+      "nome": "Chimica Computazionale",
+      "domande": [
+        {
+          "testo": "DFT calcola:",
+          "livello": "base",
+          "risposte": [
+            {
+              "testo": "Densità elettronica",
+              "corretta": true
+            },
+            {
+              "testo": "Solo orbitali",
+              "corretta": false
+            },
+            {
+              "testo": "Solo energie",
+              "corretta": false
+            },
+            {
+              "testo": "Solo geometrie",
+              "corretta": false
+            }
+          ],
+          "id": 191
+        },
+        {
+          "testo": "Base set minima:",
+          "livello": "base",
+          "risposte": [
+            {
+              "testo": "STO-3G",
+              "corretta": true
+            },
+            {
+              "testo": "6-311G**",
+              "corretta": false
+            },
+            {
+              "testo": "cc-pVTZ",
+              "corretta": false
+            },
+            {
+              "testo": "aug-cc-pVDZ",
+              "corretta": false
+            }
+          ],
+          "id": 192
+        },
+        {
+          "testo": "HF non include:",
+          "livello": "base",
+          "risposte": [
+            {
+              "testo": "Correlazione elettronica",
+              "corretta": true
+            },
+            {
+              "testo": "Scambio",
+              "corretta": false
+            },
+            {
+              "testo": "Coulomb",
+              "corretta": false
+            },
+            {
+              "testo": "Nuclei",
+              "corretta": false
+            }
+          ],
+          "id": 193
+        },
+        {
+          "testo": "Funzionale B3LYP:",
+          "livello": "intermedio",
+          "risposte": [
+            {
+              "testo": "Ibrido",
+              "corretta": true
+            },
+            {
+              "testo": "Puro GGA",
+              "corretta": false
+            },
+            {
+              "testo": "LDA",
+              "corretta": false
+            },
+            {
+              "testo": "Meta-GGA",
+              "corretta": false
+            }
+          ],
+          "id": 194
+        },
+        {
+          "testo": "MD simula:",
+          "livello": "intermedio",
+          "risposte": [
+            {
+              "testo": "Dinamica temporale",
+              "corretta": true
+            },
+            {
+              "testo": "Solo minimo",
+              "corretta": false
+            },
+            {
+              "testo": "Solo TS",
+              "corretta": false
+            },
+            {
+              "testo": "Solo orbitali",
+              "corretta": false
+            }
+          ],
+          "id": 195
+        },
+        {
+          "testo": "PCM modella:",
+          "livello": "intermedio",
+          "risposte": [
+            {
+              "testo": "Solvente implicito",
+              "corretta": true
+            },
+            {
+              "testo": "Esplicito",
+              "corretta": false
+            },
+            {
+              "testo": "Gas",
+              "corretta": false
+            },
+            {
+              "testo": "Vuoto",
+              "corretta": false
+            }
+          ],
+          "id": 196
+        },
+        {
+          "testo": "CI include:",
+          "livello": "avanzato",
+          "risposte": [
+            {
+              "testo": "Eccitazioni",
+              "corretta": true
+            },
+            {
+              "testo": "Solo fondamentale",
+              "corretta": false
+            },
+            {
+              "testo": "Solo nuclei",
+              "corretta": false
+            },
+            {
+              "testo": "Solo core",
+              "corretta": false
+            }
+          ],
+          "id": 197
+        },
+        {
+          "testo": "CCSD(T) è:",
+          "livello": "avanzato",
+          "risposte": [
+            {
+              "testo": "Gold standard",
+              "corretta": true
+            },
+            {
+              "testo": "Semiempirico",
+              "corretta": false
+            },
+            {
+              "testo": "DFT",
+              "corretta": false
+            },
+            {
+              "testo": "HF",
+              "corretta": false
+            }
+          ],
+          "id": 198
+        },
+        {
+          "testo": "CASSCF per:",
+          "livello": "bastardo",
+          "risposte": [
+            {
+              "testo": "Multiriferimento",
+              "corretta": true
+            },
+            {
+              "testo": "Singolo riferimento",
+              "corretta": false
+            },
+            {
+              "testo": "Classico",
+              "corretta": false
+            },
+            {
+              "testo": "Semiempirico",
+              "corretta": false
+            }
+          ],
+          "id": 199
+        },
+        {
+          "testo": "Basis set superposition:",
+          "livello": "bastardo",
+          "risposte": [
+            {
+              "testo": "Errore BSSE",
+              "corretta": true
+            },
+            {
+              "testo": "Esatto",
+              "corretta": false
+            },
+            {
+              "testo": "Trascurabile sempre",
+              "corretta": false
+            },
+            {
+              "testo": "Solo metalli",
+              "corretta": false
+            }
+          ],
+          "id": 200
+        }
+      ]
+    },
+    {
+      "nome": "Nanotecnologia",
+      "domande": [
+        {
+          "testo": "Nanotubi C sono:",
+          "livello": "base",
+          "risposte": [
+            {
+              "testo": "Grafene arrotolato",
+              "corretta": true
+            },
+            {
+              "testo": "Diamante",
+              "corretta": false
+            },
+            {
+              "testo": "Fullerene",
+              "corretta": false
+            },
+            {
+              "testo": "Grafite",
+              "corretta": false
+            }
+          ],
+          "id": 201
+        },
+        {
+          "testo": "Quantum dots:",
+          "livello": "base",
+          "risposte": [
+            {
+              "testo": "Semiconduttori nanocristallini",
+              "corretta": true
+            },
+            {
+              "testo": "Metalli",
+              "corretta": false
+            },
+            {
+              "testo": "Polimeri",
+              "corretta": false
+            },
+            {
+              "testo": "Ceramiche",
+              "corretta": false
+            }
+          ],
+          "id": 202
+        },
+        {
+          "testo": "1 nm =:",
+          "livello": "base",
+          "risposte": [
+            {
+              "testo": "10⁻⁹ m",
+              "corretta": true
+            },
+            {
+              "testo": "10⁻⁶ m",
+              "corretta": false
+            },
+            {
+              "testo": "10⁻¹² m",
+              "corretta": false
+            },
+            {
+              "testo": "10⁻³ m",
+              "corretta": false
+            }
+          ],
+          "id": 203
+        },
+        {
+          "testo": "SPR in nanoparticelle:",
+          "livello": "intermedio",
+          "risposte": [
+            {
+              "testo": "Plasmone superficiale",
+              "corretta": true
+            },
+            {
+              "testo": "Magnetismo",
+              "corretta": false
+            },
+            {
+              "testo": "Superconduzione",
+              "corretta": false
+            },
+            {
+              "testo": "Radioattività",
+              "corretta": false
+            }
+          ],
+          "id": 204
+        },
+        {
+          "testo": "Top-down vs bottom-up:",
+          "livello": "intermedio",
+          "risposte": [
+            {
+              "testo": "Litografia vs autoassemblaggio",
+              "corretta": true
+            },
+            {
+              "testo": "Uguale",
+              "corretta": false
+            },
+            {
+              "testo": "Solo chimico",
+              "corretta": false
+            },
+            {
+              "testo": "Solo fisico",
+              "corretta": false
+            }
+          ],
+          "id": 205
+        },
+        {
+          "testo": "Grafene è:",
+          "livello": "intermedio",
+          "risposte": [
+            {
+              "testo": "Monostrato carbonio",
+              "corretta": true
+            },
+            {
+              "testo": "Bistrato",
+              "corretta": false
+            },
+            {
+              "testo": "3D",
+              "corretta": false
+            },
+            {
+              "testo": "Amorfo",
+              "corretta": false
+            }
+          ],
+          "id": 206
+        },
+        {
+          "testo": "Nanomedicina usa:",
+          "livello": "avanzato",
+          "risposte": [
+            {
+              "testo": "Drug delivery mirato",
+              "corretta": true
+            },
+            {
+              "testo": "Solo diagnostica",
+              "corretta": false
+            },
+            {
+              "testo": "Solo imaging",
+              "corretta": false
+            },
+            {
+              "testo": "Macro farmaci",
+              "corretta": false
+            }
+          ],
+          "id": 207
+        },
+        {
+          "testo": "Effetto dimensione:",
+          "livello": "avanzato",
+          "risposte": [
+            {
+              "testo": "Proprietà cambiano < 100 nm",
+              "corretta": true
+            },
+            {
+              "testo": "Mai",
+              "corretta": false
+            },
+            {
+              "testo": "Solo < 1 nm",
+              "corretta": false
+            },
+            {
+              "testo": "> 1 μm",
+              "corretta": false
+            }
+          ],
+          "id": 208
+        },
+        {
+          "testo": "Self-assembly guidato:",
+          "livello": "bastardo",
+          "risposte": [
+            {
+              "testo": "Termodinamica",
+              "corretta": true
+            },
+            {
+              "testo": "Solo cinetica",
+              "corretta": false
+            },
+            {
+              "testo": "Casuale",
+              "corretta": false
+            },
+            {
+              "testo": "Impossibile",
+              "corretta": false
+            }
+          ],
+          "id": 209
+        },
+        {
+          "testo": "Nanorod vs nanosphere:",
+          "livello": "bastardo",
+          "risposte": [
+            {
+              "testo": "Anisotropia ottica",
+              "corretta": true
+            },
+            {
+              "testo": "Identici",
+              "corretta": false
+            },
+            {
+              "testo": "Solo dimensione",
+              "corretta": false
+            },
+            {
+              "testo": "Solo massa",
+              "corretta": false
+            }
+          ],
+          "id": 210
+        }
+      ]
+    },
+    {
+      "nome": "Polimeri",
+      "domande": [
+        {
+          "testo": "Monomero + monomero:",
+          "livello": "base",
+          "risposte": [
+            {
+              "testo": "Polimero",
+              "corretta": true
+            },
+            {
+              "testo": "Dimero solo",
+              "corretta": false
+            },
+            {
+              "testo": "Nulla",
+              "corretta": false
+            },
+            {
+              "testo": "Degradazione",
+              "corretta": false
+            }
+          ],
+          "id": 211
+        },
+        {
+          "testo": "Polimerizzazione radicalica:",
+          "livello": "base",
+          "risposte": [
+            {
+              "testo": "Iniziazione-propagazione-terminazione",
+              "corretta": true
+            },
+            {
+              "testo": "Un solo step",
+              "corretta": false
+            },
+            {
+              "testo": "Solo ionico",
+              "corretta": false
+            },
+            {
+              "testo": "Solo termico",
+              "corretta": false
+            }
+          ],
+          "id": 212
+        },
+        {
+          "testo": "PE è:",
+          "livello": "base",
+          "risposte": [
+            {
+              "testo": "Polietilene",
+              "corretta": true
+            },
+            {
+              "testo": "Poliestere",
+              "corretta": false
+            },
+            {
+              "testo": "Poliammide",
+              "corretta": false
+            },
+            {
+              "testo": "Polietere",
+              "corretta": false
+            }
+          ],
+          "id": 213
+        },
+        {
+          "testo": "Grado polimerizzazione:",
+          "livello": "intermedio",
+          "risposte": [
+            {
+              "testo": "n° unità ripetenti",
+              "corretta": true
+            },
+            {
+              "testo": "Peso",
+              "corretta": false
+            },
+            {
+              "testo": "Densità",
+              "corretta": false
+            },
+            {
+              "testo": "Colore",
+              "corretta": false
+            }
+          ],
+          "id": 214
+        },
+        {
+          "testo": "Tg è:",
+          "livello": "intermedio",
+          "risposte": [
+            {
+              "testo": "Transizione vetrosa",
+              "corretta": true
+            },
+            {
+              "testo": "Fusione",
+              "corretta": false
+            },
+            {
+              "testo": "Ebollizione",
+              "corretta": false
+            },
+            {
+              "testo": "Decomposizione",
+              "corretta": false
+            }
+          ],
+          "id": 215
+        },
+        {
+          "testo": "Polimeri termoplastici:",
+          "livello": "intermedio",
+          "risposte": [
+            {
+              "testo": "Rifondibili",
+              "corretta": true
+            },
+            {
+              "testo": "Termoindurenti",
+              "corretta": false
+            },
+            {
+              "testo": "Non fondono",
+              "corretta": false
+            },
+            {
+              "testo": "Sempre liquidi",
+              "corretta": false
+            }
+          ],
+          "id": 216
+        },
+        {
+          "testo": "Vulcanizzazione:",
+          "livello": "avanzato",
+          "risposte": [
+            {
+              "testo": "Crosslinking gomma",
+              "corretta": true
+            },
+            {
+              "testo": "Polimerizzazione",
+              "corretta": false
+            },
+            {
+              "testo": "Degradazione",
+              "corretta": false
+            },
+            {
+              "testo": "Cristallizzazione",
+              "corretta": false
+            }
+          ],
+          "id": 217
+        },
+        {
+          "testo": "PDI = Mw/Mn:",
+          "livello": "avanzato",
+          "risposte": [
+            {
+              "testo": "Polidispersità",
+              "corretta": true
+            },
+            {
+              "testo": "Peso medio",
+              "corretta": false
+            },
+            {
+              "testo": "Numero medio",
+              "corretta": false
+            },
+            {
+              "testo": "Densità",
+              "corretta": false
+            }
+          ],
+          "id": 218
+        },
+        {
+          "testo": "ROMP usa:",
+          "livello": "bastardo",
+          "risposte": [
+            {
+              "testo": "Metatesi olefine",
+              "corretta": true
+            },
+            {
+              "testo": "Radicalica",
+              "corretta": false
+            },
+            {
+              "testo": "Condensazione",
+              "corretta": false
+            },
+            {
+              "testo": "Ionica",
+              "corretta": false
+            }
+          ],
+          "id": 219
+        },
+        {
+          "testo": "Polimeri conduttori:",
+          "livello": "bastardo",
+          "risposte": [
+            {
+              "testo": "Dopaggio π-coniugati",
+              "corretta": true
+            },
+            {
+              "testo": "Tutti conduttori",
+              "corretta": false
+            },
+            {
+              "testo": "Mai conduttori",
+              "corretta": false
+            },
+            {
+              "testo": "Solo metalli",
+              "corretta": false
+            }
+          ],
+          "id": 220
         }
       ]
     }
